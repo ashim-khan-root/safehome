@@ -1,0 +1,27 @@
+<div class="flex flex-wrap items-center gap-4 text-sm text-slate-600 dark:text-slate-400">
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">
+        {{ .PublishDate.Format "January 2, 2006" }}
+    </time>
+    
+    {{ if .Params.author }}
+        <span>•</span>
+        <span>{{ .Params.author }}</span>
+    {{ end }}
+    
+    {{ if .Params.readingtime }}
+        <span>•</span>
+        <span>{{ .ReadingTime }} min read</span>
+    {{ else }}
+        <span>•</span>
+        <span>{{ math.Ceil (div (len (plainify .Content)) 200) }} min read</span>
+    {{ end }}
+    
+    {{ if .Params.tags }}
+        <span>•</span>
+        <div class="flex gap-2">
+            {{ range .Params.tags }}
+                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="badge">{{ . }}</a>
+            {{ end }}
+        </div>
+    {{ end }}
+</div>

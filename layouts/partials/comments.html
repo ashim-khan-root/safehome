@@ -1,0 +1,18 @@
+{{ if eq .Site.Params.comments.provider "disqus" }}
+    <div class="mt-12 pt-8 border-t border-slate-200 dark:border-slate-700">
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+                this.page.url = "{{ .Permalink }}";
+                this.page.identifier = "{{ .File.ContentBaseName }}";
+                this.page.title = "{{ .Title }}";
+            };
+            (function() {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://{{ .Site.Params.comments.disqusShortname }}.disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+            })();
+        </script>
+    </div>
+{{ end }}

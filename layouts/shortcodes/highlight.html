@@ -1,0 +1,9 @@
+{{- $lang := .Get "lang" -}}
+{{- $caption := .Get "caption" -}}
+
+<div class="my-8">
+    {{ if $caption }}
+        <p class="text-sm font-semibold text-slate-600 dark:text-slate-400 mb-2">{{ $caption }}</p>
+    {{ end }}
+    <pre class="bg-slate-900 text-slate-100 p-4 rounded-lg overflow-x-auto"><code class="language-{{ $lang }}">{{ .Inner }}</code></pre>
+</div>

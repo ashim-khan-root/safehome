@@ -1,0 +1,46 @@
+<div class="hidden md:flex items-center gap-8">
+    {{ range .Site.Menus.main }}
+        <a href="{{ .URL }}" class="font-medium text-slate-700 dark:text-slate-300 hover:text-primary-600 transition-colors">
+            {{ .Name }}
+        </a>
+    {{ end }}
+    {{ if .Site.Params.displayDarkMode }}
+        <button id="theme-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700">
+            <svg id="sun-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l-1.414-1.414a2 2 0 10-2.828 0l-1.414 1.414a6 6 0 108.485-8.485l-1.414 1.414a4 4 0 10-5.657 5.657z" clip-rule="evenodd"></path>
+            </svg>
+            <svg id="moon-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+        </button>
+    {{ end }}
+</div>
+
+<div class="md:hidden flex items-center gap-2">
+    {{ if .Site.Params.displayDarkMode }}
+        <button id="theme-toggle-mobile" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700">
+            <svg id="sun-icon-mobile" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l-1.414-1.414a2 2 0 10-2.828 0l-1.414 1.414a6 6 0 108.485-8.485l-1.414 1.414a4 4 0 10-5.657 5.657z" clip-rule="evenodd"></path>
+            </svg>
+            <svg id="moon-icon-mobile" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+        </button>
+    {{ end }}
+    <button id="menu-toggle" class="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700" aria-label="Toggle menu">
+        <svg id="menu-open-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg id="menu-close-icon" class="hidden w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+    </button>
+</div>
+
+<div id="mobile-menu" class="hidden md:hidden border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
+    <div class="px-4 py-4 space-y-3">
+        {{ range .Site.Menus.main }}
+            <a href="{{ .URL }}" class="block font-medium text-slate-700 dark:text-slate-300 hover:text-primary-600 transition-colors">{{ .Name }}</a>
+        {{ end }}
+    </div>
+</div>

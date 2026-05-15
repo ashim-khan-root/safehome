@@ -1,0 +1,26 @@
+node_modules
+# Hugo
+/public/
+/resources/
+
+# Node
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Build outputs
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+
+# OS
+Thumbs.db

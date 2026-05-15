@@ -1,0 +1,53 @@
+{{ define "main" }}
+<article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <!-- Hero section with featured image -->
+    {{ if .Params.image }}
+        <div class="mb-8 aspect-video overflow-hidden rounded-lg shadow-lg">
+            <img 
+                src="{{ .Params.image | relURL }}" 
+                alt="{{ .Title }}"
+                class="w-full h-full object-cover"
+            >
+        </div>
+    {{ end }}
+    
+    <!-- Title and meta -->
+    <header class="mb-8">
+        {{ if .Params.featured }}
+            <span class="inline-block mb-4 text-xs font-bold text-primary-600 uppercase tracking-widest">Featured</span>
+        {{ end }}
+        
+        <h1 class="text-4xl md:text-5xl font-serif font-bold mb-4">{{ .Title }}</h1>
+        
+        {{ partial "post-meta" . }}
+    </header>
+    
+    <!-- Content -->
+    <div class="prose-article prose dark:prose-dark max-w-none mb-12">
+        {{ .Content }}
+    </div>
+    
+    <!-- Share buttons -->
+    {{ partial "share-button" . }}
+    
+    <!-- Categories -->
+    {{ if .Params.categories }}
+        <div class="mb-8">
+            <p class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-3">Filed under</p>
+            <div class="flex flex-wrap gap-2">
+                {{ range .Params.categories }}
+                    <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="badge">
+                        {{ . }}
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+    {{ end }}
+    
+    <!-- Related posts -->
+    {{ partial "related-posts" . }}
+    
+    <!-- Comments -->
+    {{ partial "comments" . }}
+</article>
+{{ end }}

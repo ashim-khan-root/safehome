@@ -1,0 +1,18 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $caption := .Get "caption" -}}
+{{- $class := .Get "class" -}}
+
+<figure class="my-8">
+    <img 
+        src="{{ $src }}" 
+        alt="{{ $alt }}"
+        class="w-full rounded-lg shadow-lg {{ $class }}"
+        loading="lazy"
+    >
+    {{ if $caption }}
+        <figcaption class="text-sm text-slate-600 dark:text-slate-400 text-center mt-3 italic">
+            {{ $caption }}
+        </figcaption>
+    {{ end }}
+</figure>

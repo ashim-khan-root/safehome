@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    {{ if eq .Title "Blog" }}
+        <!-- Blog index hero -->
+        {{ partial "hero" . }}
+    {{ else }}
+        <!-- Taxonomy pages -->
+        <div class="mb-12">
+            <h1 class="text-4xl md:text-5xl font-serif font-bold mb-4">{{ .Title }}</h1>
+            <p class="text-lg text-slate-600 dark:text-slate-400">
+                {{ .Content }}
+            </p>
+        </div>
+    {{ end }}
+    
+    <!-- Posts grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        {{ range .Paginator.Pages }}
+            {{ partial "post-card" . }}
+        {{ end }}
+    </div>
+    
+    <!-- Pagination -->
+    {{ partial "pagination" . }}
+</div>
+{{ end }}

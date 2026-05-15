@@ -1,0 +1,42 @@
+{
+  "name": "hugo-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development concurrently \"hugo server --disableFastRender\" \"npm run tailwind:watch\"",
+    "tailwind:watch": "tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --watch",
+    "build": "npm run tailwind:build && hugo --gc --minify",
+    "tailwind:build": "cross-env NODE_ENV=production tailwindcss -i ./assets/css/input.css -o ./assets/css/output.css --minify",
+    "preview": "hugo server --buildDrafts --buildFuture",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:js": "eslint 'assets/**/*.js' --fix",
+    "lint:css": "stylelint 'assets/css/**/*.css' --fix",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.5.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "cssnano": "^8.0.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "husky": "^9.1.7",
+    "postcss": "^8.5.14",
+    "prettier": "^3.8.3",
+    "stylelint": "^17.11.1",
+    "stylelint-config-standard": "^40.0.0",
+    "tailwindcss": "^3.4.19"
+  },
+  "dependencies": {
+    "fuse.js": "^7.3.0",
+    "lunr": "^2.3.9"
+  }
+}

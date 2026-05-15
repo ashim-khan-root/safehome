@@ -1,0 +1,66 @@
+baseURL = "https://yourdomain.com/"
+languageCode = "en-us"
+title = "Modern Blog"
+enableRobotsTXT = true
+enableEmoji = true
+timeout = "30s"
+
+defaultContentLanguage = "en"
+removePathAccents = true
+pluralizeListTitles = false
+
+[permalinks]
+blog = "/blog/:year/:month/:day/:slug/"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+
+[paginate]
+paginate = 10
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+section = ["HTML", "JSON", "RSS"]
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[params]
+author = "Your Name"
+description = "A modern, responsive blog built with Hugo and Tailwind CSS"
+email = "hello@example.com"
+twitter = "yourhandle"
+github = "yourprofile"
+linkedin = "yourprofile"
+displaySearchIcon = true
+displayDarkMode = true
+
+[params.comments]
+enabled = false
+provider = "disqus"
+disqusShortname = ""
+
+[params.analytics]
+enabled = false
+googleAnalyticsID = ""
+
+[markup.highlight]
+style = "monokai"
+codeFences = true
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3

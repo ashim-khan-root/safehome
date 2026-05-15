@@ -1,0 +1,13 @@
+ashim_ahmad:
+  name: "Ashim Ahmad"
+  bio: "Full-stack developer and technical writer passionate about web technologies."
+  email: "john@example.com"
+  twitter: "johndoe"
+  github: "johndoe"
+
+jane_smith:
+  name: "Jane Smith"
+  bio: "Designer and frontend specialist with 10+ years of experience."
+  email: "jane@example.com"
+  twitter: "janesmith"
+  github: "janesmith"

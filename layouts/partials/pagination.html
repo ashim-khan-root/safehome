@@ -1,0 +1,29 @@
+{{ if gt .Paginator.TotalPages 1 }}
+    <nav class="flex justify-center gap-2 mt-12" aria-label="Pagination">
+        {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="btn btn-secondary">
+                ← Previous
+            </a>
+        {{ end }}
+        
+        <div class="flex items-center gap-1">
+            {{ range .Paginator.Pagers }}
+                {{ if eq . $.Paginator }}
+                    <span class="px-3 py-2 rounded-lg bg-primary-600 text-white font-semibold">
+                        {{ .PageNumber }}
+                    </span>
+                {{ else }}
+                    <a href="{{ .URL }}" class="px-3 py-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors">
+                        {{ .PageNumber }}
+                    </a>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" class="btn btn-secondary">
+                Next →
+            </a>
+        {{ end }}
+    </nav>
+{{ end }}
