@@ -22,23 +22,22 @@ jobs:
         hugo-version: 'latest'
     
     - name: Setup Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
-        node-version: '24'
+        node-version: '22'
         cache: 'npm'
     
     - name: Install dependencies
-      run: npm install
+      run: npm ci
     
     - name: Build CSS
       run: npm run tailwind:build
     
     - name: Build Hugo
-      run: hugo --gc --minify
+      run: hugo --gc --minify --baseURL "${{ steps.deployment.outputs.page_url || 'https://ashim-khan-root.github.io/safehome/' }}"
     
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./public
-        cname: ashim-khan-root.github.io
