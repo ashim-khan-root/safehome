@@ -8,7 +8,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
+        dark: {
+          slate: '#334155',
+        },
+        soft: {
+          gray: '#cbd5e1',
+          blue: '#cbd5e1',
+        },
+        light: {
+          bg: '#f1f5f9',
+        },
+        accent: {
+          blue: '#38bdf8',
+        },
+        brand: {
           50: '#f0f9ff',
           100: '#e0f2fe',
           200: '#bae6fd',
@@ -20,52 +33,12 @@ module.exports = {
           800: '#075985',
           900: '#0c3d66',
         },
-        dark: {
-          bg: '#0f172a',
-          surface: '#1e293b',
-          muted: '#64748b',
-        },
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
         serif: ['Lora', 'Georgia', 'serif'],
         mono: ['JetBrains Mono', 'Monaco', 'monospace'],
       },
-      typography: ({ theme }) => ({
-        DEFAULT: {
-          css: {
-            maxWidth: '65ch',
-            color: theme('colors.slate.700'),
-            a: {
-              color: theme('colors.primary.600'),
-              textDecoration: 'none',
-              fontWeight: '600',
-              '&:hover': {
-                color: theme('colors.primary.700'),
-              },
-            },
-            h1: { fontFamily: theme('fontFamily.serif') },
-            h2: { fontFamily: theme('fontFamily.serif') },
-            code: {
-              backgroundColor: theme('colors.slate.100'),
-              padding: '0.25rem 0.5rem',
-              borderRadius: '0.25rem',
-            },
-            'code::before': { content: '""' },
-            'code::after': { content: '""' },
-          },
-        },
-        dark: {
-          css: {
-            color: theme('colors.slate.300'),
-            a: { color: theme('colors.primary.400') },
-            code: {
-              backgroundColor: theme('colors.slate.800'),
-              color: theme('colors.slate.100'),
-            },
-          },
-        },
-      }),
     },
   },
   plugins: [

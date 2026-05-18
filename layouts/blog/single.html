@@ -4,7 +4,7 @@
     {{ if .Params.image }}
         <div class="mb-8 aspect-video overflow-hidden rounded-lg shadow-lg">
             <img 
-                src="{{ .Params.image | relURL }}" 
+                src="{{ .Site.BaseURL }}{{ slicestr .Params.image 1 }}" 
                 alt="{{ .Title }}"
                 class="w-full h-full object-cover"
             >
@@ -36,7 +36,7 @@
             <p class="text-sm font-semibold text-slate-900 dark:text-slate-100 mb-3">Filed under</p>
             <div class="flex flex-wrap gap-2">
                 {{ range .Params.categories }}
-                    <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/" class="badge">
+                    <a href="{{ $.Site.BaseURL }}categories/{{ . | urlize }}/" class="badge">
                         {{ . }}
                     </a>
                 {{ end }}

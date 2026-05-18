@@ -8,7 +8,7 @@
   }
 
   body {
-    @apply bg-white text-slate-900 transition-colors duration-300;
+    @apply bg-light-bg text-dark-slate transition-colors duration-300 font-sans;
   }
 
   body.dark {
@@ -22,22 +22,42 @@
   }
 
   .btn-primary {
-    @apply bg-primary-600 text-white hover:bg-primary-700;
+    @apply bg-accent-blue text-white hover:bg-brand-600 shadow-sm hover:shadow-md;
   }
 
   .btn-secondary {
-    @apply bg-slate-200 text-slate-900 hover:bg-slate-300;
+    @apply bg-white text-dark-slate border border-soft-gray hover:bg-light-bg;
+  }
+
+  .btn-outline {
+    @apply border-2 border-accent-blue text-accent-blue hover:bg-accent-blue hover:text-white;
   }
 
   .card {
-    @apply bg-white dark:bg-slate-800 rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:shadow-lg hover:-translate-y-1;
+    @apply bg-white dark:bg-slate-800 rounded-xl shadow-sm overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 border border-soft-gray/30;
+  }
+
+  .product-card {
+    @apply bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-soft-gray/30 overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
   }
 
   .input {
-    @apply w-full px-4 py-2 rounded-lg border border-slate-300 bg-white text-slate-900 transition-colors focus:outline-none focus:ring-2 focus:ring-primary-500;
+    @apply w-full px-4 py-2.5 rounded-lg border border-soft-gray bg-white text-dark-slate transition-colors focus:outline-none focus:ring-2 focus:ring-accent-blue focus:border-transparent;
   }
 
   .badge {
-    @apply inline-block px-3 py-1 rounded-full text-xs font-semibold bg-primary-100 text-primary-700;
+    @apply inline-block px-3 py-1 rounded-full text-xs font-semibold bg-accent-blue/10 text-accent-blue;
+  }
+
+  .badge-sale {
+    @apply inline-block px-3 py-1 rounded-full text-xs font-semibold bg-red-500 text-white;
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold text-dark-slate dark:text-white;
+  }
+
+  .container-site {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }

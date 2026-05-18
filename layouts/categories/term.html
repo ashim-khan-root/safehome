@@ -1,0 +1,37 @@
+{{ define "main" }}
+{{ $products := where .Pages "Section" "products" }}
+<section class="bg-white border-b border-soft-gray/30">
+  <div class="container-site py-6 md:py-8">
+    <nav class="text-xs md:text-sm text-slate-500 flex flex-wrap items-center mb-2">
+      <a href="{{ .Site.BaseURL }}" class="hover:text-accent-blue">Home</a>
+      <span class="mx-1.5">/</span>
+      <a href="{{ .Site.BaseURL }}categories/" class="hover:text-accent-blue">Categories</a>
+      <span class="mx-1.5">/</span>
+      <span class="text-dark-slate dark:text-white font-medium">{{ .Title }}</span>
+    </nav>
+    <h1 class="text-2xl md:text-3xl font-bold text-dark-slate dark:text-white mb-1">{{ .Title }}</h1>
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <p class="text-sm text-slate-500">{{ len $products }} product{{ if ne (len $products) 1 }}s{{ end }} in this category</p>
+    </div>
+  </div>
+</section>
+
+<section class="py-6 md:py-8">
+  <div class="container-site">
+    {{ if $products }}
+    <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
+      {{ range $products }}
+      {{ partial "product-card" . }}
+      {{ end }}
+    </div>
+    {{ else }}
+    <div class="text-center py-16">
+      <svg class="w-16 h-16 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
+      <h3 class="text-lg font-semibold text-dark-slate dark:text-white mb-2">No products in this category</h3>
+      <p class="text-slate-500 text-sm mb-4">Check back later for new arrivals.</p>
+      <a href="{{ .Site.BaseURL }}categories/" class="btn bg-accent-blue text-white hover:bg-brand-600">Browse All Categories</a>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

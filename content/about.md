@@ -1,20 +1,37 @@
 ---
-title: "About Us"
-description: "Learn more about our blog and mission"
+title: "About SecuView"
+description: "Qatar's trusted source for security, networking, audio, and smart home solutions"
 ---
 
-## Welcome to Our Blog
+## About SecuView
 
-This is a modern blog platform built with Hugo and Tailwind CSS. We're dedicated to sharing high-quality content about web development, design, and technology.
+**SecuView** is a leading provider of security and smart technology solutions in Qatar. We are part of the **STARFOX Security System** group, established in 2009 with a mission to deliver high-quality security products and services.
 
-### Our Mission
+### Our Story
 
-We believe in making web development accessible to everyone. Through clear tutorials, practical tips, and in-depth guides, we help developers of all levels improve their skills.
+STARFOX was founded in 2009 as a security system solution provider with high-end products. In 2015, we expanded into network cables, power cables, and communication products. By 2018, we launched smart home security system products and consumer electronics.
 
-### About the Authors
+Today, SecuView owns a manufacturing facility in China that produces CCTV cameras and has established reliable supply chain partnerships spanning over a decade. We have branches in the Middle East and agents in different countries.
 
-Our team consists of experienced developers and designers passionate about building beautiful, performant web experiences.
+### Why Choose SecuView
 
-### Get In Touch
+- **Quality Products**: All our products meet international standards and are thoroughly tested
+- **Competitive Pricing**: Direct manufacturing relationships mean better prices for you
+- **Local Support**: Based in Doha, Qatar with fast local delivery and support
+- **Expertise**: Over 15 years of experience in the security and technology industry
 
-Have questions or ideas for topics? [Contact us](/contact/) or reach out on [Twitter](https://twitter.com).
+### Our Product Range
+
+- Security Surveillance (CCTV cameras, DVRs, NVRs)
+- Networking & Communications (switches, routers, access points)
+- Audio Systems (PA systems, speakers, amplifiers)
+- Smart Home (door locks, switches, doorbells)
+- Cables & Accessories
+
+### Contact Us
+
+**Phone**: +974 5009 2888
+**Email**: info@secuview.com
+**Location**: Doha, Qatar
+
+Visit our [Contact](/contact/) page to get in touch.

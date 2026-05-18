@@ -20,7 +20,7 @@
         <span>•</span>
         <div class="flex gap-2">
             {{ range .Params.tags }}
-                <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="badge">{{ . }}</a>
+                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/" class="badge">{{ . }}</a>
             {{ end }}
         </div>
     {{ end }}

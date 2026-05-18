@@ -1,6 +1,6 @@
 baseURL = 'https://ashim-khan-root.github.io/safehome/'
 languageCode = "en-us"
-title = "Modern Blog"
+title = "SecuView Store"
 enableRobotsTXT = true
 enableEmoji = true
 timeout = "30s"
@@ -11,17 +11,18 @@ pluralizeListTitles = false
 
 [permalinks]
 blog = "/blog/:year/:month/:day/:slug/"
+products = "/products/:slug/"
 
 [taxonomies]
 tag = "tags"
 category = "categories"
 
 [paginate]
-paginate = 10
+paginate = 12
 
 [outputs]
-home = ["HTML", "JSON", "RSS"]
-section = ["HTML", "JSON", "RSS"]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
 
 [sitemap]
 changefreq = "weekly"
@@ -29,38 +30,58 @@ filename = "sitemap.xml"
 priority = 0.5
 
 [params]
-author = "Your Name"
-description = "A modern, responsive blog built with Hugo and Tailwind CSS"
-email = "hello@example.com"
-twitter = "yourhandle"
-github = "yourprofile"
-linkedin = "yourprofile"
+author = "SecuView"
+description = "Premium security, networking, audio, and smart home solutions in Qatar."
+email = "info@secuview.com"
+phone = "+974 5009 2888"
 displaySearchIcon = true
 displayDarkMode = true
-
-[params.comments]
-enabled = false
-provider = "disqus"
-disqusShortname = ""
+currency = "QAR"
 
 [params.analytics]
 enabled = false
 googleAnalyticsID = ""
 
-[markup.highlight]
-style = "monokai"
-codeFences = true
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+    codeFences = true
 
 [menu]
   [[menu.main]]
-    name = "Blog"
-    url = "/blog/"
+    name = "Products"
+    url = "/categories/"
     weight = 1
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Security"
+    url = "/categories/security-surveillance/"
     weight = 2
+  [[menu.main]]
+    name = "Networking"
+    url = "/categories/network--communications/"
+    weight = 3
+  [[menu.main]]
+    name = "Audio"
+    url = "/categories/audio/"
+    weight = 4
+  [[menu.main]]
+    name = "Smart Home"
+    url = "/categories/smart-home/"
+    weight = 5
+  [[menu.main]]
+    name = "Cables"
+    url = "/categories/cable/"
+    weight = 6
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 7
   [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 3
+    weight = 8

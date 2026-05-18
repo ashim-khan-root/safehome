@@ -1,0 +1,253 @@
+{{ define "main" }}
+{{ partial "hero" . }}
+
+{{ $products := where .Site.RegularPages "Type" "products" }}
+
+{{/* Promo Strip */}}
+<section class="bg-white border-b border-soft-gray/30">
+  <div class="container-site py-3">
+    <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-xs md:text-sm">
+      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg> Free Shipping over 500 QAR</span>
+      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 100% Authentic</span>
+      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg> 30-Day Returns</span>
+      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Same-Day Doha Delivery</span>
+    </div>
+  </div>
+</section>
+
+{{/* Category Tiles */}}
+<section class="py-12 bg-white">
+  <div class="container-site">
+    <h2 class="section-title text-center mb-3">Shop by Category</h2>
+    <p class="text-slate-500 text-center text-sm mb-8">Browse our extensive range of security and technology products</p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+      {{ $catLinks := dict "Security" "categories/security-surveillance/" "Networking" "categories/network--communications/" "Audio" "categories/audio/" "Smart Home" "categories/smart-home/" "Cables" "categories/cable/" "All Products" "categories/" }}
+      {{ range $cat := slice (dict "name" "Security" "icon" "camera") (dict "name" "Networking" "icon" "network") (dict "name" "Audio" "icon" "audio") (dict "name" "Smart Home" "icon" "smart") (dict "name" "Cables" "icon" "cable") (dict "name" "All Products" "icon" "all") }}
+      <a href="{{ $.Site.BaseURL }}{{ index $catLinks $cat.name }}" class="group flex flex-col items-center p-6 bg-light-bg rounded-xl hover:bg-accent-blue hover:text-white transition-all duration-300 border border-soft-gray/30 hover:border-accent-blue">
+        <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-3 group-hover:bg-white/20 transition-colors shadow-sm">
+          {{ if eq $cat.icon "camera" }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+          {{ else if eq $cat.icon "network" }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"></path></svg>
+          {{ else if eq $cat.icon "audio" }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+          {{ else if eq $cat.icon "smart" }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          {{ else if eq $cat.icon "cable" }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path></svg>
+          {{ else }}
+          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+          {{ end }}
+        </div>
+        <span class="text-sm font-semibold text-center">{{ $cat.name }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{/* Featured Products */}}
+{{ $featured := $products | first 8 }}
+{{ if $featured }}
+<section class="py-12">
+  <div class="container-site">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="section-title">Featured Products</h2>
+        <p class="text-sm text-slate-500 mt-1">Top picks from our catalog</p>
+      </div>
+      <a href="{{ .Site.BaseURL }}categories/" class="text-accent-blue hover:text-brand-600 font-semibold text-sm flex items-center gap-1">
+        View All
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+      </a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 md:gap-6">
+      {{ range $featured }}
+      {{ partial "product-card" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Deal of the Day */}}
+<section class="py-12 bg-gradient-to-r from-slate-800 via-dark-slate to-slate-900">
+  <div class="container-site">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="text-xs font-bold uppercase tracking-widest text-red-400 bg-red-400/10 px-4 py-1.5 rounded-full inline-block mb-4">Limited Time Offer</span>
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Deal of the Day</h2>
+        <p class="text-slate-300 mb-6">Huge savings on premium security cameras, networking equipment, and audio systems. Offers end soon!</p>
+        <div id="deal-countdown" data-hours="24" class="flex gap-3 mb-8">
+          <div class="text-center bg-white/10 rounded-lg px-4 py-3 backdrop-blur-sm min-w-[72px]">
+            <div class="text-3xl font-bold text-accent-blue" id="cd-hours">24</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider">Hours</div>
+          </div>
+          <div class="text-center bg-white/10 rounded-lg px-4 py-3 backdrop-blur-sm min-w-[72px]">
+            <div class="text-3xl font-bold text-accent-blue" id="cd-minutes">00</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider">Mins</div>
+          </div>
+          <div class="text-center bg-white/10 rounded-lg px-4 py-3 backdrop-blur-sm min-w-[72px]">
+            <div class="text-3xl font-bold text-accent-blue" id="cd-seconds">00</div>
+            <div class="text-xs text-slate-400 uppercase tracking-wider">Secs</div>
+          </div>
+        </div>
+        <a href="{{ .Site.BaseURL }}categories/" class="btn bg-accent-blue text-white hover:bg-brand-600 px-8 py-3 text-base shadow-lg shadow-accent-blue/25">
+          Shop Deals
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+        </a>
+      </div>
+      <div class="hidden md:flex items-center justify-center">
+        <div class="grid grid-cols-2 gap-3">
+          {{ range first 4 (shuffle $products) }}
+          <div class="bg-white/10 backdrop-blur-sm rounded-xl p-3 border border-white/10">
+            <img src="{{ .Site.BaseURL }}{{ (index .Params.images 0 | default "") | slicestr 1 }}" alt="{{ .Title }}" class="w-full h-20 object-contain mb-2" loading="lazy" onerror="this.src='https://placehold.co/200x200/e2e8f0/64748b?text=Product'">
+            <p class="text-xs text-white font-medium line-clamp-1">{{ .Title }}</p>
+            <p class="text-xs text-accent-blue font-bold">{{ .Params.currency | default "QAR" }} {{ printf "%.0f" (.Params.price | default 0) }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{/* Best Sellers */}}
+{{ $bestsellers := $products | first 4 }}
+{{ if $bestsellers }}
+<section class="py-12 bg-white">
+  <div class="container-site">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="section-title">Best Sellers</h2>
+        <p class="text-sm text-slate-500 mt-1">Most popular products this month</p>
+      </div>
+      <a href="{{ .Site.BaseURL }}categories/" class="text-accent-blue hover:text-brand-600 font-semibold text-sm flex items-center gap-1">
+        View All
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+      </a>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      {{ range $bestsellers }}
+      {{ partial "product-card" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Brand Logos */}}
+<section class="py-10 border-y border-soft-gray/30 bg-light-bg">
+  <div class="container-site">
+    <p class="text-center text-xs uppercase tracking-widest text-slate-400 mb-6">Trusted Brands</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Hikvision</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Dahua</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">TP-Link</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Ubiquiti</span>
+      <span class="text-lg md:text-2xl font-bold text-accent-blue">SecuView</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Cisco</span>
+    </div>
+  </div>
+</section>
+
+{{/* Blog / Tech News */}}
+{{ $blogPosts := where .Site.RegularPages "Type" "blog" | first 3 }}
+{{ if $blogPosts }}
+<section class="py-12">
+  <div class="container-site">
+    <div class="flex items-center justify-between mb-8">
+      <div>
+        <h2 class="section-title">Tech Insights</h2>
+        <p class="text-sm text-slate-500 mt-1">Latest from our blog</p>
+      </div>
+      <a href="{{ .Site.BaseURL }}blog/" class="text-accent-blue hover:text-brand-600 font-semibold text-sm flex items-center gap-1">
+        Read Blog
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+      </a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      {{ range $blogPosts }}
+      <article class="card">
+        <div class="p-5">
+          <span class="badge text-xs mb-2 inline-block">{{ index (.Params.categories | default slice) 0 | default "Tech" }}</span>
+          <h3 class="font-semibold text-dark-slate dark:text-white mb-2 line-clamp-2"><a href="{{ .RelPermalink }}" class="hover:text-accent-blue transition-colors">{{ .Title }}</a></h3>
+          <p class="text-sm text-slate-500 dark:text-slate-400 line-clamp-3">{{ .Summary | plainify | truncate 120 }}</p>
+          <a href="{{ .RelPermalink }}" class="text-accent-blue text-sm font-semibold mt-3 inline-flex items-center gap-1 hover:gap-2 transition-all">
+            Read More <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          </a>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* Newsletter */}}
+<section class="py-12 bg-accent-blue">
+  <div class="container-site max-w-2xl text-center">
+    <h2 class="text-2xl md:text-3xl font-bold text-white mb-3">Stay Updated</h2>
+    <p class="text-white/80 mb-6">Get the latest deals, new arrivals, and tech tips straight to your inbox.</p>
+    <form class="flex gap-3 max-w-md mx-auto">
+      <input type="email" placeholder="Your email address" class="flex-1 px-4 py-2.5 rounded-full border-0 focus:ring-2 focus:ring-white">
+      <button class="btn bg-dark-slate text-white hover:bg-slate-700 !rounded-full px-6 shrink-0">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+{{/* Newsletter Popup */}}
+<div id="newsletter-popup" class="hidden fixed inset-0 z-[60] bg-black/50 flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-md w-full p-8 relative shadow-2xl">
+    <button id="nl-close" class="absolute top-3 right-3 p-1 hover:bg-light-bg dark:hover:bg-slate-700 rounded-full" aria-label="Close">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+    </button>
+    <div class="text-center">
+      <div class="w-16 h-16 rounded-full bg-accent-blue/10 flex items-center justify-center mx-auto mb-4">
+        <svg class="w-8 h-8 text-accent-blue" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+      </div>
+      <h3 class="text-xl font-bold text-dark-slate dark:text-white mb-2">Never Miss a Deal!</h3>
+      <p class="text-slate-500 text-sm mb-6">Subscribe to get 10% off your first order and exclusive deals.</p>
+      <form class="flex flex-col gap-3">
+        <input type="email" placeholder="Enter your email" class="input text-center">
+        <button class="btn bg-accent-blue text-white hover:bg-brand-600 justify-center">Get 10% Off</button>
+        <button id="nl-close-alt" class="text-xs text-slate-400 hover:text-slate-600">No thanks</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+{{/* Quick View Modal */}}
+<div id="quick-view-modal" class="hidden fixed inset-0 z-[70] bg-black/50 flex items-center justify-center p-4">
+  <div class="bg-white dark:bg-slate-800 rounded-2xl max-w-2xl w-full p-6 relative shadow-2xl">
+    <button id="qv-close" class="absolute top-3 right-3 p-1 hover:bg-light-bg dark:hover:bg-slate-700 rounded-full" aria-label="Close">
+      <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+    </button>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="bg-light-bg rounded-xl p-6 flex items-center justify-center">
+        <img src="" alt="Product preview" class="max-h-64 object-contain" id="qv-image">
+      </div>
+      <div>
+        <h3 class="text-xl font-bold text-dark-slate dark:text-white mb-2" id="qv-title">Product Name</h3>
+        <div class="flex items-center gap-1 mb-3">
+          {{ range $i := seq 5 }}
+          <svg class="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+          {{ end }}
+        </div>
+        <p class="text-2xl font-bold text-accent-blue mb-4" id="qv-price">QAR 0.00</p>
+        <p class="text-sm text-slate-500 dark:text-slate-400 mb-6" id="qv-desc">Product description goes here.</p>
+        <button class="btn bg-accent-blue text-white hover:bg-brand-600 w-full justify-center add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{/* Cookie Notice */}}
+<div id="cookie-notice" class="hidden fixed bottom-0 left-0 right-0 z-[80] bg-dark-slate text-white p-4">
+  <div class="container-site flex flex-col sm:flex-row items-center justify-between gap-3">
+    <p class="text-sm text-slate-300">This website uses cookies to ensure you get the best experience. <a href="#" class="text-accent-blue hover:underline">Learn more</a></p>
+    <button id="cookie-accept" class="btn bg-accent-blue text-white hover:bg-brand-600 !py-1.5 !px-6 text-sm shrink-0">Accept All</button>
+  </div>
+</div>
+
+{{ end }}

@@ -8,13 +8,13 @@
 <meta property="og:description" content="{{ .Summary | plainify | truncate 155 }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-{{ with .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}{{ slicestr . 1 }}">{{ end }}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Summary | plainify | truncate 155 }}">
-{{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}">{{ end }}
+{{ with .Params.image }}<meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ slicestr . 1 }}">{{ end }}
 {{ if .Site.Params.twitter }}<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">{{ end }}
 
 <!-- Article metadata -->

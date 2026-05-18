@@ -1,0 +1,70 @@
+{{ define "main" }}
+<section class="bg-white border-b border-soft-gray/30">
+  <div class="container-site py-6 md:py-8">
+    <h1 class="text-2xl md:text-3xl font-bold text-dark-slate dark:text-white mb-1">Products</h1>
+    <div class="flex flex-wrap items-center justify-between gap-3">
+      <p class="text-sm text-slate-500">{{ len .Pages }} products found</p>
+      <div class="flex items-center gap-3">
+        <select class="input !py-1.5 !text-sm !w-auto !rounded-full !pr-8" aria-label="Sort">
+          <option>Sort: Latest</option>
+          <option>Price: Low to High</option>
+          <option>Price: High to Low</option>
+        </select>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-6 md:py-8">
+  <div class="container-site">
+    <div class="flex gap-8">
+      <aside class="hidden lg:block w-60 shrink-0">
+        <div class="bg-white dark:bg-slate-800 rounded-xl border border-soft-gray/30 p-5 sticky top-24">
+          <h3 class="font-semibold text-dark-slate dark:text-white mb-3 text-sm uppercase tracking-wider">Categories</h3>
+          <ul class="space-y-1">
+            {{ range $cat := slice (dict "name" "All Products" "url" "categories/") (dict "name" "Security Surveillance" "url" "categories/security-surveillance/") (dict "name" "Networking" "url" "categories/network--communications/") (dict "name" "Audio" "url" "categories/audio/") (dict "name" "Smart Home" "url" "categories/smart-home/") (dict "name" "Cable" "url" "categories/cable/") }}
+            <li>
+              <a href="{{ $.Site.BaseURL }}{{ $cat.url }}" class="text-sm text-slate-600 dark:text-slate-400 hover:text-accent-blue flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-light-bg transition-colors {{ if eq $cat.name "All Products" }}font-semibold text-accent-blue{{ end }}">
+                <span>{{ $cat.name }}</span>
+                <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </aside>
+      <div class="flex-1 min-w-0">
+        {{ if .Pages }}
+        <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-5">
+          {{ range .Pages }}
+          {{ partial "product-card" . }}
+          {{ end }}
+        </div>
+        {{ else }}
+        <div class="text-center py-16">
+          <svg class="w-16 h-16 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
+          <h3 class="text-lg font-semibold text-dark-slate dark:text-white mb-2">No products found</h3>
+          <p class="text-slate-500 text-sm mb-4">Try adjusting your search or filter criteria.</p>
+          <a href="{{ .Site.BaseURL }}categories/" class="btn bg-accent-blue text-white hover:bg-brand-600">View All Categories</a>
+        </div>
+        {{ end }}
+        {{ if gt .Paginator.TotalPages 1 }}
+        <div class="flex justify-center mt-10">
+          <div class="flex gap-2">
+            {{ if .Paginator.HasPrev }}
+            <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium">&larr; Previous</a>
+            {{ end }}
+            {{ range .Paginator.Pagers }}
+            <a href="{{ .URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium {{ if eq .PageNumber $.Paginator.PageNumber }}bg-accent-blue text-white border-accent-blue{{ end }}">{{ .PageNumber }}</a>
+            {{ end }}
+            {{ if .Paginator.HasNext }}
+            <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium">Next &rarr;</a>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

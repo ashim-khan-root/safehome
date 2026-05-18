@@ -2,7 +2,7 @@
     {{ if .Params.image }}
         <div class="aspect-video overflow-hidden bg-slate-200">
             <img 
-                src="{{ .Params.image | relURL }}" 
+                src="{{ .Site.BaseURL }}{{ slicestr .Params.image 1 }}" 
                 alt="{{ .Title }}"
                 class="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 loading="lazy"
