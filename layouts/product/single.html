@@ -113,27 +113,8 @@
         </div>
       </div>
       <div id="tab-description" class="tab-content prose max-w-none text-sm">
-        {{ $content := .RawContent }}
-        {{ $parts := split $content "---" }}
-        {{ if ge (len $parts) 3 }}
-          {{ $body := trim (index $parts 2) "\n " }}
-          {{ $bodyWithoutGallery := "" }}
-          {{ $lines := split $body "\n" }}
-          {{ $inGallery := false }}
-          {{ range $lines }}
-            {{ if eq . "## Gallery" }}
-              {{ $inGallery = true }}
-            {{ else if and $inGallery (not (or (hasPrefix . "![") (eq . ""))) }}
-              {{ $inGallery = false }}
-              {{ $bodyWithoutGallery = printf "%s\n%s" $bodyWithoutGallery . }}
-            {{ else if not $inGallery }}
-              {{ $bodyWithoutGallery = printf "%s\n%s" $bodyWithoutGallery . }}
-            {{ end }}
-          {{ end }}
-          {{ $bodyWithoutGallery | markdownify }}
-        {{ else }}
-          {{ .Content }}
-        {{ end }}
+        {{ $body := replaceRE `## Gallery[\s\S]*` "" .RawContent }}
+        {{ $body | markdownify }}
       </div>
       <div id="tab-specs" class="tab-content hidden prose max-w-none text-sm">
         <table class="w-full">
@@ -171,7 +152,7 @@
   </div>
 </section>
 
-{{ $related := where .Site.RegularPages "Type" "products" | complement . | first 4 }}
+{{ $related := where .Site.RegularPages "Type" "product" | complement (slice .) | first 4 }}
 {{ if $related }}
 <section class="py-10">
   <div class="container-site">
