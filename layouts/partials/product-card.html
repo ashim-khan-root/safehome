@@ -6,7 +6,7 @@
 {{ else }}
   {{ $image = "https://placehold.co/400x400/e2e8f0/64748b?text=No+Image" }}
 {{ end }}
-{{ $price := .Params.price | default 0 }}
+{{ $price := float (.Params.price | default 0) }}
 {{ $currency := .Params.currency | default "QAR" }}
 <div class="product-card group">
   <div class="relative overflow-hidden bg-light-bg aspect-square">

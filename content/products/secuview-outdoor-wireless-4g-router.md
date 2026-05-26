@@ -6,6 +6,7 @@ slug: secuview-outdoor-wireless-4g-router
 type: product
 sku: SV-G4GR400X
 product_type: simple
+price: 260.0
 categories:
 - Network & Communications
 images:

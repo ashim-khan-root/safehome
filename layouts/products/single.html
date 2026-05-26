@@ -1,5 +1,5 @@
 {{ define "main" }}
-{{ $price := .Params.price | default 0 }}
+{{ $price := float (.Params.price | default 0) }}
 {{ $currency := .Params.currency | default "QAR" }}
 {{ $images := .Params.images | default slice }}
 {{ $mainImage := .Params.featured_image | default (index $images 0 | default "") }}

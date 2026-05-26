@@ -6,6 +6,7 @@ slug: secuview-4g-lte-wifi-router-sim-600mbps
 type: product
 sku: G4GR300X
 product_type: simple
+price: 240.5
 categories:
 - Network & Communications
 images:

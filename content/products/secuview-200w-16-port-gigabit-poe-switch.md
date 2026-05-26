@@ -6,6 +6,7 @@ slug: secuview-200w-16-port-gigabit-poe-switch
 type: product
 sku: SV-GP162003GB
 product_type: simple
+price: 450.0
 categories:
 - Network & Communications
 images:
