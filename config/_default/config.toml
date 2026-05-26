@@ -34,6 +34,7 @@ author = "SecuView"
 description = "Premium security, networking, audio, and smart home solutions in Qatar."
 email = "info@secuview.com"
 phone = "+974 5009 2888"
+whatsapp_number = "+97477418754"
 displaySearchIcon = true
 displayDarkMode = true
 currency = "QAR"

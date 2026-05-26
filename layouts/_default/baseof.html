@@ -25,6 +25,7 @@
         {{ block "main" . }}{{ end }}
     </main>
     {{ partial "footer" . }}
+    {{ partial "whatsapp-button" . }}
     <script src="{{ (resources.Get "js/dark-mode.js").RelPermalink }}"></script>
     <script src="{{ (resources.Get "js/ecommerce.js").RelPermalink }}"></script>
     {{ if .Site.Params.analytics.enabled }}
