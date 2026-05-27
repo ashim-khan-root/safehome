@@ -6,6 +6,8 @@
 {{ $wa := .Site.Params.whatsapp_number | default "97477418754" }}
 {{ $waClean := replaceRE "[^0-9]" "" $wa }}
 {{ $waMsg := printf "Hi, I'm interested in *%s* (%s) — %s %.2f QAR. Is it available?" .Title (.Params.sku | default "") $currency $price | urlquery }}
+{{ $body := replaceRE "^---[\\s\\S]*?---\n" "" .RawContent }}
+{{ $body = replaceRE "## Gallery[\\s\\S]*" "" $body }}
 
 <section class="bg-white border-b border-soft-gray/30">
   <div class="container-site py-3">
@@ -71,7 +73,8 @@
         <p class="text-sm text-slate-500 mb-3">SKU: <span class="font-mono text-dark-slate">{{ .Params.sku }}</span></p>
         {{ end }}
         <div class="mb-6 text-sm text-slate-600 leading-relaxed border-l-4 border-accent-blue/30 pl-4 py-2 bg-accent-blue/5 rounded-r-lg">
-          {{ .Summary }}
+          {{ $overview := replaceRE "(?m)^## Overview\\s*" "" $body }}
+          {{ $overview | markdownify }}
         </div>
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 mb-6">
           <div class="flex items-center border border-soft-gray/30 rounded-lg self-start">
@@ -113,7 +116,6 @@
         </div>
       </div>
       <div id="tab-description" class="tab-content prose max-w-none text-sm">
-        {{ $body := replaceRE `## Gallery[\s\S]*` "" .RawContent }}
         {{ $body | markdownify }}
       </div>
       <div id="tab-specs" class="tab-content hidden prose max-w-none text-sm">

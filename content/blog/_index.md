@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Articles about web development, design, and technology"
+description: "Expert guides, tips, and buying advice for security cameras, smart locks, PA systems, and networking equipment in Qatar."
 ---
 
-Welcome to our blog! Here you'll find articles about modern web development, design patterns, and technology trends.
+Welcome to the SafeHOME blog — your source for expert buying guides, installation tips, and product comparisons for security systems, smart home tech, audio solutions, and networking gear in Qatar.
