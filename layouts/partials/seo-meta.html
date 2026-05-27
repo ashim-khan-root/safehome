@@ -3,18 +3,24 @@
 
 {{ with .Params.keywords }}<meta name="keywords" content="{{ . }}">{{ end }}
 
+{{ $ogImage := "" }}
+{{ with .Params.image }}{{ $ogImage = . }}{{ end }}
+{{ if not $ogImage }}{{ with .Params.featured_image }}{{ $ogImage = . }}{{ end }}{{ end }}
+{{ if not $ogImage }}{{ with index .Params.images 0 }}{{ $ogImage = . }}{{ end }}{{ end }}
+{{ if not $ogImage }}{{ $ogImage = .Site.Params.default_og_image | default "" }}{{ end }}
+
 <!-- Open Graph -->
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Summary | plainify | truncate 155 }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
 <meta property="og:url" content="{{ .Permalink }}">
-{{ with .Params.image }}<meta property="og:image" content="{{ $.Site.BaseURL }}{{ slicestr . 1 }}">{{ end }}
+{{ with $ogImage }}<meta property="og:image" content="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}">{{ end }}
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Summary | plainify | truncate 155 }}">
-{{ with .Params.image }}<meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ slicestr . 1 }}">{{ end }}
+{{ with $ogImage }}<meta name="twitter:image" content="{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" . }}">{{ end }}
 {{ if .Site.Params.twitter }}<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">{{ end }}
 
 <!-- Article metadata -->

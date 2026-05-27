@@ -31,6 +31,7 @@ priority = 0.5
 [params]
 author = "SecuView"
 description = "Premium security, networking, audio, and smart home solutions in Qatar."
+default_og_image = "/images/products/secuview-wifi-outdoor-weatherproof-security-camera-0.jpg"
 email = "info@secuview.com"
 phone = "+974 5009 2888"
 whatsapp_number = "+97477418754"
