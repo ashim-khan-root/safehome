@@ -21,7 +21,7 @@ featured_image: /images/products/secuview-10w-ceiling-speaker-clear-sound-0.jpg
 
 ## Overview
 
-Best 10W Ceiling Speaker Qatar by AsliElectronics delivers clear sound, easy installation, and reliable performance for homes, offices, and businesses.
+Best 10W Ceiling Speaker Qatar by Secuview delivers clear sound, easy installation, and reliable performance for homes, offices, and businesses.
 
 ## Gallery
 

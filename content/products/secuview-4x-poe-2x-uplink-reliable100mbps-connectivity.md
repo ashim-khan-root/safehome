@@ -1,5 +1,5 @@
 ---
-title: Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics
+title: Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview
 date: '2026-05-17T13:53:40'
 draft: false
 slug: secuview-4x-poe-2x-uplink-reliable100mbps-connectivity
@@ -22,17 +22,17 @@ featured_image: /images/products/secuview-4x-poe-2x-uplink-reliable100mbps-conne
 
 ## Overview
 
-Get a AsliElectronics 4 port PoE switch with 2 uplink ports for CCTV/IP devices. Reliable 10/100Mbps connectivity in Doha, Qatar. Get a quote.
+Get a Secuview 4 port PoE switch with 2 uplink ports for CCTV/IP devices. Reliable 10/100Mbps connectivity in Doha, Qatar. Get a quote.
 
 ## Gallery
 
-![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-0.jpg)
+![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-0.jpg)
 
-![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-1.jpg)
+![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-1.jpg)
 
-![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-2.jpg)
+![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-2.jpg)
 
-![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-3.jpg)
+![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-3.jpg)
 
-![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |AsliElectronics](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-4.jpg)
+![Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview](/images/products/secuview-4x-poe-2x-uplink-reliable100mbps-connectivity-4.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Reliable 380W PA Amplifier 3 Mic +Bluetooth Control| AsliElectronics
+title: Reliable 380W PA Amplifier 3 Mic +Bluetooth Control|secuview
 date: '2026-05-17T13:44:36'
 draft: false
 slug: secuview-380w-public-address-power-amplifier-with-3-mics

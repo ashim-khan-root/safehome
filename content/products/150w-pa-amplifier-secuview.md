@@ -1,5 +1,5 @@
 ---
-title: 150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics
+title: 150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview
 date: '2026-05-17T13:42:32'
 draft: false
 slug: 150w-pa-amplifier-secuview
@@ -26,13 +26,13 @@ Get pro 150W PA Amplifier + 3 mic inputs for clear announcements. Perfect value 
 
 ## Gallery
 
-![150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics](/images/products/150w-pa-amplifier-secuview-0.jpg)
+![150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview](/images/products/150w-pa-amplifier-secuview-0.jpg)
 
-![150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics](/images/products/150w-pa-amplifier-secuview-1.jpg)
+![150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview](/images/products/150w-pa-amplifier-secuview-1.jpg)
 
-![150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics](/images/products/150w-pa-amplifier-secuview-2.jpg)
+![150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview](/images/products/150w-pa-amplifier-secuview-2.jpg)
 
-![150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics](/images/products/150w-pa-amplifier-secuview-3.jpg)
+![150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview](/images/products/150w-pa-amplifier-secuview-3.jpg)
 
-![150W PA Amplifier | 3 Mics – Powerful Value Audio | AsliElectronics](/images/products/150w-pa-amplifier-secuview-4.jpg)
+![150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview](/images/products/150w-pa-amplifier-secuview-4.jpg)
 

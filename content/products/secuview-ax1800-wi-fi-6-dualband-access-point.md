@@ -1,5 +1,5 @@
 ---
-title: Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit
+title: Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit
 date: '2026-05-17T13:42:54'
 draft: false
 slug: secuview-ax1800-wi-fi-6-dualband-access-point
@@ -22,17 +22,17 @@ featured_image: /images/products/secuview-ax1800-wi-fi-6-dualband-access-point-0
 
 ## Overview
 
-Experience blazing speeds with the AsliElectronics AX1800 Wi-Fi 6. Features elite dual-band 1800Mbps and Gigabit PoE. The ultimate high-speed solution for any office.
+Experience blazing speeds with the Secuview AX1800 Wi-Fi 6. Features elite dual-band 1800Mbps and Gigabit PoE. The ultimate high-speed solution for any office.
 
 ## Gallery
 
-![Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-0.jpg)
+![Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-0.jpg)
 
-![Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-1.jpg)
+![Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-1.jpg)
 
-![Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-2.jpg)
+![Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-2.jpg)
 
-![Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-3.jpg)
+![Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-3.jpg)
 
-![Best AsliElectronics AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-4.jpg)
+![Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit](/images/products/secuview-ax1800-wi-fi-6-dualband-access-point-4.jpg)
 

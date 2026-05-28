@@ -1,5 +1,5 @@
 ---
-title: Reliable 80W PA Amplifier 3 Mic Inputs, Clear Sound| AsliElectronics
+title: Reliable 80W PA Amplifier 3 Mic Inputs, Clear Sound|secuview
 date: '2026-05-17T13:44:47'
 draft: false
 slug: secuview-80w-power-public-address-amplifier-with-clear-sound

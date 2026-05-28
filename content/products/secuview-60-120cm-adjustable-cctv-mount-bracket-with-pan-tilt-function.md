@@ -1,5 +1,5 @@
 ---
-title: Adjustable CCTV Mount Bracket 60–120cm Heavy-Duty | AsliElectronics
+title: Adjustable CCTV Mount Bracket 60–120cm Heavy-Duty | Secuview
 date: '2026-05-17T13:57:04'
 draft: false
 slug: secuview-60-120cm-adjustable-cctv-mount-bracket-with-pan-tilt-function
@@ -22,5 +22,5 @@ Adjustable CCTV mount bracket 60–120cm with pan-tilt function, ideal for insta
 
 ## Gallery
 
-![Adjustable CCTV Mount Bracket 60–120cm Heavy-Duty | AsliElectronics](/images/products/secuview-60-120cm-adjustable-cctv-mount-bracket-with-pan-tilt-function-0.jpg)
+![Adjustable CCTV Mount Bracket 60–120cm Heavy-Duty | Secuview](/images/products/secuview-60-120cm-adjustable-cctv-mount-bracket-with-pan-tilt-function-0.jpg)
 

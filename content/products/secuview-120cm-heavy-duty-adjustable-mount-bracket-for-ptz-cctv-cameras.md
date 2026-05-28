@@ -1,5 +1,5 @@
 ---
-title: Heavy-Duty Adjustable PTZ Mount 120cm Reliable | AsliElectronics
+title: Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview
 date: '2026-05-17T13:57:00'
 draft: false
 slug: secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras
@@ -25,11 +25,11 @@ Heavy-Duty adjustable PTZ mount bracket 120cm for CCTV cameras, ideal for instal
 
 ## Gallery
 
-![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | AsliElectronics](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-0.jpg)
+![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-0.jpg)
 
-![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | AsliElectronics](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-1.jpg)
+![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-1.jpg)
 
-![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | AsliElectronics](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-2.jpg)
+![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-2.jpg)
 
-![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | AsliElectronics](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-3.jpg)
+![Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview](/images/products/secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras-3.jpg)
 

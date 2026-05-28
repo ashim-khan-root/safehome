@@ -1,5 +1,5 @@
 ---
-title: Reliable 4K 60Hz HDMI Extender – 60m Cat6 Cascade | AsliElectronics
+title: Reliable 4K 60Hz HDMI Extender – 60m Cat6 Cascade | secuview
 date: '2026-05-17T13:50:11'
 draft: false
 slug: secuview-4k-60hz-hdmi-extender-60m-over-cat6-cascade-connection-supported

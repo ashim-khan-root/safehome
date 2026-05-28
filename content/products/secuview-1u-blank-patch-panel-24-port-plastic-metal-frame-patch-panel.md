@@ -1,5 +1,5 @@
 ---
-title: 1U 24-Port Blank Patch Panel Trusted Doha | AsliElectronics
+title: 1U 24-Port Blank Patch Panel Trusted Doha | Secuview
 date: '2026-05-17T13:55:45'
 draft: false
 slug: secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel
@@ -25,11 +25,11 @@ Get a 1U 24-Port blank patch panel for racks in Doha, Qatar. MOI compliant, cert
 
 ## Gallery
 
-![1U 24-Port Blank Patch Panel Trusted Doha | AsliElectronics](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-0.jpg)
+![1U 24-Port Blank Patch Panel Trusted Doha | Secuview](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-0.jpg)
 
-![1U 24-Port Blank Patch Panel Trusted Doha | AsliElectronics](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-1.jpg)
+![1U 24-Port Blank Patch Panel Trusted Doha | Secuview](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-1.jpg)
 
-![1U 24-Port Blank Patch Panel Trusted Doha | AsliElectronics](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-2.jpg)
+![1U 24-Port Blank Patch Panel Trusted Doha | Secuview](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-2.jpg)
 
-![1U 24-Port Blank Patch Panel Trusted Doha | AsliElectronics](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-3.jpg)
+![1U 24-Port Blank Patch Panel Trusted Doha | Secuview](/images/products/secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel-3.jpg)
 

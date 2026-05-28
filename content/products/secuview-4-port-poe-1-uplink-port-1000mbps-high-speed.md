@@ -1,5 +1,5 @@
 ---
-title: AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed
+title: Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed
 date: '2026-05-17T13:43:12'
 draft: false
 slug: secuview-4-port-poe-1-uplink-port-1000mbps-high-speed
@@ -22,17 +22,17 @@ featured_image: /images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high
 
 ## Overview
 
-Boost your network with AsliElectronics’s 4-Port Gigabit PoE Switch. Features 1000Mbps speed & 1 Uplink port. Perfect Plug & Play for IP cameras and CCTV systems.
+Boost your network with Secuview’s 4-Port Gigabit PoE Switch. Features 1000Mbps speed & 1 Uplink port. Perfect Plug & Play for IP cameras and CCTV systems.
 
 ## Gallery
 
-![AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-0.jpg)
+![Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-0.jpg)
 
-![AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-1.jpg)
+![Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-1.jpg)
 
-![AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-2.jpg)
+![Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-2.jpg)
 
-![AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-3.jpg)
+![Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-3.jpg)
 
-![AsliElectronics 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-4.jpg)
+![Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed](/images/products/secuview-4-port-poe-1-uplink-port-1000mbps-high-speed-4.jpg)
 

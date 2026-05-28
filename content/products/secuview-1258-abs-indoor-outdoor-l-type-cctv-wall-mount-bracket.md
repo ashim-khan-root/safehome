@@ -1,5 +1,5 @@
 ---
-title: ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | AsliElectronics
+title: ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview
 date: '2026-05-17T13:56:47'
 draft: false
 slug: secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket
@@ -25,11 +25,11 @@ ABS L-Type mount bracket 1258 for indoor/outdoor CCTV, ideal for pros and instal
 
 ## Gallery
 
-![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-0.jpg)
+![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-0.jpg)
 
-![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-1.jpg)
+![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-1.jpg)
 
-![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-2.jpg)
+![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-2.jpg)
 
-![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-3.jpg)
+![ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview](/images/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket-3.jpg)
 

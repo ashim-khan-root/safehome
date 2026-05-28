@@ -22,7 +22,7 @@ featured_image: /images/products/secuview-20w-hanging-speaker-pa-system-qatar-0.
 
 ## Overview
 
-Hanging Speaker Qatar by AsliElectronics delivers clear PA ceiling audio for offices, schools, and commercial spaces with easy installation and reliable sound.
+Hanging Speaker Qatar by Secuview delivers clear PA ceiling audio for offices, schools, and commercial spaces with easy installation and reliable sound.
 
 ## Gallery
 

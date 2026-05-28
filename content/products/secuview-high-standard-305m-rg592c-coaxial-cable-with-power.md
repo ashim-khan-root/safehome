@@ -1,5 +1,5 @@
 ---
-title: Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics
+title: Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview
 date: '2026-05-17T13:48:13'
 draft: false
 slug: secuview-high-standard-305m-rg592c-coaxial-cable-with-power
@@ -23,19 +23,19 @@ featured_image: /images/products/secuview-high-standard-305m-rg592c-coaxial-cabl
 
 ## Overview
 
-Run video + power in one line with AsliElectronics’s RG59+2C coaxial cable (305m). 75Ω design, durable jacket, faster installs, and less clutter for CCTV setups. Order now.
+Run video + power in one line with Secuview’s RG59+2C coaxial cable (305m). 75Ω design, durable jacket, faster installs, and less clutter for CCTV setups. Order now.
 
 ## Gallery
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-0.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-0.jpg)
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-1.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-1.jpg)
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-2.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-2.jpg)
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-3.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-3.jpg)
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-4.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-4.jpg)
 
-![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|AsliElectronics](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-5.jpg)
+![Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview](/images/products/secuview-high-standard-305m-rg592c-coaxial-cable-with-power-5.jpg)
 

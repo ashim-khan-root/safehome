@@ -1,5 +1,5 @@
 ---
-title: L-Type Bracket 1258ZJ – Heavy-Duty Reliable | AsliElectronics
+title: L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview
 date: '2026-05-17T13:56:52'
 draft: false
 slug: secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design
@@ -25,11 +25,11 @@ L-Type bracket 1258ZJ for CCTV cameras, ideal for installers and homeowners. Dur
 
 ## Gallery
 
-![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-0.jpg)
+![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-0.jpg)
 
-![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-1.jpg)
+![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-1.jpg)
 
-![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-2.jpg)
+![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-2.jpg)
 
-![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-3.jpg)
+![L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview](/images/products/secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design-3.jpg)
 

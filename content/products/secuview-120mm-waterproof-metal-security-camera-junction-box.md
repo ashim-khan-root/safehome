@@ -1,5 +1,5 @@
 ---
-title: Camera Junction Box 120mm – Heavy-Duty Secure | AsliElectronics
+title: Camera Junction Box 120mm – Heavy-Duty Secure | Secuview
 date: '2026-05-17T13:56:43'
 draft: false
 slug: secuview-120mm-waterproof-metal-security-camera-junction-box
@@ -25,11 +25,11 @@ Camera junction box 120mm for security cameras, ideal for outdoor use and instal
 
 ## Gallery
 
-![Camera Junction Box 120mm – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-0.jpg)
+![Camera Junction Box 120mm – Heavy-Duty Secure | Secuview](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-0.jpg)
 
-![Camera Junction Box 120mm – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-1.jpg)
+![Camera Junction Box 120mm – Heavy-Duty Secure | Secuview](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-1.jpg)
 
-![Camera Junction Box 120mm – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-2.jpg)
+![Camera Junction Box 120mm – Heavy-Duty Secure | Secuview](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-2.jpg)
 
-![Camera Junction Box 120mm – Heavy-Duty Secure | AsliElectronics](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-3.jpg)
+![Camera Junction Box 120mm – Heavy-Duty Secure | Secuview](/images/products/secuview-120mm-waterproof-metal-security-camera-junction-box-3.jpg)
 

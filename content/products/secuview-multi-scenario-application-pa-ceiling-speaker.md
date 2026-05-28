@@ -1,5 +1,5 @@
 ---
-title: Premium PA Ceiling Speaker | Crisp, Clear Audio | AsliElectronics
+title: Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview
 date: '2026-05-17T13:49:09'
 draft: false
 slug: secuview-multi-scenario-application-pa-ceiling-speaker
@@ -25,11 +25,11 @@ Premium PA ceiling speaker with reduced distortion for crisp, clear sound, built
 
 ## Gallery
 
-![Premium PA Ceiling Speaker | Crisp, Clear Audio | AsliElectronics](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-0.jpg)
+![Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-0.jpg)
 
-![Premium PA Ceiling Speaker | Crisp, Clear Audio | AsliElectronics](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-1.jpg)
+![Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-1.jpg)
 
-![Premium PA Ceiling Speaker | Crisp, Clear Audio | AsliElectronics](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-2.jpg)
+![Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-2.jpg)
 
-![Premium PA Ceiling Speaker | Crisp, Clear Audio | AsliElectronics](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-3.jpg)
+![Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview](/images/products/secuview-multi-scenario-application-pa-ceiling-speaker-3.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Waterproof Junction Box 105mm Heavy-Duty Secure | AsliElectronics
+title: Waterproof Junction Box 105mm Heavy-Duty Secure | Secuview
 date: '2026-05-17T13:56:55'
 draft: false
 slug: secuview-105mm-waterproof-metal-junction-box-for-security-cameras
@@ -22,5 +22,5 @@ Waterproof junction box 105mm for security cameras, ideal for installers and out
 
 ## Gallery
 
-![Waterproof Junction Box 105mm Heavy-Duty Secure | AsliElectronics](/images/products/secuview-105mm-waterproof-metal-junction-box-for-security-cameras-0.jpg)
+![Waterproof Junction Box 105mm Heavy-Duty Secure | Secuview](/images/products/secuview-105mm-waterproof-metal-junction-box-for-security-cameras-0.jpg)
 

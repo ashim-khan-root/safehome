@@ -1,5 +1,5 @@
 ---
-title: Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics
+title: Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview
 date: '2026-05-17T13:53:53'
 draft: false
 slug: secuview-gigabit-poe-extender-weatherproof-high-performance
@@ -26,13 +26,13 @@ Gigabit PoE extender for outdoor IP cameras and wireless APs in Doha, Qatar. Cer
 
 ## Gallery
 
-![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-0.jpg)
+![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-0.jpg)
 
-![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-1.jpg)
+![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-1.jpg)
 
-![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-2.jpg)
+![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-2.jpg)
 
-![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-3.jpg)
+![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-3.jpg)
 
-![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | AsliElectronics](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-4.jpg)
+![Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview](/images/products/secuview-gigabit-poe-extender-weatherproof-high-performance-4.jpg)
 

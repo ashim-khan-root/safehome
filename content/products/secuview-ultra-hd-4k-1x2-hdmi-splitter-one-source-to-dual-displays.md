@@ -1,5 +1,5 @@
 ---
-title: 1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics
+title: 1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview
 date: '2026-05-17T13:50:36'
 draft: false
 slug: secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays
@@ -27,15 +27,15 @@ featured_image: /images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-sour
 
 ## Gallery
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-0.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-0.jpg)
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-1.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-1.jpg)
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-2.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-2.jpg)
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-3.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-3.jpg)
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-4.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-4.jpg)
 
-![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-5.jpg)
+![1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays-5.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Reliable 12V 10A Power Adapter for CCTV, LED & DVR | AsliElectronics
+title: Reliable 12V 10A Power Adapter for CCTV, LED & DVR |secuview
 date: '2026-05-17T13:50:00'
 draft: false
 slug: secuview-high-performance-12v-10a-adapter-for-cctv-led-dvr-systems

@@ -1,5 +1,5 @@
 ---
-title: 1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics
+title: 1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview
 date: '2026-05-17T13:50:41'
 draft: false
 slug: secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source
@@ -26,13 +26,13 @@ featured_image: /images/products/secuview-4k-hdmi-splitter-power-up-to-four-scre
 
 ## Gallery
 
-![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-0.jpg)
+![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-0.jpg)
 
-![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-1.jpg)
+![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-1.jpg)
 
-![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-2.jpg)
+![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-2.jpg)
 
-![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-3.jpg)
+![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-3.jpg)
 
-![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | AsliElectronics](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-4.jpg)
+![1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview](/images/products/secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source-4.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics
+title: Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview
 date: '2026-05-17T13:53:05'
 draft: false
 slug: secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance
@@ -26,13 +26,13 @@ Robust 8-Channel 4K NVR with Ultra HD recording and ONVIF support for seamless C
 
 ## Gallery
 
-![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-0.jpg)
+![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-0.jpg)
 
-![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-1.jpg)
+![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-1.jpg)
 
-![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-2.jpg)
+![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-2.jpg)
 
-![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-3.jpg)
+![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-3.jpg)
 
-![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | AsliElectronics](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-4.jpg)
+![Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview](/images/products/secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance-4.jpg)
 

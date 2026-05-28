@@ -1,5 +1,5 @@
 ---
-title: AsliElectronics 1U 24-Port Blank Patch Panel –  Metal Construction
+title: Secuview 1U 24-Port Blank Patch Panel –  Metal Construction
 date: '2026-05-17T13:45:23'
 draft: false
 slug: secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction
@@ -25,11 +25,11 @@ Get a 1U 24-Port blank patch panel for racks in Doha, Qatar. MOI compliant, warr
 
 ## Gallery
 
-![AsliElectronics 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-0.jpg)
+![Secuview 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-0.jpg)
 
-![AsliElectronics 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-1.jpg)
+![Secuview 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-1.jpg)
 
-![AsliElectronics 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-2.jpg)
+![Secuview 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-2.jpg)
 
-![AsliElectronics 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-3.jpg)
+![Secuview 1U 24-Port Blank Patch Panel –  Metal Construction](/images/products/secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction-3.jpg)
 

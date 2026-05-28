@@ -1,5 +1,5 @@
 ---
-title: Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics
+title: Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview
 date: '2026-05-17T13:52:42'
 draft: false
 slug: secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender
@@ -27,15 +27,15 @@ featured_image: /images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-ex
 
 ## Gallery
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-0.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-0.jpg)
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-1.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-1.jpg)
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-2.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-2.jpg)
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-3.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-3.jpg)
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-4.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-4.jpg)
 
-![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | AsliElectronics](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-5.jpg)
+![Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview](/images/products/secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender-5.jpg)
 

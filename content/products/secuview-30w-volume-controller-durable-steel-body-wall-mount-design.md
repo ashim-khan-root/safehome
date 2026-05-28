@@ -1,5 +1,5 @@
 ---
-title: 30W Volume Controller Certified Noise-Free Doha | AsliElectronics
+title: 30W Volume Controller Certified Noise-Free Doha | Secuview
 date: '2026-05-17T13:55:59'
 draft: false
 slug: secuview-30w-volume-controller-durable-steel-body-wall-mount-design
@@ -25,11 +25,11 @@ Get a 30W volume controller for PA zones in Doha, Qatar. Certified steel wall-mo
 
 ## Gallery
 
-![30W Volume Controller Certified Noise-Free Doha | AsliElectronics](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-0.jpg)
+![30W Volume Controller Certified Noise-Free Doha | Secuview](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-0.jpg)
 
-![30W Volume Controller Certified Noise-Free Doha | AsliElectronics](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-1.jpg)
+![30W Volume Controller Certified Noise-Free Doha | Secuview](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-1.jpg)
 
-![30W Volume Controller Certified Noise-Free Doha | AsliElectronics](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-2.jpg)
+![30W Volume Controller Certified Noise-Free Doha | Secuview](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-2.jpg)
 
-![30W Volume Controller Certified Noise-Free Doha | AsliElectronics](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-3.jpg)
+![30W Volume Controller Certified Noise-Free Doha | Secuview](/images/products/secuview-30w-volume-controller-durable-steel-body-wall-mount-design-3.jpg)
 

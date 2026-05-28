@@ -21,7 +21,7 @@ featured_image: /images/products/secuview-25w-pa-ceiling-speaker-audio-solution-
 
 ## Overview
 
-Ceiling Speaker Qatar by AsliElectronics. 20w best ceiling speakers for home and systems with clear sound, easy installation, and reliable performance.
+Ceiling Speaker Qatar by Secuview. 20w best ceiling speakers for home and systems with clear sound, easy installation, and reliable performance.
 
 ## Gallery
 

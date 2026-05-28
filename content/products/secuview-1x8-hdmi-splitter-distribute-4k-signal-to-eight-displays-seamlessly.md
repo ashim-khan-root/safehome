@@ -1,5 +1,5 @@
 ---
-title: 1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics
+title: 1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview
 date: '2026-05-17T13:50:45'
 draft: false
 slug: secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly
@@ -26,13 +26,13 @@ featured_image: /images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal
 
 ## Gallery
 
-![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-0.jpg)
+![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-0.jpg)
 
-![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-1.jpg)
+![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-1.jpg)
 
-![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-2.jpg)
+![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-2.jpg)
 
-![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-3.jpg)
+![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-3.jpg)
 
-![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | AsliElectronics](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-4.jpg)
+![1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview](/images/products/secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly-4.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: AsliElectronics Biometric Attendance Qatar | Attendance Machine
+title: Secuview Biometric Attendance Qatar | Attendance Machine
 date: '2026-05-17T13:42:38'
 draft: false
 slug: secuview-biometric-attendance-system-real-time-management
@@ -21,15 +21,15 @@ featured_image: /images/products/secuview-biometric-attendance-system-real-time-
 
 ## Overview
 
-Buy Biometric Attendance system in Qatar by AsliElectronics with fingerprint time attendance machine and competitive attendance machine price in Qatar.
+Buy Biometric Attendance system in Qatar by Secuview with fingerprint time attendance machine and competitive attendance machine price in Qatar.
 
 ## Gallery
 
-![AsliElectronics Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-0.jpg)
+![Secuview Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-0.jpg)
 
-![AsliElectronics Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-1.jpg)
+![Secuview Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-1.jpg)
 
-![AsliElectronics Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-2.jpg)
+![Secuview Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-2.jpg)
 
-![AsliElectronics Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-3.jpg)
+![Secuview Biometric Attendance Qatar | Attendance Machine](/images/products/secuview-biometric-attendance-system-real-time-management-3.jpg)
 

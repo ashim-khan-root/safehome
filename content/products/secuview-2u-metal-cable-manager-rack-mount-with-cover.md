@@ -1,5 +1,5 @@
 ---
-title: 2U Metal Cable Manager Trusted Tangle-Free Doha | AsliElectronics
+title: 2U Metal Cable Manager Trusted Tangle-Free Doha | Secuview
 date: '2026-05-17T13:55:41'
 draft: false
 slug: secuview-2u-metal-cable-manager-rack-mount-with-cover
@@ -24,9 +24,9 @@ Buy a 2U metal cable manager for racks in Doha, Qatar. MOI compliant, warranty i
 
 ## Gallery
 
-![2U Metal Cable Manager Trusted Tangle-Free Doha | AsliElectronics](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-0.jpg)
+![2U Metal Cable Manager Trusted Tangle-Free Doha | Secuview](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-0.jpg)
 
-![2U Metal Cable Manager Trusted Tangle-Free Doha | AsliElectronics](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-1.jpg)
+![2U Metal Cable Manager Trusted Tangle-Free Doha | Secuview](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-1.jpg)
 
-![2U Metal Cable Manager Trusted Tangle-Free Doha | AsliElectronics](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-2.jpg)
+![2U Metal Cable Manager Trusted Tangle-Free Doha | Secuview](/images/products/secuview-2u-metal-cable-manager-rack-mount-with-cover-2.jpg)
 
