@@ -1,3 +1,4 @@
+{{ if eq .Type "tags" }}<meta name="robots" content="noindex,follow">{{ end }}
 <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ .Summary | plainify | truncate 155 }}">
 

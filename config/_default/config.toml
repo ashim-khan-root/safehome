@@ -10,7 +10,7 @@ removePathAccents = true
 pluralizeListTitles = false
 
 [permalinks]
-blog = "/blog/:year/:month/:day/:slug/"
+blog = "/blog/:slug/"
 products = "/products/:slug/"
 
 [taxonomies]
