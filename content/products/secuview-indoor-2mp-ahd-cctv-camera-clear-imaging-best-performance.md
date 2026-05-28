@@ -1,5 +1,6 @@
 ---
 title: 2MP AHD CCTV Certified Clear Vision Doha | Secuview
+description: "Buy 2MP AHD CCTV for indoor security in Doha, Qatar. Clear HD imaging for homes & offices, MOI compliant, warranty included. Book Inspection."
 date: '2026-05-17T13:55:21'
 draft: false
 slug: secuview-indoor-2mp-ahd-cctv-camera-clear-imaging-best-performance

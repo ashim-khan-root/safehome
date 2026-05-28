@@ -1,5 +1,6 @@
 ---
 title: 8-Channel Smart PABX – Reliable Seamless Calls | Secuview
+description: "8-Channel Smart PABX for small to medium businesses in Doha, Qatar—easy setup and reliable, seamless communication. Order online or get a quote today."
 date: '2026-05-17T13:51:07'
 draft: false
 slug: secuview-8-channel-smart-pabx-seamless-communication-made-easy

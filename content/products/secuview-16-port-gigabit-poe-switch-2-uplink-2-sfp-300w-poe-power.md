@@ -1,5 +1,6 @@
 ---
 title: 16-Port Gigabit PoE Switch 300W Reliable Doha | Secuview
+description: "16-port gigabit PoE switch 300W with 2 uplink + 2 SFP and 300W power for CCTV/IP networks in Doha, Qatar. Fast, stable setup with warranty. Get a quote."
 date: '2026-05-17T13:43:15'
 draft: false
 slug: secuview-16-port-gigabit-poe-switch-2-uplink-2-sfp-300w-poe-power

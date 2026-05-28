@@ -1,5 +1,6 @@
 ---
 title: Reliable 12V Waterproof Power Adapter – CCTV Box Type
+description: "Power outdoor devices with a 12V Waterproof Power Adapter featuring 2A output, AC 100–240V input, and a box-type design, ideal for CCTV cameras and."
 date: '2026-05-17T13:50:04'
 draft: false
 slug: secuview-12v-2a-waterproof-ac-dc-power-adapter-for-cctv-cameras-box-type

@@ -1,5 +1,6 @@
 ---
 title: Reliable Fingerprint Smart Door Lock – 4-in-1 Keyless Access
+description: "Get a Fingerprint Smart Door Lock with keyless entry via PIN, RFID card, and mobile app control for stylish, reliable home or office security."
 date: '2026-05-17T13:49:46'
 draft: false
 slug: secuview-keyless-entry-smart-door-lock-with-fingerprint

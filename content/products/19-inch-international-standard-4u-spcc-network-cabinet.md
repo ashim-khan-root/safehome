@@ -1,5 +1,6 @@
 ---
 title: 4U SPCC Network Cabinet –Space-Saving 19-Inch Double Section
+description: "Rock-solid 4U SPCC double-section cabinet for 19-inch gear, cold-rolled steel build, tidy cabling, better airflow. See specs & order."
 date: '2026-05-17T13:46:58'
 draft: false
 slug: 19-inch-international-standard-4u-spcc-network-cabinet

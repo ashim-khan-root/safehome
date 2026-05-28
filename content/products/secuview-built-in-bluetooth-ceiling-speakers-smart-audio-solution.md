@@ -1,5 +1,6 @@
 ---
 title: Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution
+description: "Discover Secuview 20W Bluetooth ceiling speakers with smart audio features. Ideal for clear sound, easy installation, and stylish ceiling integration."
 date: '2026-05-17T13:45:20'
 draft: false
 slug: secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution

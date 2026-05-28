@@ -1,5 +1,6 @@
 ---
 title: Powerful PA Ceiling Speaker SV-C406MW | Crisp, Clear Audio
+description: "Powerful PA ceiling speaker engineered for crisp, clear audio with reduced distortion and dependable durability, ideal for offices, retail, and public."
 date: '2026-05-17T13:48:43'
 draft: false
 slug: secuview-pa-system-rated-voltage-ceiling-speaker

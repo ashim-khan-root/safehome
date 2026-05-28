@@ -1,5 +1,6 @@
 ---
 title: Powerful 8-Channel 4K NVR – Ultra HD & ONVIF | Secuview
+description: "Robust 8-Channel 4K NVR with Ultra HD recording and ONVIF support for seamless CCTV systems in Doha/Qatar. Certified performance. Get a quote today!."
 date: '2026-05-17T13:53:05'
 draft: false
 slug: secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance

@@ -1,5 +1,6 @@
 ---
 title: 4G Solar Security Camera – Always-On Outdoor 4G Protection
+description: "Always-on 4G solar outdoor security camera with rechargeable battery for nonstop coverage, no WiFi needed. Quick install. View specs."
 date: '2026-05-17T13:46:49'
 draft: false
 slug: secuview-wireless-ip-outdoor-solar-powered-4g-security-camera

@@ -1,5 +1,6 @@
 ---
 title: 4G Solar Security Camera – Wire-Free Outdoor Protection
+description: "Always-on 4G solar security camera for remote areas. No WiFi or wiring, dual-lens coverage, smart motion alerts, and easy setup. View specs."
 date: '2026-05-17T13:46:52'
 draft: false
 slug: secuview-wireless-ip-solar-powered-4g-dual-lens-security-camera

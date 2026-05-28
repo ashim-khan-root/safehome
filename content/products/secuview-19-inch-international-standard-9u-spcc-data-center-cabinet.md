@@ -1,5 +1,6 @@
 ---
 title: 9U SPCC Data Center Cabinet – Strong, Secure 19-Inch Rack
+description: "Secure your network gear in a 9U SPCC data center cabinet, 19-inch standard, thickened cold-rolled steel for rock-solid strength. View specs."
 date: '2026-05-17T13:47:21'
 draft: false
 slug: secuview-19-inch-international-standard-9u-spcc-data-center-cabinet

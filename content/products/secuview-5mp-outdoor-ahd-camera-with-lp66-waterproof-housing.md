@@ -1,5 +1,6 @@
 ---
 title: 5MP Outdoor AHD Camera Certified Weatherproof Doha |Secuview
+description: "Buy 5MP outdoor AHD camera with IP66 waterproof housing in Doha, Qatar for villas & shops. MOI compliant, warranty included for 24/7 clear HD details."
 date: '2026-05-17T13:55:04'
 draft: false
 slug: secuview-5mp-outdoor-ahd-camera-with-lp66-waterproof-housing

@@ -45,6 +45,18 @@ googleAnalyticsID = ""
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+
+[security]
+  enableInlineShortcodes = false
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

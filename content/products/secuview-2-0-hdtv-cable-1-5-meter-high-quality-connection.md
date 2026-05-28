@@ -1,5 +1,6 @@
 ---
 title: HDMI 2.0 Cable 1.5m – Ultra Heavy-Duty Reliable | Secuview
+description: "HDMI 2.0 cable 1.5m for high-quality connection and stable HD signal, ideal for home and pro installs. Durable build with reliable performance. Order now."
 date: '2026-05-17T13:56:15'
 draft: false
 slug: secuview-2-0-hdtv-cable-1-5-meter-high-quality-connection

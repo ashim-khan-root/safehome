@@ -1,5 +1,6 @@
 ---
 title: Premium PA Ceiling Speaker | Crisp, Clear Audio | Secuview
+description: "Premium PA ceiling speaker with reduced distortion for crisp, clear sound, built for reliable performance across multiple scenarios and demanding."
 date: '2026-05-17T13:49:09'
 draft: false
 slug: secuview-multi-scenario-application-pa-ceiling-speaker

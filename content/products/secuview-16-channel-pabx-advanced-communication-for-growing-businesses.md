@@ -1,5 +1,6 @@
 ---
 title: Secuview 16-Channel PABX – Powerful Seamless Calls | Secuview
+description: "Secuview 16-Channel PABX delivers advanced, reliable office communication with easy installation for growing businesses in Qatar. Get a quote today."
 date: '2026-05-17T13:51:12'
 draft: false
 slug: secuview-16-channel-pabx-advanced-communication-for-growing-businesses

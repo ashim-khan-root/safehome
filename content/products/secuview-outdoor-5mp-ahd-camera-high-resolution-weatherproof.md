@@ -1,5 +1,6 @@
 ---
 title: Unknown
+description: "Shop Unknown in Qatar. Premium quality at best prices. Fast delivery across Doha."
 date: '2026-05-17T13:55:16'
 draft: false
 slug: secuview-outdoor-5mp-ahd-camera-high-resolution-weatherproof

@@ -1,5 +1,6 @@
 ---
 title: Smart Remote Switch – 24/7 Seamless,Stress-Free Home Control
+description: "Control lights from anywhere with a smart remote switch, app + voice commands for easy home automation and everyday convenience. View specs."
 date: '2026-05-17T13:45:37'
 draft: false
 slug: secuview-intelligent-remote-control-switch-for-home-automation

@@ -1,5 +1,6 @@
 ---
 title: 1U Rack Mount Cable Manager Trusted Tangle-Free Doha|Secuview
+description: "Buy a 1U rack mount cable manager in Doha, Qatar. MOI compliant, warranty included, covered metal design for tidy routing. Call now."
 date: '2026-05-17T13:55:35'
 draft: false
 slug: secuview-1u-rack-mount-cable-manager-metal-build-with-protective-cover

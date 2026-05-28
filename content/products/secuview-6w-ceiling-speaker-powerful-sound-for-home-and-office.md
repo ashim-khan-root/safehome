@@ -1,5 +1,6 @@
 ---
 title: Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview
+description: "Model: SV-C510H Brand: Secuview Impedance: 8 ohms Rated Power: 6W Dimensions: Dia. 175mm Mounting Hole: Dia. 150mm."
 date: '2026-05-17T13:43:50'
 draft: false
 slug: secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office

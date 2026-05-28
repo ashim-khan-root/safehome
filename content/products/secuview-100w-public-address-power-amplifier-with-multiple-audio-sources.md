@@ -1,5 +1,6 @@
 ---
 title: Powerful 100W PA Amplifier | Clear, Reliable Sound |Secuview
+description: "Powerful 100W PA amplifier delivering clear, reliable sound with multiple audio sources. Ideal for schools, offices, mosques, and commercial PA systems."
 date: '2026-05-17T13:45:02'
 draft: false
 slug: secuview-100w-public-address-power-amplifier-with-multiple-audio-sources

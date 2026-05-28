@@ -1,5 +1,6 @@
 ---
 title: Powerful 4 Port PoE Switch | Fast Gigabit Uplink | Secuview
+description: "Powerful 4 port PoE switch with fast Gigabit uplink for stable, reliable network performance. Ideal for IP cameras, access points, and small office setups."
 date: '2026-05-17T13:49:12'
 draft: false
 slug: secuview-4-port-poe-switch-with-1-uplink-gigabit-performance

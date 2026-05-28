@@ -1,5 +1,6 @@
 ---
 title: 2U Metal Cable Manager Trusted Tangle-Free Doha | Secuview
+description: "Buy a 2U metal cable manager for racks in Doha, Qatar. MOI compliant, warranty included, covered design for tidy routing. Call now."
 date: '2026-05-17T13:55:41'
 draft: false
 slug: secuview-2u-metal-cable-manager-rack-mount-with-cover

@@ -1,5 +1,6 @@
 ---
 title: Secuview 10-Inch WiFi Smart Video Doorphone | Tuya App
+description: "Enhance your home security with the Secuview 10-inch WiFi smart video doorphone. Monitor your front door from anywhere in the world using the Tuya App."
 date: '2026-05-17T13:42:25'
 draft: false
 slug: secuview-10-inch-wifi-smart-video-doorphone

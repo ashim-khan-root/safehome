@@ -1,5 +1,6 @@
 ---
 title: WiFi Outdoor Security Camera Qatar  | Weatherproof CCTV
+description: "WiFi outdoor security camera in Qatar by Secuview. Weatherproof CCTV camera with clear video, night vision, and remote mobile monitoring."
 date: '2026-05-17T13:43:42'
 draft: false
 slug: secuview-wifi-outdoor-weatherproof-security-camera

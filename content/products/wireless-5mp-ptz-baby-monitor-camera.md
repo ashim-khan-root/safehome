@@ -1,5 +1,6 @@
 ---
 title: Buy 5MP WiFi PTZ Baby Monitor Camera Online - Secuview
+description: "WiFi 5MP PTZ baby monitor with instant smartphone access. HD video, night vision, two-way audio. Buy now from Secuview."
 date: '2026-05-17T13:43:06'
 draft: false
 slug: wireless-5mp-ptz-baby-monitor-camera

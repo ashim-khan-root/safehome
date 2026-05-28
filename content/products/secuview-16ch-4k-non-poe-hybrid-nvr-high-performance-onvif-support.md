@@ -1,5 +1,6 @@
 ---
 title: 16CH 4K Hybrid NVR High-Performance Doha | Secuview
+description: "16CH 4K hybrid NVR (non-PoE) with ONVIF support for villas and offices in Doha, Qatar. Warranty, free site visit. Get a quote."
 date: '2026-05-17T13:54:05'
 draft: false
 slug: secuview-16ch-4k-non-poe-hybrid-nvr-high-performance-onvif-support

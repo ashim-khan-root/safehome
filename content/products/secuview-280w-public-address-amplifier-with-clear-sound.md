@@ -1,5 +1,6 @@
 ---
 title: Reliable 280W PA Amplifier  Clear Sound Bluetooth | secuview
+description: "Get a 280W PA Amplifier with clear, low-distortion audio plus Bluetooth, mic and AUX inputs—ideal for multi-zone announcements in shops, halls, and events."
 date: '2026-05-17T13:44:40'
 draft: false
 slug: secuview-280w-public-address-amplifier-with-clear-sound

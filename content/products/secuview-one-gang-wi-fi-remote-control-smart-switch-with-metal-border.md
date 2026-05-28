@@ -1,5 +1,6 @@
 ---
 title: 1 Gang WiFi Smart Switch – Reliable Remote Light Control
+description: "Manage a single light from anywhere with a 1 gang WiFi smart switch, stable remote control, voice support, and a clean metal finish. See details."
 date: '2026-05-17T13:45:54'
 draft: false
 slug: secuview-one-gang-wi-fi-remote-control-smart-switch-with-metal-border

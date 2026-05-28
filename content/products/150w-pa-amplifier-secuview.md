@@ -1,5 +1,6 @@
 ---
 title: 150W PA Amplifier | 3 Mics – Powerful Value Audio | Secuview
+description: "Get pro 150W PA Amplifier + 3 mic inputs for clear announcements. Perfect value for schools, events & PA systems. Easy setup, reliable performance."
 date: '2026-05-17T13:42:32'
 draft: false
 slug: 150w-pa-amplifier-secuview

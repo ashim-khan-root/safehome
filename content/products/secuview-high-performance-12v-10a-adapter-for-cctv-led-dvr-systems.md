@@ -1,5 +1,6 @@
 ---
 title: Reliable 12V 10A Power Adapter for CCTV, LED & DVR |secuview
+description: "Power CCTV, LED, and DVR systems with a 12V 10A Power Adapter built for stable, safe performance and continuous operation using AC 110–240V input."
 date: '2026-05-17T13:50:00'
 draft: false
 slug: secuview-high-performance-12v-10a-adapter-for-cctv-led-dvr-systems

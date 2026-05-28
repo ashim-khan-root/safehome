@@ -1,5 +1,6 @@
 ---
 title: Weatherproof Smart Gate Lock Outdoor 1 – Secure Key & Code
+description: "Smart Gate Lock Outdoor by Secuview. Weatherproof outdoor gate lock with code and key for secure metal gates, villas, and courtyard entrances."
 date: '2026-05-17T13:43:53'
 draft: false
 slug: secuview-waterproof-smart-courtyard-gate-lock

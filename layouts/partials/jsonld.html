@@ -1,0 +1,124 @@
+{{ $base := .Site.BaseURL }}
+{{ $title := .Title }}
+{{ $desc := .Summary | plainify | truncate 155 }}
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ $base }}",
+  "logo": "{{ $base }}favicon.svg",
+  "description": "{{ .Site.Params.description }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Doha",
+    "addressCountry": "QA"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "{{ .Site.Params.phone }}",
+    "contactType": "customer service",
+    "availableLanguage": ["English", "Arabic"]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ .Site.Title }}",
+  "url": "{{ $base }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "{{ $base }}categories/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ else if eq .Type "product" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Title }}",
+  "description": "{{ $desc }}",
+  "url": "{{ .Permalink }}",
+  {{ with .Params.images }}
+  "image": [
+    {{ range $i, $img := . }}{{ if $i }},{{ end }}"{{ $.Site.BaseURL }}{{ strings.TrimPrefix "/" $img }}"{{ end }}
+  ],
+  {{ end }}
+  {{ with .Params.sku }}"sku": "{{ . }}",{{ end }}
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ .Params.price }}",
+    "priceCurrency": "{{ .Params.currency | default "QAR" }}",
+    "availability": "{{ with .Params.availability }}{{ . }}{{ else }}https://schema.org/InStock{{ end }}",
+    "url": "{{ .Permalink }}"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ range $i, $e := .Ancestors.Reverse }}
+    {{ if $i }},{{ end }}{
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+    {{ end }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ len .Ancestors }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ else if eq .Type "blog" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ .Title }}",
+  "description": "{{ $desc }}",
+  "url": "{{ .Permalink }}",
+  {{ with .Params.image }}"image": "{{ $base }}{{ strings.TrimPrefix "/" . }}",{{ end }}
+  "datePublished": "{{ .PublishDate.Format "2006-01-02T15:04:05Z07:00" }}",
+  {{ with .Lastmod }}"dateModified": "{{ .Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+  "author": {
+    "@type": "Organization",
+    "name": "{{ .Site.Params.author }}"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ range $i, $e := .Ancestors.Reverse }}
+    {{ if $i }},{{ end }}{
+      "@type": "ListItem",
+      "position": {{ add $i 1 }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+    {{ end }}
+    ,{
+      "@type": "ListItem",
+      "position": {{ len .Ancestors }},
+      "name": "{{ .Title }}",
+      "item": "{{ .Permalink }}"
+    }
+  ]
+}
+</script>
+{{ end }}

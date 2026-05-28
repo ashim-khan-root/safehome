@@ -1,5 +1,6 @@
 ---
 title: Double Port Faceplate Secure 2-Port Doha | Secuview
+description: "Double port faceplate for clean wall cable installs in Doha, Qatar. Durable plastic, easy mounting, and warranty support. Call now for quick supply."
 date: '2026-05-17T13:44:17'
 draft: false
 slug: secuview-double-port-faceplate-wall-mount-durable-plastic-design

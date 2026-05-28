@@ -1,5 +1,6 @@
 ---
 title: 30W Volume Controller Trusted Noise-Free Doha | Secuview
+description: "Get a 30W volume controller for PA systems in Doha, Qatar. Stylish wall-mount setup, strong plastic body, warranty & free site visit. Call now."
 date: '2026-05-17T13:56:10'
 draft: false
 slug: secuview-30w-volume-controller-strong-plastic-body-stylish-wall-mount-setup

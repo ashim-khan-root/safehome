@@ -1,5 +1,6 @@
 ---
 title: 3 Gang WiFi Smart Switch|Premium Metal-Border Control|Secuview
+description: "Premium 3 gang WiFi smart switch with metal border, remote app control plus Alexa/Google voice. Set schedules for 3 circuits. View specs."
 date: '2026-05-17T13:46:08'
 draft: false
 slug: secuview-three-gang-wi-fi-remote-control-smart-switch-with-metal-border

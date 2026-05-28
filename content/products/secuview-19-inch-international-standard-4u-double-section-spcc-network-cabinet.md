@@ -1,5 +1,6 @@
 ---
 title: 4U SPCC Network Cabinet –Space-Saving 19-Inch Double Section
+description: "Protect compact network setups with a 4U SPCC double-section cabinet. Built from cold-rolled steel for stability, and clean cable management. View specs."
 date: '2026-05-17T13:47:02'
 draft: false
 slug: secuview-19-inch-international-standard-4u-double-section-spcc-network-cabinet

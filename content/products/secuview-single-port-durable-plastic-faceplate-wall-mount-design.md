@@ -1,5 +1,6 @@
 ---
 title: Single Port Faceplate | Durable 1-Port Wall Mount | Secuview
+description: "Buy Secuview single-port faceplate for neat cable outlets in Doha, Qatar. Durable plastic wall-mount design, warranty support. Get a Quote."
 date: '2026-05-17T13:44:20'
 draft: false
 slug: secuview-single-port-durable-plastic-faceplate-wall-mount-design

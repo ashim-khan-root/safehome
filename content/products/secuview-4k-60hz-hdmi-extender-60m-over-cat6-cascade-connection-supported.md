@@ -1,5 +1,6 @@
 ---
 title: Reliable 4K 60Hz HDMI Extender – 60m Cat6 Cascade | secuview
+description: "Get reliable 4K 60Hz HDMI extension up to 60m over Cat5e/Cat6 with cascade connection support for multi-display setups, ideal for AV, signage, and control."
 date: '2026-05-17T13:50:11'
 draft: false
 slug: secuview-4k-60hz-hdmi-extender-60m-over-cat6-cascade-connection-supported

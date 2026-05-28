@@ -1,5 +1,6 @@
 ---
 title: 12MP IP Camera Certified Weatherproof Doha | Secuview
+description: "Buy 12MP IP camera for HD outdoor security in Doha, Qatar. Smart detection, ONVIF support, weatherproof build, MOI compliant, warranty included, 24/7."
 date: '2026-05-17T13:54:44'
 draft: false
 slug: secuview-12mp-weatherproof-outdoor-ip-camera-smart-detection-onvif

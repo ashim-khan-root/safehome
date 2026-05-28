@@ -1,5 +1,6 @@
 ---
 title: Powerful 480W PA Amplifier | Clear, Reliable 4-Zone Audio
+description: "Powerful 480W PA amplifier with 4-zone control and Bluetooth for low-distortion sound. Ideal for schools, offices, malls, and events with bass/treble."
 date: '2026-05-17T13:48:50'
 draft: false
 slug: secuview-480w-public-address-amplifier-with-4-zones

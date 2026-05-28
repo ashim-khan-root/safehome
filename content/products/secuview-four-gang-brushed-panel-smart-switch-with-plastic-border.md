@@ -1,5 +1,6 @@
 ---
 title: 4 Gang Smart Switch – Brushed Panel, Voice-Control Ready
+description: "Premium 4 gang brushed-panel smart switch with plastic border, app + voice control (Alexa/Google). Smooth schedules and reliable lighting control. View."
 date: '2026-05-17T13:46:37'
 draft: false
 slug: secuview-four-gang-brushed-panel-smart-switch-with-plastic-border

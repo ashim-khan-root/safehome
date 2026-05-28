@@ -1,5 +1,6 @@
 ---
 title: High-Performance Cat6 Network Cable|23AWG Fast, Stable Speed
+description: "High-performance Cat6 network cable with 23AWG copper-coated design for fast, stable connectivity and low interference, ideal for home and office networks."
 date: '2026-05-17T13:42:49'
 draft: false
 slug: secuview-copper-coated-23awg-cat6-network-cable

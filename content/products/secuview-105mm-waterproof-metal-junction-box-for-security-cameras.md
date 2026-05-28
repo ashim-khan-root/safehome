@@ -1,5 +1,6 @@
 ---
 title: Waterproof Junction Box 105mm Heavy-Duty Secure | Secuview
+description: "Waterproof junction box 105mm for security cameras, ideal for installers and outdoor use. Strong metal body, reliable protection, quality assured. Order."
 date: '2026-05-17T13:56:55'
 draft: false
 slug: secuview-105mm-waterproof-metal-junction-box-for-security-cameras

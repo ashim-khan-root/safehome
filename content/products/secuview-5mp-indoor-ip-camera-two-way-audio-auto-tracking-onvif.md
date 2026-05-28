@@ -1,5 +1,6 @@
 ---
 title: 5MP Indoor IP Camera Secure Two-Way Audio Doha | Secuview
+description: "5MP indoor IP camera with two-way audio, auto-tracking & ONVIF in Doha, Qatar. Warranty, certified technicians, free site visit. Get a quote."
 date: '2026-05-17T13:45:06'
 draft: false
 slug: secuview-5mp-indoor-ip-camera-two-way-audio-auto-tracking-onvif

@@ -1,5 +1,6 @@
 ---
 title: Heavy-Duty Adjustable PTZ Mount 120cm Reliable | Secuview
+description: "Heavy-Duty adjustable PTZ mount bracket 120cm for CCTV cameras, ideal for installers and pros. Strong metal build with reliable support and quality. Order."
 date: '2026-05-17T13:57:00'
 draft: false
 slug: secuview-120cm-heavy-duty-adjustable-mount-bracket-for-ptz-cctv-cameras

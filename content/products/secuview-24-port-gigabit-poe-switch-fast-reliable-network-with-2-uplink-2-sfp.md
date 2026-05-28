@@ -1,5 +1,6 @@
 ---
 title: 24-Port Gigabit PoE Switch Qatar | Trusted Secuview
+description: "Boost CCTV networks in Qatar with a 24-port gigabit PoE switch with 2 uplink + 2 SFP for fast, reliable power and data. Get a quote."
 date: '2026-05-17T13:51:44'
 draft: false
 slug: secuview-24-port-gigabit-poe-switch-fast-reliable-network-with-2-uplink-2-sfp

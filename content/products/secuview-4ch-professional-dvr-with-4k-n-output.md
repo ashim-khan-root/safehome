@@ -1,5 +1,6 @@
 ---
 title: 4CH Professional DVR Trusted 4K-N Output Doha | Secuview
+description: "4CH professional DVR with 4K-N output for secure recording in Doha, Qatar homes & shops. Certified technicians, warranty, free site visit. Get a quote."
 date: '2026-05-17T13:54:17'
 draft: false
 slug: secuview-4ch-professional-dvr-with-4k-n-output

@@ -1,5 +1,6 @@
 ---
 title: 3 Gang Smart Switch–Sleek Brushed Panel,Power-Saving Control
+description: "Sleek 3 gang brushed smart switch with plastic border, easy install and power-saving control for three circuits. Upgrade rooms fast. View specs."
 date: '2026-05-17T13:46:32'
 draft: false
 slug: secuview-three-gang-brushed-panel-smart-switch-with-plastic-border

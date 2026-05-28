@@ -1,5 +1,6 @@
 ---
 title: 12MP Indoor PoE Ip Camera Trusted Auto-Tracking Doha|Secuview
+description: "12MP indoor PoE IP camera with auto-tracking and ONVIF for villas, offices & shops in Doha, Qatar. Warranty, certified techs, free site visit. Get a quote."
 date: '2026-05-17T13:54:39'
 draft: false
 slug: secuview12mp-indoor-poe-lp-camera-auto-tracking-onvif

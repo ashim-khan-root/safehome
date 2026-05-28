@@ -1,5 +1,6 @@
 ---
 title: 1 Gang Smart Switch – Power-Saving Brushed Panel Control
+description: "Power-saving 1 gang brushed smart switch with plastic border for quick installs and easy control. Cut energy waste, see specs & order."
 date: '2026-05-17T13:46:20'
 draft: false
 slug: secuview-one-gang-brushed-panel-smart-switch-with-plastic-border

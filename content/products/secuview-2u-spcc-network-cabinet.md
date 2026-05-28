@@ -1,5 +1,6 @@
 ---
 title: Sturdy 2U SPCC Network Cabinet|Secure Mid-Size Rack|Secuview
+description: "Protect and organize your IT gear with Secuview’s sturdy 2U SPCC network cabinet,built to save space and securely house mid-size servers and equipment."
 date: '2026-05-17T13:48:21'
 draft: false
 slug: secuview-2u-spcc-network-cabinet

@@ -1,5 +1,6 @@
 ---
 title: Trusted 300Mbps 2.4GHz Wi-Fi Router Fast Connectivity | Secuview
+description: "300Mbps 2.4GHz Wi-Fi router for stable, fast wireless networking in homes & offices in Doha/Qatar. Certified quality & easy setup. Get a quote now!."
 date: '2026-05-17T13:52:37'
 draft: false
 slug: secuview-indoor-wi-fi-router-2-4ghz-300mbps-performance

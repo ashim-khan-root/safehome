@@ -1,5 +1,6 @@
 ---
 title: Secuview 16-Port Gigabit PoE Switch | 300W Uplink & SFP Ports
+description: "Secuview 16-Port Gigabit PoE Switch 300W is a high-performance networking solution designed for CCTV systems, IP cameras, access control, and enterprise."
 date: '2026-05-17T13:42:59'
 draft: false
 slug: secuview-16-port-gigabit-poe-switch-300w

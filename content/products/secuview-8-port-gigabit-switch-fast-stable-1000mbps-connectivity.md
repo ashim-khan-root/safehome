@@ -1,5 +1,6 @@
 ---
 title: Secuview 8-Port Gigabit Switch – Reliable & Fast | Secuview
+description: "Secuview 8-Port Gigabit Switch delivers fast, stable 1000Mbps connectivity for home, office & CCTV networks. Durable metal build, buy online today."
 date: '2026-05-17T13:50:59'
 draft: false
 slug: secuview-8-port-gigabit-switch-fast-stable-1000mbps-connectivity

@@ -1,5 +1,6 @@
 ---
 title: L-Type Bracket 1258ZJ – Heavy-Duty Reliable | Secuview
+description: "L-Type bracket 1258ZJ for CCTV cameras, ideal for installers and homeowners. Durable plastic design with reliable support and quality assured. Order now."
 date: '2026-05-17T13:56:52'
 draft: false
 slug: secuview-1258zj-cctv-l-type-wall-mount-bracket-durable-plastic-design

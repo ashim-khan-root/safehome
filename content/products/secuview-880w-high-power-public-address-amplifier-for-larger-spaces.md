@@ -1,5 +1,6 @@
 ---
 title: Powerful 880W PA Amplifier | Clear Sound for Large Spaces
+description: "Powerful 880W PA amplifier delivering clear, consistent sound for large spaces. Ideal for halls, mosques, schools, malls, and commercial PA systems."
 date: '2026-05-17T13:49:16'
 draft: false
 slug: secuview-880w-high-power-public-address-amplifier-for-larger-spaces

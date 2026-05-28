@@ -1,5 +1,6 @@
 ---
 title: Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview
+description: "High-performance AX1800 dual-band WiFi6 access point for fast, reliable wireless in homes & businesses in Doha/Qatar. Certified quality. Get a quote today!."
 date: '2026-05-17T13:52:50'
 draft: false
 slug: secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed

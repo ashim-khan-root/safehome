@@ -1,5 +1,6 @@
 ---
 title: Powerful PA Ceiling Speaker | 360° Crisp, Clear Coverage
+description: "Powerful PA ceiling speaker engineered for wide sound coverage and crisp, clear audio with reduced distortion, ideal for offices, retail, schools, and."
 date: '2026-05-17T13:48:46'
 draft: false
 slug: secuview-pa-system-ceiling-speaker-with-wide-sound-coverage

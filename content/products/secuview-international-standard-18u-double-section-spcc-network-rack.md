@@ -1,5 +1,6 @@
 ---
 title: Secure 18U Network Rack | Heavy-Duty 19-Inch SPCC Cabinet
+description: "Secure your setup with an 18U network rack built from thick SPCC steel, clean cable routing, easier access, and reliable storage for switches and IT gear."
 date: '2026-05-17T13:47:45'
 draft: false
 slug: secuview-international-standard-18u-double-section-spcc-network-rack

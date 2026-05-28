@@ -1,5 +1,6 @@
 ---
 title: Powerful Waterproof Bluetooth Speakers QAR 550 | Secuview
+description: "Upgrade patios, cafés & outdoor areas in Qatar with waterproof Bluetooth speakers. Wall-mount design delivers clear, powerful sound in any weather. Get a."
 date: '2026-05-17T13:52:05'
 draft: false
 slug: secuview-wall-mount-bluetooth-speakers-waterproof-powerful-sound

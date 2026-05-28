@@ -1,5 +1,6 @@
 ---
 title: 6MP Outdoor IP Camera Trusted Auto-Tracking Doha | Secuview
+description: "6MP outdoor IP camera with auto-tracking for homes and businesses in Doha, Qatar. Certified technicians, warranty, free site visit. Get a quote."
 date: '2026-05-17T13:54:34'
 draft: false
 slug: secuview-6mp-fixed-lens-outdoor-ip-camera-auto-tracking-onvif

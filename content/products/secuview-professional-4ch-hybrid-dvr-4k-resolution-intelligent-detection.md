@@ -1,5 +1,6 @@
 ---
 title: 4CH Hybrid DVR 4K Intelligent Detection Doha | Secuview
+description: "4CH hybrid DVR with 4K resolution & intelligent detection for homes and businesses in Doha, Qatar. Certified technicians, warranty, free site visit. Get a."
 date: '2026-05-17T13:54:23'
 draft: false
 slug: secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection

@@ -1,5 +1,6 @@
 ---
 title: WiFi Smart IR Controller DC5V Qatar | Trusted Secuview
+description: "Control TVs, ACs & more with a WiFi smart IR controller in Qatar for homes & offices. DC5V/1A, low standby power, easy setup. Get a quote."
 date: '2026-05-17T13:51:51'
 draft: false
 slug: secuview-ir-controller-smart-remote-control-for-seamless-device-management

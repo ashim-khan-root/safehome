@@ -1,5 +1,6 @@
 ---
 title: Powerful PA Ceiling Speaker SV-C82255WR | Crisp, Clear Audio
+description: "Powerful PA ceiling speaker delivering crisp, clear audio with low distortion, designed for reliable performance in commercial and public environments."
 date: '2026-05-17T13:49:02'
 draft: false
 slug: secuview-high-quality-pa-ceiling-speaker-with-clear-audio

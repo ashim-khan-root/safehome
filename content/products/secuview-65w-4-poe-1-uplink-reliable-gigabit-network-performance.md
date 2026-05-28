@@ -1,5 +1,6 @@
 ---
 title: Reliable 4 Port PoE Gigabit Switch 65W Doha | Secuview
+description: "4 port PoE gigabit switch for CCTV and IP cameras in Doha, Qatar. 65W power, stable gigabit performance, reliable networking. Get a quote today."
 date: '2026-05-17T13:53:33'
 draft: false
 slug: secuview-65w-4-poe-1-uplink-reliable-gigabit-network-performance

@@ -1,5 +1,6 @@
 ---
 title: Smart Plug Socket with USB & Type-C | Secuview
+description: "Smart plug socket with dual USB and Type-C ports for smarter power control at home or office in Doha/Qatar. Certified quality & easy installation. Get a."
 date: '2026-05-17T13:52:29'
 draft: false
 slug: secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports

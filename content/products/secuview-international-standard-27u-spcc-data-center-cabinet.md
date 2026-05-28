@@ -1,5 +1,6 @@
 ---
 title: Secure 27U Data Center Cabinet|Heavy-Duty SPCC Rack|Secuview
+description: "Secure your IT setup with a 27U data center cabinet built from thick SPCC steel, designed for easy access, cleaner cabling, and better airflow. Shop now."
 date: '2026-05-17T13:47:51'
 draft: false
 slug: secuview-international-standard-27u-spcc-data-center-cabinet

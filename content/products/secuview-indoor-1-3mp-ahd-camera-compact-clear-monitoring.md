@@ -1,5 +1,6 @@
 ---
 title: 1.3MP AHD Camera Certified Clear View Doha | Secuview
+description: "Buy 1.3MP AHD Camera for indoor homes & offices in Doha, Qatar. Compact clear monitoring, quick install, warranty included. Free site visit available."
 date: '2026-05-17T13:43:45'
 draft: false
 slug: secuview-indoor-1-3mp-ahd-camera-compact-clear-monitoring

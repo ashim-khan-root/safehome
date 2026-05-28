@@ -1,5 +1,6 @@
 ---
 title: Smart Switches – 24/7 Effortless, Voice-Ready Home Control
+description: "Upgrade lights with smart switches, app + voice control, schedules and scenes for smoother routines. Shop options & compare specs."
 date: '2026-05-17T13:45:32'
 draft: false
 slug: secuview-smart-switches-for-smart-home

@@ -1,5 +1,6 @@
 ---
 title: Camera Junction Box 120mm – Heavy-Duty Secure | Secuview
+description: "Camera junction box 120mm for security cameras, ideal for outdoor use and installers. Waterproof metal body with reliable protection and quality assured."
 date: '2026-05-17T13:56:43'
 draft: false
 slug: secuview-120mm-waterproof-metal-security-camera-junction-box

@@ -1,5 +1,6 @@
 ---
 title: 5MP Indoor ahd CCTV Camera | ahd 5mp cctv camera price Doha
+description: "Buy 5MP indoor ahd CCTV camera in Qatar with 5mp cctv camera technology for clear home monitoring and reliable indoor surveillance for office and home."
 date: '2026-05-17T13:43:08'
 draft: false
 slug: secuview-5mp-indoor-ahd-cctv-sharp-detail-high-performance-monitoring

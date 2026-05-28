@@ -1,5 +1,6 @@
 ---
 title: Powerful PA Ceiling Speaker SV-C110W | Crisp, Clear Audio
+description: "Powerful PA ceiling speaker built for high-quality sound, delivering crisp, clear audio with reduced distortion, ideal for offices, retail, and public."
 date: '2026-05-17T13:48:39'
 draft: false
 slug: secuview-public-address-ceiling-speaker-with-high-quality-sound

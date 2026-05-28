@@ -1,5 +1,6 @@
 ---
 title: 8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview
+description: "Reliable 8-Port PoE Gigabit switch with 120W power and 2 uplink ports for CCTV & network devices. Stable performance in Doha/Qatar. Get a quote today!."
 date: '2026-05-17T13:53:27'
 draft: false
 slug: secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity

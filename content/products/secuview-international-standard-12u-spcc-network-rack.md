@@ -1,5 +1,6 @@
 ---
 title: 12U SPCC Network Rack –Strong & Secure 19-Inch Steel Cabinet
+description: "Secure IT gear with a 12U SPCC network rack, 19-inch international standard, thickened cold-rolled steel, rust-resistant finish. View specs & order."
 date: '2026-05-17T13:47:25'
 draft: false
 slug: secuview-international-standard-12u-spcc-network-rack

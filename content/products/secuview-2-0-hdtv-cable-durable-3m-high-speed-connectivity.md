@@ -1,5 +1,6 @@
 ---
 title: Unknown
+description: "Shop Unknown in Qatar. Premium quality at best prices. Fast delivery across Doha."
 date: '2026-05-17T13:56:24'
 draft: false
 slug: secuview-2-0-hdtv-cable-durable-3m-high-speed-connectivity

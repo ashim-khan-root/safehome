@@ -1,5 +1,6 @@
 ---
 title: Powerful 50W Public Address Amplifier | Reliable PA System
+description: "50W public address amplifier with multiple audio sources for clear, reliable announcements. Ideal for schools, mosques, offices & commercial spaces."
 date: '2026-05-17T13:44:58'
 draft: false
 slug: secuview-50w-public-address-amplifier-with-multiple-audio-sources

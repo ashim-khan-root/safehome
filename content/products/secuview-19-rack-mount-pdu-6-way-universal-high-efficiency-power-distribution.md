@@ -1,5 +1,6 @@
 ---
 title: Rack Mount PDU Certified 6-Way Doha | Secuview
+description: "Buy a rack mount PDU for IT racks in Doha, Qatar. 6-way universal sockets, MOI compliant, warranty included. Call now."
 date: '2026-05-17T13:55:27'
 draft: false
 slug: secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution

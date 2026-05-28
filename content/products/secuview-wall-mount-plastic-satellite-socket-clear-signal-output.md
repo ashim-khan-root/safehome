@@ -1,5 +1,6 @@
 ---
 title: Plastic Satellite Socket Secure 1-Port Doha | Secuview
+description: "Plastic satellite socket for wall-mount installs in Doha, Qatar. Clear signal output, durable panel, warranty support, free site visit. Get a quote."
 date: '2026-05-17T13:44:25'
 draft: false
 slug: secuview-wall-mount-plastic-satellite-socket-clear-signal-output

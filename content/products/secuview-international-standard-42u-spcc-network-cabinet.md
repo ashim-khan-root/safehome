@@ -1,5 +1,6 @@
 ---
 title: Secure 42U Network Cabinet | Heavy-Duty SPCC Server Rack
+description: "Secure your IT setup with a 42U network cabinet built from thick SPCC steel, with cable management for cleaner installs and better airflow. Shop now."
 date: '2026-05-17T13:47:56'
 draft: false
 slug: secuview-international-standard-42u-spcc-network-cabinet

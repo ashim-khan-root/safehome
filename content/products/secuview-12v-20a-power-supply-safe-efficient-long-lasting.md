@@ -1,5 +1,6 @@
 ---
 title: Reliable 12V 20A Power Supply – Efficient, Durable|secuview
+description: "Power CCTV and LED setups with a 12V 20A Power Supply built for safe, efficient operation, stable output, and long-lasting protection for everyday use."
 date: '2026-05-17T13:49:54'
 draft: false
 slug: secuview-12v-20a-power-supply-safe-efficient-long-lasting

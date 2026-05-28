@@ -1,5 +1,6 @@
 ---
 title: 16CH 4K Hybrid NVR iPoE ONVIF Support Doha | Secuview
+description: "16CH 4K hybrid NVR with built-in iPoE and ONVIF support for homes & businesses in Doha, Qatar. Certified technicians, warranty, free site visit. Get a."
 date: '2026-05-17T13:54:11'
 draft: false
 slug: secuview-16ch-4k-hybrid-nvr-i-poe-built-in-onvif-support

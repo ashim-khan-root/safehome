@@ -1,5 +1,6 @@
 ---
 title: 23AWG Cat6 CCA Cable | 6 Key Performance Benefits | Secuview
+description: "Get fast, stable connectivity with Secuview’s 23AWG Cat6 CCA network cable,built for data transmission, low interference, and durable performance. Shop."
 date: '2026-05-17T13:42:46'
 draft: false
 slug: secuview-cca-23awg-cat6-network-cable

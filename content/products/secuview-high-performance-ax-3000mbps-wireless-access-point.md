@@ -1,5 +1,6 @@
 ---
 title: Fast AX 3000Mbps Wireless Access Point High Performance |Secuview
+description: "High-performance AX 3000Mbps wireless access point for fast, reliable Wi-Fi in homes & businesses in Doha/Qatar. Certified quality. Get a quote today!."
 date: '2026-05-17T13:43:02'
 draft: false
 slug: secuview-high-performance-ax-3000mbps-wireless-access-point

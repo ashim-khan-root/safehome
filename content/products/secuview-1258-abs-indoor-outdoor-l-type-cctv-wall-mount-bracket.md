@@ -1,5 +1,6 @@
 ---
 title: ABS L-Type Mount Bracket 1258 – Heavy-Duty Secure | Secuview
+description: "ABS L-Type mount bracket 1258 for indoor/outdoor CCTV, ideal for pros and installers. Heavy-duty design with reliable protection and quality assured."
 date: '2026-05-17T13:56:47'
 draft: false
 slug: secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket

@@ -1,5 +1,6 @@
 ---
 title: Professional 32-Channel IP PBX System Qatar | Secuview
+description: "Get a 32-channel IP PBX system for seamless VoIP intercom in small to mid-size offices in Qatar. Smart call management, easy setup. Get a quote."
 date: '2026-05-17T13:52:15'
 draft: false
 slug: secuview-px400-series-telephone-volp-intercom-lp-pbx-system-32-channel

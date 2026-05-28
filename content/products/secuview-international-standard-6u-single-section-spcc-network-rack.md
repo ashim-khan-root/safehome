@@ -1,5 +1,6 @@
 ---
 title: 6U SPCC Network Rack – Secure Single-Section 19-Inch Cabinet
+description: "Ultra-secure 6U single-section SPCC network rack for 19-inch gear. Cold-rolled steel strength for clean installs. View specs & order."
 date: '2026-05-17T13:47:15'
 draft: false
 slug: secuview-international-standard-6u-single-section-spcc-network-rack

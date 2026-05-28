@@ -1,5 +1,6 @@
 ---
 title: Smart Video Doorbell – 24/7 Instant, Secure Home Automation
+description: "24/7 smart video doorbell for home automation, live view, instant alerts & two-way talk from your phone. Upgrade entry security. View specs."
 date: '2026-05-17T13:46:41'
 draft: false
 slug: secuview-ip-smart-video-doorbell-for-home-automation

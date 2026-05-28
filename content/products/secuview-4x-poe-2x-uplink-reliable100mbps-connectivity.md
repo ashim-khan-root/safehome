@@ -1,5 +1,6 @@
 ---
 title: Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview
+description: "Get a Secuview 4 port PoE switch with 2 uplink ports for CCTV/IP devices. Reliable 10/100Mbps connectivity in Doha, Qatar. Get a quote."
 date: '2026-05-17T13:53:40'
 draft: false
 slug: secuview-4x-poe-2x-uplink-reliable100mbps-connectivity

@@ -1,5 +1,6 @@
 ---
 title: Reliable 20W PA Wall Mount Speaker – Clear Sound
+description: "Install a 20W PA Wall Mount Speaker for clear, distortion-free announcements across schools, offices, and facilities, built for reliable everyday sound."
 date: '2026-05-17T13:49:20'
 draft: false
 slug: secuview-20w-public-address-wall-mount-speaker

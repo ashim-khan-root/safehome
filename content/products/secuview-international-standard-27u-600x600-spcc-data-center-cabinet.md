@@ -1,5 +1,6 @@
 ---
 title: Reliable 27U Data Center Cabinet – 600×600 SPCC | secuview
+description: "Choose a 27U Data Center Cabinet built with SPCC cold-rolled steel and a 600×600 frame for durable, stable, high load-bearing server/network setups."
 date: '2026-05-17T13:49:31'
 draft: false
 slug: secuview-international-standard-27u-600x600-spcc-data-center-cabinet

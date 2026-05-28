@@ -1,5 +1,6 @@
 ---
 title: HDMI 2.0 Cable 5m – Heavy-Duty Stable | Secuview
+description: "HDMI 2.0 cable 5m delivers strong, stable HD transmission for home and pro setups. Durable build with reliable performance and quality assured. Order now."
 date: '2026-05-17T13:56:28'
 draft: false
 slug: secuview-2-0-hdtv-cable-5m-strong-stable-hd-transmission

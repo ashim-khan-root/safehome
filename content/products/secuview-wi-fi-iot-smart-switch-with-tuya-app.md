@@ -1,5 +1,6 @@
 ---
 title: Tuya WiFi Smart Switch –2.4GHz Seamless, Hassle-Free Control
+description: "Control lights anywhere with a Tuya WiFi smart switch, 2.4GHz stability, voice control, and schedules for effortless automation. View specs."
 date: '2026-05-17T13:45:49'
 draft: false
 slug: secuview-wi-fi-iot-smart-switch-with-tuya-app

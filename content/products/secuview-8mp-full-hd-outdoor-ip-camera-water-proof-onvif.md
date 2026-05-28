@@ -1,5 +1,6 @@
 ---
 title: 8MP Outdoor IP Camera Certified Waterproof Doha | Secuview
+description: "Buy 8MP outdoor IP camera with ONVIF in Doha, Qatar. Waterproof Full HD detail day & night for villas & shops, MOI compliant, warranty included. 24/7."
 date: '2026-05-17T13:43:23'
 draft: false
 slug: secuview-8mp-full-hd-outdoor-ip-camera-water-proof-onvif

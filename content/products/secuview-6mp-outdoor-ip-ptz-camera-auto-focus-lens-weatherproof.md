@@ -1,5 +1,6 @@
 ---
 title: 6MP IP PTZ Camera Certified Weatherproof Doha | Secuview
+description: "Buy 6MP IP PTZ camera for villas & shops in Doha, Qatar. Auto-focus lens, weatherproof protection, MOI compliant, warranty included for 24/7 clarity. Call."
 date: '2026-05-17T13:54:54'
 draft: false
 slug: secuview-6mp-outdoor-ip-ptz-camera-auto-focus-lens-weatherproof

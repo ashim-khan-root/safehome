@@ -1,5 +1,6 @@
 ---
 title: Outdoor Battery Camera – 100% Wireless,Weatherproof Security
+description: "Weatherproof outdoor battery camera with wireless setup, smart motion alerts, and long battery life for hassle-free security. Check features & specs."
 date: '2026-05-17T13:45:10'
 draft: false
 slug: secuview-wireless-ip-outdoor-weatherproof-security-battery-camera

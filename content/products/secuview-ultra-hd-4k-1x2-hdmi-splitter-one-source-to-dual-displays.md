@@ -1,5 +1,6 @@
 ---
 title: 1x2 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview
+description: "1x2 4K HDMI Splitter mirrors 1 source to 2 displays in Qatar. Plug-and-play, supports 4K UHD (3840×2160@30Hz) for smooth video. Buy online today."
 date: '2026-05-17T13:50:36'
 draft: false
 slug: secuview-ultra-hd-4k-1x2-hdmi-splitter-one-source-to-dual-displays

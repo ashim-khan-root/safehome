@@ -1,5 +1,6 @@
 ---
 title: Secuview 4-Port Gigabit PoE Switch | 1000Mbps High-Speed
+description: "Boost your network with Secuview’s 4-Port Gigabit PoE Switch. Features 1000Mbps speed & 1 Uplink port. Perfect Plug & Play for IP cameras and CCTV systems."
 date: '2026-05-17T13:43:12'
 draft: false
 slug: secuview-4-port-poe-1-uplink-port-1000mbps-high-speed

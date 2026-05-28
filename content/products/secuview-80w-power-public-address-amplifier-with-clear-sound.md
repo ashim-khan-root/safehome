@@ -1,5 +1,6 @@
 ---
 title: Reliable 80W PA Amplifier 3 Mic Inputs, Clear Sound|secuview
+description: "Use an 80W PA Amplifier with clear sound, 3 mic inputs, and AUX in/out control, ideal for shops, schools, and small events."
 date: '2026-05-17T13:44:47'
 draft: false
 slug: secuview-80w-power-public-address-amplifier-with-clear-sound

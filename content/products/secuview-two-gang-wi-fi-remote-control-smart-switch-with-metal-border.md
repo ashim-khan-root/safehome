@@ -1,5 +1,6 @@
 ---
 title: 2 Gang WiFi Smart Switch –Premium Metal-Border Control
+description: "Control 2 circuits from anywhere with a WiFi smart switch. Alexa/Google voice support, timers and schedules, premium metal border. View specs."
 date: '2026-05-17T13:46:02'
 draft: false
 slug: secuview-two-gang-wi-fi-remote-control-smart-switch-with-metal-border

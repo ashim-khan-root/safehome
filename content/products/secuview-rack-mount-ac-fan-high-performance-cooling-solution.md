@@ -1,5 +1,6 @@
 ---
 title: Rack Mount AC Fan 1U Certified Cooling Doha | Secuview
+description: "Get a rack mount AC fan for server racks in Doha, Qatar. High-airflow cooling, MOI compliant, warranty included. Certified technicians, free site visit."
 date: '2026-05-17T13:55:50'
 draft: false
 slug: secuview-rack-mount-ac-fan-high-performance-cooling-solution

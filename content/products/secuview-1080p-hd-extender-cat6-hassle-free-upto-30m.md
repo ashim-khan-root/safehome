@@ -1,5 +1,6 @@
 ---
 title: 1080p HD Extender 30m – Reliable Hassle-Free | Secuview
+description: "1080p HD Extender sends Full HD video up to 30m over Cat5e/Cat6, ideal for CCTV, meetings & signage in Qatar. Easy install. Get a quote today."
 date: '2026-05-17T13:50:21'
 draft: false
 slug: secuview-1080p-hd-extender-cat6-hassle-free-upto-30m

@@ -1,5 +1,6 @@
 ---
 title: Smart Video Doorbell – 24/7 Secure Tuya App Control|Secuview
+description: "Control your front door with a Tuya smart video doorbell, see live video, talk two-way, and review past events. View specs & order online."
 date: '2026-05-17T13:46:45'
 draft: false
 slug: secuview-ip-smart-video-doorbell-with-tuya-app

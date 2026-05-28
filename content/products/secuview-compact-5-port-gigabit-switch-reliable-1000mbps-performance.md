@@ -1,5 +1,6 @@
 ---
 title: 5-Port Gigabit Switch 1 – Powerful 1000Mbps Speed | Secuview
+description: "5-Port Gigabit Switch delivers fast, stable 1000Mbps connectivity for home, office & CCTV networks in Qatar. Plug-and-play design. Buy online today."
 date: '2026-05-17T13:50:53'
 draft: false
 slug: secuview-compact-5-port-gigabit-switch-reliable-1000mbps-performance

@@ -1,5 +1,6 @@
 ---
 title: 100Mbps PoE Extender Trusted Weatherproof Doha | Secuview
+description: "100Mbps PoE extender to extend outdoor camera/AP links in Doha, Qatar. Certified technicians, warranty, free site visit for setup. Get a quote."
 date: '2026-05-17T13:53:45'
 draft: false
 slug: secuview-100mbps-poe-extender-durable-weatherproof-efficient

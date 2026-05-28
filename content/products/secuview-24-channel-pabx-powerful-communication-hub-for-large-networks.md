@@ -1,5 +1,6 @@
 ---
 title: Secuview IP Phone 1 Powerful Crystal-Clear Audio | Secuview
+description: "Secuview IP Phone delivers crystal-clear audio & smart connectivity for business communication in Doha, Qatar. Easy setup. Get a quote today."
 date: '2026-05-17T13:51:15'
 draft: false
 slug: secuview-24-channel-pabx-powerful-communication-hub-for-large-networks

@@ -1,5 +1,6 @@
 ---
 title: 8-Port PoE Switch 10/100Mbps – 120W Power | Secuview
+description: "8-Port PoE switch 10/100Mbps with 120W power and 2 uplink ports for CCTV & network devices in Doha/Qatar. Reliable IEEE802.3af/at support. Get a quote now!."
 date: '2026-05-17T13:53:17'
 draft: false
 slug: secuview-120w-8-port-poe-switch-2-uplink-ports-10-100mbps-operation

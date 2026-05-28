@@ -1,5 +1,6 @@
 ---
 title: 3 Gang Tuya Smart Switch – Fast, Seamless WiFi Control
+description: "Control 3 lights with a Tuya WiFi smart switch, fast app/voice control, schedules and timers for easy automation. See specs & buy."
 date: '2026-05-17T13:45:45'
 draft: false
 slug: secuview-three-gang-wi-fi-smart-switch-with-tuya-app

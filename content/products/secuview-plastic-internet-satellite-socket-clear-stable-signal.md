@@ -1,5 +1,6 @@
 ---
 title: Plastic Internet & Satellite Socket Secure 1-Port Doha | Secuview
+description: "Plastic Internet & Satellite Socket for clear signal output in Doha, Qatar. Premium plastic panel, low signal loss for neat wall installs. Get a quote."
 date: '2026-05-17T13:43:38'
 draft: false
 slug: secuview-plastic-internet-satellite-socket-clear-stable-signal

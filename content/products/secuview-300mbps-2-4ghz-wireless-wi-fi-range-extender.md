@@ -1,5 +1,6 @@
 ---
 title: Reliable 300Mbps 2.4GHz Wi-Fi Range Extender | Secuview
+description: "300Mbps 2.4GHz Wi-Fi range extender for stronger, stable wireless coverage in homes & offices in Doha/Qatar. Easy setup & certified quality. Get a quote."
 date: '2026-05-17T13:52:42'
 draft: false
 slug: secuview-300mbps-2-4ghz-wireless-wi-fi-range-extender

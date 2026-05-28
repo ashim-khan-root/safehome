@@ -1,5 +1,6 @@
 ---
 title: 1x4 4K HDMI Splitter 1 – Reliable Crystal-Clear | Secuview
+description: "1x4 4K HDMI Splitter sends one source to four screens with crystal-clear UHD output, ideal for home, office or retail. Fast setup. Buy online today."
 date: '2026-05-17T13:50:41'
 draft: false
 slug: secuview-4k-hdmi-splitter-power-up-to-four-screens-from-one-source

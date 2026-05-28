@@ -1,5 +1,6 @@
 ---
 title: Camera Wall Mount Bracket 360° Heavy-Duty Reliable | Secuview
+description: "Camera wall mount bracket for CCTV cameras, ideal for installers and businesses. Strong metal build with reliable support and quality assured. Order now."
 date: '2026-05-17T13:57:08'
 draft: false
 slug: secuview-universal-wall-mount-metal-bracket-for-camera

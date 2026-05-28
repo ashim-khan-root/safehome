@@ -1,5 +1,6 @@
 ---
 title: Reliable RG59/U Coaxial Cable|305m Clear CCTV Signal|Secuview
+description: "Choose RG59/U coaxial cable (305m) for clear signal transmission and flexible handling that makes CCTV installs easier. Shop now."
 date: '2026-05-17T13:47:59'
 draft: false
 slug: secuview-high-quality-rg59-u-coaxial-cable-305m

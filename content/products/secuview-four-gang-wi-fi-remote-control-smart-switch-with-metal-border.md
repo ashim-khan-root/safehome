@@ -1,5 +1,6 @@
 ---
 title: 4 Gang Smart Switch –Instant Wi-Fi Control, Metal Border
+description: "Control 4 circuits by app or Alexa/Google voice. Wi-Fi smart switch with premium metal border for sleek installs. Set timers & scenes. View specs."
 date: '2026-05-17T13:46:13'
 draft: false
 slug: secuview-four-gang-wi-fi-remote-control-smart-switch-with-metal-border

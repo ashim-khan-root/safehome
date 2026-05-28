@@ -1,5 +1,6 @@
 ---
 title: 8MP Indoor IP Camera Smart Detection Doha | Secuview
+description: "8MP indoor IP camera with smart detection & ONVIF support for homes and offices in Doha, Qatar. Certified technicians, warranty, free site visit. Get a."
 date: '2026-05-17T13:54:29'
 draft: false
 slug: secuview-8mp-indoor-ip-camera-smart-detection-onvif-support

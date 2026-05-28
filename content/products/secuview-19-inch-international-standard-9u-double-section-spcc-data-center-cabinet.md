@@ -1,5 +1,6 @@
 ---
 title: 9U SPCC Data Center Cabinet Secure Double-Section 19-Inch Rack
+description: "Secure 19-inch equipment in a 9U SPCC double-section cabinet with thickened cold-rolled steel for strength, stability, and long-term reliability. View."
 date: '2026-05-17T13:47:18'
 draft: false
 slug: secuview-19-inch-international-standard-9u-double-section-spcc-data-center-cabinet

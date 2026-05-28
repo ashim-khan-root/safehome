@@ -1,5 +1,6 @@
 ---
 title: Best Secuview AX1800 Wi-Fi 6 Access Point | Ultra-Fast Gigabit
+description: "Experience blazing speeds with the Secuview AX1800 Wi-Fi 6. Features elite dual-band 1800Mbps and Gigabit PoE. The ultimate high-speed solution for any."
 date: '2026-05-17T13:42:54'
 draft: false
 slug: secuview-ax1800-wi-fi-6-dualband-access-point

@@ -1,5 +1,6 @@
 ---
 title: Secuview Biometric Attendance Qatar | Attendance Machine
+description: "Buy Biometric Attendance system in Qatar by Secuview with fingerprint time attendance machine and competitive attendance machine price in Qatar."
 date: '2026-05-17T13:42:38'
 draft: false
 slug: secuview-biometric-attendance-system-real-time-management

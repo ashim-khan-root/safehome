@@ -1,5 +1,6 @@
 ---
 title: 8CH 4K Non-PoE NVR Fast ONVIF Support Doha | Secuview
+description: "8CH 4K Non-PoE NVR with fast performance & ONVIF support in Doha, Qatar. Certified technicians, warranty, free site visit. Get a quote."
 date: '2026-05-17T13:53:59'
 draft: false
 slug: secuview-8ch-4k-non-poe-nvr-fast-performance-onvif-support

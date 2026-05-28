@@ -1,5 +1,6 @@
 ---
 title: Reliable 24-Port Gigabit PoE Switch – 300W SFP | Secuview
+description: "High-performance 24-Port Gigabit PoE switch with 300W power, 2 uplink & 2 SFP ports for CCTV & network devices in Doha/Qatar. Reliable setup — Get a quote!."
 date: '2026-05-17T13:53:12'
 draft: false
 slug: secuview-300w-24-ports-gigabit-poe-switch-with-2-uplink2-sfp-ports

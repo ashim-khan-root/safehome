@@ -1,5 +1,6 @@
 ---
 title: 4-Port PoE Gigabit Switch – Stable Performance | Secuview
+description: "4-Port PoE Gigabit switch with 65 W power, 1 uplink & 1 SFP for reliable network devices in Doha/Qatar. Certified performance & easy setup — Get a quote!."
 date: '2026-05-17T13:53:22'
 draft: false
 slug: secuview-65wpoe-switch-4-poe-1-uplink-1sfp-stable-gigabit-performance

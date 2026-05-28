@@ -1,5 +1,6 @@
 ---
 title: 2 Gang Smart Switch, Sleek, Voice-Ready Brushed Panel Control
+description: "Sleek 2 gang brushed smart switch with plastic border, app + voice control, schedules and scenes for two circuits. Quick install. View specs."
 date: '2026-05-17T13:46:26'
 draft: false
 slug: secuview-two-gang-brushed-panel-smart-switch-with-plastic-border

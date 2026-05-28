@@ -1,5 +1,6 @@
 ---
 title: 1U 350mm Rack Shelf Certified Heat-Free Doha | Secuview
+description: "Get a 1U 350mm rack shelf for IT racks in Doha, Qatar. Ventilated steel design for airflow, MOI compliant, warranty & free site visit. Call now."
 date: '2026-05-17T13:55:54'
 draft: false
 slug: secuview-1u-350mm-rack-shelf-ventilated-design-durable-steel-body

@@ -1,5 +1,6 @@
 ---
 title: 1x8 HDMI Splitter 1 – Powerful Seamless 4K Output | Secuview
+description: "1x8 HDMI Splitter distributes 4K UHD (3840×2160@30Hz) from 1 source to 8 displays for signage & control rooms. Fast, easy setup, buy online today."
 date: '2026-05-17T13:50:45'
 draft: false
 slug: secuview-1x8-hdmi-splitter-distribute-4k-signal-to-eight-displays-seamlessly

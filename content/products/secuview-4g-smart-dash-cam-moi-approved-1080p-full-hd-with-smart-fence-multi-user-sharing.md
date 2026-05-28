@@ -1,5 +1,6 @@
 ---
 title: Reliable 4G Smart Dash Cam – MOI Approved | secuview
+description: "Use a 4G Smart Dash Cam with 1080p Full HD, live 4G access, GPS tracking, and smart fence alerts, ideal for secure vehicle monitoring."
 date: '2026-05-17T13:49:51'
 draft: false
 slug: secuview-4g-smart-dash-cam-moi-approved-1080p-full-hd-with-smart-fence-multi-user-sharing

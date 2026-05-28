@@ -1,5 +1,6 @@
 ---
 title: Trusted Fast 4-Port PoE Gigabit Switch Qatar | Secuview
+description: "Get a trusted 4-port PoE gigabit switch with uplink + SFP for CCTV and small offices in Qatar. Power and data on one cable. Get a quote."
 date: '2026-05-17T13:51:34'
 draft: false
 slug: secuview-4-port-poe-gigabit-switch-with-uplink-sfp-port

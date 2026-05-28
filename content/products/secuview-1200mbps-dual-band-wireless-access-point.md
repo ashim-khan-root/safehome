@@ -1,5 +1,6 @@
 ---
 title: Dual Band Wireless Access Point 1200Mbps Qatar | Secuview
+description: "Buy a high-speed dual band wireless access point for offices and businesses in Qatar. 1200Mbps performance, stable Wi-Fi. Get a quote today."
 date: '2026-05-17T13:52:24'
 draft: false
 slug: secuview-1200mbps-dual-band-wireless-access-point

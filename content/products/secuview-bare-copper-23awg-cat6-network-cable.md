@@ -1,5 +1,6 @@
 ---
 title: Premium Cat6 Bare Copper Cable | Faster, Cleaner Signal
+description: "Upgrade to Secuview’s Cat6 bare copper cable for faster data transfer, low interference, and reliable performance in home or office networks. Shop now."
 date: '2026-05-17T13:42:42'
 draft: false
 slug: secuview-bare-copper-23awg-cat6-network-cable

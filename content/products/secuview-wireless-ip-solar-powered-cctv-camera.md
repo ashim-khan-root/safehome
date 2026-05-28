@@ -1,5 +1,6 @@
 ---
 title: High-Performance Solar CCTV Camera | 4G Outdoor Security
+description: "High-performance solar CCTV camera with 4G connectivity for reliable outdoor security, wire-free setup and worry-free monitoring anywhere."
 date: '2026-05-17T13:48:24'
 draft: false
 slug: secuview-wireless-ip-solar-powered-cctv-camera

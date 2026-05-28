@@ -1,5 +1,6 @@
 ---
 title: Biometric Time Attendance System 1 – Trusted & Secure | Secuview
+description: "Biometric time attendance system with face, fingerprint, card & password access for offices in Qatar. Accurate cloud tracking. Warranty available, get a."
 date: '2026-05-17T13:51:03'
 draft: false
 slug: secuview-face-recognition-biometric-time-attendance-system

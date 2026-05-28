@@ -1,5 +1,6 @@
 ---
 title: Secure 12U Network Cabinet | Heavy-Duty 19-Inch SPCC Rack
+description: "Secure your setup with a 12U network cabinet, thick SPCC steel, built-in cable management, and better airflow for clean, reliable installs. Shop now."
 date: '2026-05-17T13:47:33'
 draft: false
 slug: secuview-19-inch-international-standard-12u-spcc-network-cabinet

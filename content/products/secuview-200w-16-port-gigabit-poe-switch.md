@@ -1,5 +1,6 @@
 ---
 title: Secuview 200W 16-Port Gigabit PoE Switch | 2 Uplink + 1 SFP
+description: "Secuview 200W 16-Port Gigabit PoE Switch with 2 Uplink and 1 SFP port, delivering reliable power, fast and stable performance for network setups."
 date: '2026-05-17T13:43:27'
 draft: false
 slug: secuview-200w-16-port-gigabit-poe-switch

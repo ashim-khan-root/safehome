@@ -1,5 +1,6 @@
 ---
 title: Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview
+description: "Run video + power in one line with Secuview’s RG59+2C coaxial cable (305m). 75Ω design, durable jacket, faster installs, and less clutter for CCTV setups."
 date: '2026-05-17T13:48:13'
 draft: false
 slug: secuview-high-standard-305m-rg592c-coaxial-cable-with-power

@@ -1,5 +1,6 @@
 ---
 title: 10W Volume Controller Certified Noise-Free Doha | Secuview
+description: "Buy 10W volume controller for PA zones in Doha, Qatar. Reliable steel wall-mount design, MOI compliant, warranty & free site visit. Get a quote."
 date: '2026-05-17T13:56:05'
 draft: false
 slug: secuview-10w-volume-controller-reliable-steel-build-wall-mount-design

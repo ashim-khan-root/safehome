@@ -1,5 +1,6 @@
 ---
 title: 22 Inch HD LED Monitor Qatar | Professional Secuview
+description: "Buy Secuview 22-inch HD LED monitor for CCTV rooms, offices & PCs in Qatar. Clear, bright visuals and durable build. Get a quote today."
 date: '2026-05-17T13:51:56'
 draft: false
 slug: secuview-22-inch-hd-led-monitor-clear-bright-reliable

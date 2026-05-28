@@ -1,5 +1,6 @@
 ---
 title: HDTV 2.0 Cable 20m – Ultra-Reliable Superior | Secuview
+description: "HDTV 2.0 cable 20m for superior signal quality and extended reach, ideal for home and pro installs. Durable build with reliable performance. Order now."
 date: '2026-05-17T13:56:39'
 draft: false
 slug: secuview-20m-hdtv-2-0-cable-extended-length-superior-signal-quality

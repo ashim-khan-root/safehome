@@ -1,5 +1,6 @@
 ---
 title: 8MP Varifocal IP Camera Certified Waterproof Doha | Secuview
+description: "Buy 8MP varifocal IP camera for villas & shops in Doha, Qatar. Waterproof ONVIF sharp 4K detail day & night 24/7 HD. MOI compliant, warranty included."
 date: '2026-05-17T13:54:49'
 draft: false
 slug: secuview-8mp-varifocal-lens-outdoor-ip-camera-water-proof-onvif

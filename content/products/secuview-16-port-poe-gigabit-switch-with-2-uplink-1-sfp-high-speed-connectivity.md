@@ -1,5 +1,6 @@
 ---
 title: 16-Port PoE Gigabit Switch Qatar | Trusted Secuview
+description: "Get a 16-port PoE gigabit switch with 2 uplink + 1 SFP for fast, reliable high-speed connectivity for CCTV and offices in Qatar. Easy setup. Get a quote."
 date: '2026-05-17T13:51:40'
 draft: false
 slug: secuview-16-port-poe-gigabit-switch-with-2-uplink-1-sfp-high-speed-connectivity

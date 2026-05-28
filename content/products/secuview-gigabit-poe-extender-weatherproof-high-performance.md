@@ -1,5 +1,6 @@
 ---
 title: Gigabit PoE Extender Secure 1Gb Weatherproof Doha | Secuview
+description: "Gigabit PoE extender for outdoor IP cameras and wireless APs in Doha, Qatar. Certified technicians, reliable performance, warranty, free site visit.Get a."
 date: '2026-05-17T13:53:53'
 draft: false
 slug: secuview-gigabit-poe-extender-weatherproof-high-performance

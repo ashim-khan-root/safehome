@@ -1,5 +1,6 @@
 ---
 title: 1U 24-Port Blank Patch Panel Trusted Doha | Secuview
+description: "Get a 1U 24-Port blank patch panel for racks in Doha, Qatar. MOI compliant, certified technicians, warranty included & free site visit. Call now."
 date: '2026-05-17T13:55:45'
 draft: false
 slug: secuview-1u-blank-patch-panel-24-port-plastic-metal-frame-patch-panel

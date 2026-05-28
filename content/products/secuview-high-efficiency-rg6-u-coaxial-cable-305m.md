@@ -1,5 +1,6 @@
 ---
 title: Premium RG6/U Coaxial Cable | 305m Clear, Stable Signal
+description: "Get Secuview RG6/U coaxial cable (305m) for clear signal transmission and flexible handling for faster installs. Shop now."
 date: '2026-05-17T13:48:03'
 draft: false
 slug: secuview-high-efficiency-rg6-u-coaxial-cable-305m

@@ -1,5 +1,6 @@
 ---
 title: HDTV 2.0 Cable 10m – Heavy-Duty Stable | Secuview
+description: "HDTV 2.0 cable 10m delivers durable, stable HD signal quality, ideal for home and pro installs. Strong build with reliable performance and quality."
 date: '2026-05-17T13:56:33'
 draft: false
 slug: secuview-2-0-hdtv-10m-cable-durable-stable-hd-signal-quality
