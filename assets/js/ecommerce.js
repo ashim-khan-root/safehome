@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
   initMobileMenu();
-  initCart();
   initWishlist();
   initCountdown();
   initQuickView();
@@ -16,37 +15,6 @@ function initMobileMenu() {
       menu.classList.toggle('hidden');
     });
   }
-}
-
-function initCart() {
-  const cartBtns = document.querySelectorAll('.add-to-cart');
-  const cartCount = document.getElementById('cart-count');
-  let count = parseInt(localStorage.getItem('cartCount') || '0');
-  if (cartCount) cartCount.textContent = count;
-
-  cartBtns.forEach(btn => {
-    btn.addEventListener('click', function (e) {
-      e.preventDefault();
-      count++;
-      localStorage.setItem('cartCount', count.toString());
-      if (cartCount) {
-        cartCount.textContent = count;
-        cartCount.classList.remove('scale-100');
-        void cartCount.offsetWidth;
-        cartCount.classList.add('scale-125');
-        setTimeout(() => cartCount.classList.remove('scale-125'), 200);
-      }
-      const original = this.innerHTML;
-      this.innerHTML = '<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg> Added';
-      this.classList.remove('bg-accent-blue', 'hover:bg-brand-600');
-      this.classList.add('bg-green-500');
-      setTimeout(() => {
-        this.innerHTML = original;
-        this.classList.remove('bg-green-500');
-        this.classList.add('bg-accent-blue', 'hover:bg-brand-600');
-      }, 2000);
-    });
-  });
 }
 
 function initWishlist() {

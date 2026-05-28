@@ -18,6 +18,9 @@
 
 <section class="py-6 md:py-8">
   <div class="container-site">
+    <div class="prose prose-sm prose-slate max-w-none mb-6">
+      {{ .Content }}
+    </div>
     {{ if $products }}
     <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
       {{ range $products }}
