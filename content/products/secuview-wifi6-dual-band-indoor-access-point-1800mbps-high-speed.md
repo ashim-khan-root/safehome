@@ -1,5 +1,5 @@
 ---
-title: Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview
+title: Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics
 date: '2026-05-17T13:52:50'
 draft: false
 slug: secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed
@@ -28,15 +28,15 @@ High-performance AX1800 dual-band WiFi6 access point for fast, reliable wireless
 
 ## Gallery
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-0.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-0.jpg)
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-1.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-1.jpg)
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-2.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-2.jpg)
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-3.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-3.jpg)
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-4.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-4.jpg)
 
-![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | Secuview](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-5.jpg)
+![Fast AX1800 Dual-Band WiFi6 Access Point High Speed | AsliElectronics](/images/products/secuview-wifi6-dual-band-indoor-access-point-1800mbps-high-speed-5.jpg)
 

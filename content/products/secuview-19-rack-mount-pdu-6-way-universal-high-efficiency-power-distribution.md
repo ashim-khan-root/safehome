@@ -1,5 +1,5 @@
 ---
-title: Rack Mount PDU Certified 6-Way Doha | Secuview
+title: Rack Mount PDU Certified 6-Way Doha | AsliElectronics
 date: '2026-05-17T13:55:27'
 draft: false
 slug: secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution
@@ -25,11 +25,11 @@ Buy a rack mount PDU for IT racks in Doha, Qatar. 6-way universal sockets, MOI c
 
 ## Gallery
 
-![Rack Mount PDU Certified 6-Way Doha | Secuview](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-0.jpg)
+![Rack Mount PDU Certified 6-Way Doha | AsliElectronics](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-0.jpg)
 
-![Rack Mount PDU Certified 6-Way Doha | Secuview](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-1.jpg)
+![Rack Mount PDU Certified 6-Way Doha | AsliElectronics](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-1.jpg)
 
-![Rack Mount PDU Certified 6-Way Doha | Secuview](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-2.jpg)
+![Rack Mount PDU Certified 6-Way Doha | AsliElectronics](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-2.jpg)
 
-![Rack Mount PDU Certified 6-Way Doha | Secuview](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-3.jpg)
+![Rack Mount PDU Certified 6-Way Doha | AsliElectronics](/images/products/secuview-19-rack-mount-pdu-6-way-universal-high-efficiency-power-distribution-3.jpg)
 

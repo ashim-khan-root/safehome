@@ -1,5 +1,5 @@
 ---
-title: Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution
+title: AsliElectronics 20W Bluetooth Ceiling Speakers–Smart Audio Solution
 date: '2026-05-17T13:45:20'
 draft: false
 slug: secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution
@@ -21,15 +21,15 @@ featured_image: /images/products/secuview-built-in-bluetooth-ceiling-speakers-sm
 
 ## Overview
 
-Discover Secuview 20W Bluetooth ceiling speakers with smart audio features. Ideal for clear sound, easy installation, and stylish ceiling integration.
+Discover AsliElectronics 20W Bluetooth ceiling speakers with smart audio features. Ideal for clear sound, easy installation, and stylish ceiling integration.
 
 ## Gallery
 
-![Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-0.jpg)
+![AsliElectronics 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-0.jpg)
 
-![Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-1.jpg)
+![AsliElectronics 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-1.jpg)
 
-![Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-2.jpg)
+![AsliElectronics 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-2.jpg)
 
-![Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-3.jpg)
+![AsliElectronics 20W Bluetooth Ceiling Speakers–Smart Audio Solution](/images/products/secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution-3.jpg)
 

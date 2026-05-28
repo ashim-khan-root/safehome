@@ -1,5 +1,5 @@
 ---
-title: Plastic Satellite Socket Secure 1-Port Doha | Secuview
+title: Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics
 date: '2026-05-17T13:44:25'
 draft: false
 slug: secuview-wall-mount-plastic-satellite-socket-clear-signal-output
@@ -29,15 +29,15 @@ Plastic satellite socket for wall-mount installs in Doha, Qatar. Clear signal ou
 
 ## Gallery
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-0.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-0.jpg)
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-1.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-1.jpg)
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-2.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-2.jpg)
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-3.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-3.jpg)
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-4.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-4.jpg)
 
-![Plastic Satellite Socket Secure 1-Port Doha | Secuview](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-5.jpg)
+![Plastic Satellite Socket Secure 1-Port Doha | AsliElectronics](/images/products/secuview-wall-mount-plastic-satellite-socket-clear-signal-output-5.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview
+title: AsliElectronics 6W Ceiling Speaker | Powerful Sound for Home and Office. - AsliElectronics
 date: '2026-05-17T13:43:50'
 draft: false
 slug: secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office
@@ -21,15 +21,15 @@ featured_image: /images/products/secuview-6w-ceiling-speaker-powerful-sound-for-
 
 ## Overview
 
-Model: SV-C510H Brand: Secuview Impedance: 8 ohms Rated Power: 6W Dimensions: Dia. 175mm Mounting Hole: Dia. 150mm
+Model: SV-C510H Brand: AsliElectronics Impedance: 8 ohms Rated Power: 6W Dimensions: Dia. 175mm Mounting Hole: Dia. 150mm
 
 ## Gallery
 
-![Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-0.jpg)
+![AsliElectronics 6W Ceiling Speaker | Powerful Sound for Home and Office. - AsliElectronics](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-0.jpg)
 
-![Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-1.jpg)
+![AsliElectronics 6W Ceiling Speaker | Powerful Sound for Home and Office. - AsliElectronics](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-1.jpg)
 
-![Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-2.jpg)
+![AsliElectronics 6W Ceiling Speaker | Powerful Sound for Home and Office. - AsliElectronics](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-2.jpg)
 
-![Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-3.jpg)
+![AsliElectronics 6W Ceiling Speaker | Powerful Sound for Home and Office. - AsliElectronics](/images/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office-3.jpg)
 

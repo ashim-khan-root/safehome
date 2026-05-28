@@ -21,7 +21,7 @@ featured_image: /images/products/secuview-wifi-outdoor-weatherproof-security-cam
 
 ## Overview
 
-WiFi outdoor security camera in Qatar by Secuview. Weatherproof CCTV camera with clear video, night vision, and remote mobile monitoring.
+WiFi outdoor security camera in Qatar by AsliElectronics. Weatherproof CCTV camera with clear video, night vision, and remote mobile monitoring.
 
 ## Gallery
 

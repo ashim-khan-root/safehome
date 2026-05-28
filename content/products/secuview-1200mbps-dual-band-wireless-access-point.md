@@ -1,5 +1,5 @@
 ---
-title: Dual Band Wireless Access Point 1200Mbps Qatar | Secuview
+title: Dual Band Wireless Access Point 1200Mbps Qatar | AsliElectronics
 date: '2026-05-17T13:52:24'
 draft: false
 slug: secuview-1200mbps-dual-band-wireless-access-point
@@ -25,11 +25,11 @@ Buy a high-speed dual band wireless access point for offices and businesses in Q
 
 ## Gallery
 
-![Dual Band Wireless Access Point 1200Mbps Qatar | Secuview](/images/products/secuview-1200mbps-dual-band-wireless-access-point-0.jpg)
+![Dual Band Wireless Access Point 1200Mbps Qatar | AsliElectronics](/images/products/secuview-1200mbps-dual-band-wireless-access-point-0.jpg)
 
-![Dual Band Wireless Access Point 1200Mbps Qatar | Secuview](/images/products/secuview-1200mbps-dual-band-wireless-access-point-1.jpg)
+![Dual Band Wireless Access Point 1200Mbps Qatar | AsliElectronics](/images/products/secuview-1200mbps-dual-band-wireless-access-point-1.jpg)
 
-![Dual Band Wireless Access Point 1200Mbps Qatar | Secuview](/images/products/secuview-1200mbps-dual-band-wireless-access-point-2.jpg)
+![Dual Band Wireless Access Point 1200Mbps Qatar | AsliElectronics](/images/products/secuview-1200mbps-dual-band-wireless-access-point-2.jpg)
 
-![Dual Band Wireless Access Point 1200Mbps Qatar | Secuview](/images/products/secuview-1200mbps-dual-band-wireless-access-point-3.jpg)
+![Dual Band Wireless Access Point 1200Mbps Qatar | AsliElectronics](/images/products/secuview-1200mbps-dual-band-wireless-access-point-3.jpg)
 

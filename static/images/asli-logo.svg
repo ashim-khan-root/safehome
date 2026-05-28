@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" fill="none">
+  <defs>
+    <linearGradient id="a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <text x="0" y="34" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5">
+    <tspan fill="#38bdf8">Asli</tspan><tspan fill="#334155">Electronics</tspan>
+  </text>
+  <rect x="0" y="42" width="28" height="3" rx="1.5" fill="url(#a)"/>
+</svg>

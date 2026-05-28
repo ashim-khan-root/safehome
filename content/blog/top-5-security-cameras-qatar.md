@@ -1,7 +1,7 @@
 ---
 title: "Top 5 Security Cameras for Your Home in Qatar — 2026 Buying Guide"
 date: 2026-05-20
-author: "SafeHOME Team"
+author: "AsliElectronics Team"
 description: "Compare the best indoor, outdoor, PTZ, and IP security cameras available in Qatar. Find the right camera for your home or business."
 summary: "From 4K IP cameras to solar-powered 4G models, here are the top 5 security cameras you can buy in Qatar right now."
 tags: ["Security Cameras", "Buying Guide", "Qatar", "Home Security"]

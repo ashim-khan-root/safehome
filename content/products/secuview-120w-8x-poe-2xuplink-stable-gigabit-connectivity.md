@@ -1,5 +1,5 @@
 ---
-title: 8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview
+title: 8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics
 date: '2026-05-17T13:53:27'
 draft: false
 slug: secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity
@@ -27,15 +27,15 @@ Reliable 8-Port PoE Gigabit switch with 120W power and 2 uplink ports for CCTV &
 
 ## Gallery
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-0.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-0.jpg)
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-1.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-1.jpg)
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-2.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-2.jpg)
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-3.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-3.jpg)
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-4.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-4.jpg)
 
-![8-Port PoE Gigabit Switch – 120W Stable Connectivity | Secuview](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-5.jpg)
+![8-Port PoE Gigabit Switch – 120W Stable Connectivity | AsliElectronics](/images/products/secuview-120w-8x-poe-2xuplink-stable-gigabit-connectivity-5.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "Smart Door Locks in Qatar: Fingerprint, PIN, RFID & App Control Compared"
 date: 2026-05-22
-author: "SafeHOME Team"
+author: "AsliElectronics Team"
 description: "A complete guide to choosing the right smart door lock for your home or office in Qatar. Compare fingerprint, PIN, RFID, and app-based locks."
 summary: "Fingerprint, PIN code, RFID card, or mobile app — which smart door lock is right for you? We break down the pros and cons of each."
 tags: ["Smart Locks", "Smart Home", "Qatar", "Door Security"]

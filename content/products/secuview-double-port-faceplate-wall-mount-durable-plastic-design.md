@@ -1,5 +1,5 @@
 ---
-title: Double Port Faceplate Secure 2-Port Doha | Secuview
+title: Double Port Faceplate Secure 2-Port Doha | AsliElectronics
 date: '2026-05-17T13:44:17'
 draft: false
 slug: secuview-double-port-faceplate-wall-mount-durable-plastic-design
@@ -25,11 +25,11 @@ Double port faceplate for clean wall cable installs in Doha, Qatar. Durable plas
 
 ## Gallery
 
-![Double Port Faceplate Secure 2-Port Doha | Secuview](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-0.jpg)
+![Double Port Faceplate Secure 2-Port Doha | AsliElectronics](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-0.jpg)
 
-![Double Port Faceplate Secure 2-Port Doha | Secuview](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-1.jpg)
+![Double Port Faceplate Secure 2-Port Doha | AsliElectronics](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-1.jpg)
 
-![Double Port Faceplate Secure 2-Port Doha | Secuview](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-2.jpg)
+![Double Port Faceplate Secure 2-Port Doha | AsliElectronics](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-2.jpg)
 
-![Double Port Faceplate Secure 2-Port Doha | Secuview](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-3.jpg)
+![Double Port Faceplate Secure 2-Port Doha | AsliElectronics](/images/products/secuview-double-port-faceplate-wall-mount-durable-plastic-design-3.jpg)
 

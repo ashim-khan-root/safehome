@@ -1,7 +1,7 @@
 ---
 title: "Cat6 vs Fiber Optic: Choosing the Right Network Cabling for Your Business in Qatar"
 date: 2026-05-26
-author: "SafeHOME Team"
+author: "AsliElectronics Team"
 description: "Compare Cat6, Cat6a, and fiber optic cabling for business networks in Qatar. Learn which cable type suits your speed, distance, and budget requirements."
 summary: "Confused between Cat6 and fiber optic? This guide breaks down speed, distance, cost, and use cases for business network cabling in Qatar."
 tags: ["Networking", "Cat6", "Fiber Optic", "Cabling", "Qatar"]

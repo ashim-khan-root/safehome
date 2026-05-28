@@ -1,5 +1,5 @@
 ---
-title: Reliable 280W PA Amplifier  Clear Sound Bluetooth | secuview
+title: Reliable 280W PA Amplifier  Clear Sound Bluetooth | AsliElectronics
 date: '2026-05-17T13:44:40'
 draft: false
 slug: secuview-280w-public-address-amplifier-with-clear-sound

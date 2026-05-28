@@ -20,7 +20,7 @@ featured_image: /images/products/secuview-waterproof-smart-courtyard-gate-lock-0
 
 ## Overview
 
-Smart Gate Lock Outdoor by Secuview. Weatherproof outdoor gate lock with code and key for secure metal gates, villas, and courtyard entrances.
+Smart Gate Lock Outdoor by AsliElectronics. Weatherproof outdoor gate lock with code and key for secure metal gates, villas, and courtyard entrances.
 
 ## Gallery
 

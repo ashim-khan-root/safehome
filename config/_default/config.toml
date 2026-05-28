@@ -1,6 +1,6 @@
 baseURL = 'https://ashim-khan-root.github.io/safehome/'
 languageCode = "en-us"
-title = "SecuView Store"
+title = "AsliElectronics Store"
 enableRobotsTXT = true
 enableEmoji = true
 timeout = "30s"
@@ -29,11 +29,11 @@ filename = "sitemap.xml"
 priority = 0.5
 
 [params]
-author = "SecuView"
-description = "Premium security, networking, audio, and smart home solutions in Qatar."
+author = "AsliElectronics"
+description = "Qatar's trusted source for authentic security, networking, audio, and smart home solutions."
 default_og_image = "/images/products/secuview-wifi-outdoor-weatherproof-security-camera-0.jpg"
-email = "info@secuview.com"
-phone = "+974 5009 2888"
+email = "info@aslielectronics.com"
+phone = "+974 7741 8754"
 whatsapp_number = "+97477418754"
 displaySearchIcon = true
 displayDarkMode = true

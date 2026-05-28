@@ -1,5 +1,5 @@
 ---
-title: Biometric Time Attendance System 1 – Trusted & Secure | Secuview
+title: Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics
 date: '2026-05-17T13:51:03'
 draft: false
 slug: secuview-face-recognition-biometric-time-attendance-system
@@ -27,15 +27,15 @@ Biometric time attendance system with face, fingerprint, card & password access 
 
 ## Gallery
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-0.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-0.jpg)
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-1.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-1.jpg)
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-2.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-2.jpg)
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-3.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-3.jpg)
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-4.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-4.jpg)
 
-![Biometric Time Attendance System 1 – Trusted & Secure | Secuview](/images/products/secuview-face-recognition-biometric-time-attendance-system-5.jpg)
+![Biometric Time Attendance System 1 – Trusted & Secure | AsliElectronics](/images/products/secuview-face-recognition-biometric-time-attendance-system-5.jpg)
 

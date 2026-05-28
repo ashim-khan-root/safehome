@@ -1,5 +1,5 @@
 ---
-title: Reliable 480W PA Amplifier – 1-Zone Clear Sound | secuview
+title: Reliable 480W PA Amplifier – 1-Zone Clear Sound | AsliElectronics
 date: '2026-05-17T13:49:38'
 draft: false
 slug: secuview-480w-pa-system-amplifier-with-1-zone

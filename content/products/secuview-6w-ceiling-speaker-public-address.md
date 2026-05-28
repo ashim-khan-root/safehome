@@ -21,7 +21,7 @@ featured_image: /images/products/secuview-6w-ceiling-speaker-public-address-0.jp
 
 ## Overview
 
-6W Ceiling Speaker Doha by Secuview delivers clear PA sound for homes and offices. Easy installation, reliable performance, and entry-level audio solution.
+6W Ceiling Speaker Doha by AsliElectronics delivers clear PA sound for homes and offices. Easy installation, reliable performance, and entry-level audio solution.
 
 ## Gallery
 

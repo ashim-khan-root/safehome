@@ -1,5 +1,5 @@
 ---
-title: Smart Plug Socket with USB & Type-C | Secuview
+title: Smart Plug Socket with USB & Type-C | AsliElectronics
 date: '2026-05-17T13:52:29'
 draft: false
 slug: secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports
@@ -26,15 +26,15 @@ Smart plug socket with dual USB and Type-C ports for smarter power control at ho
 
 ## Gallery
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-0.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-0.jpg)
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-1.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-1.jpg)
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-2.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-2.jpg)
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-3.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-3.jpg)
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-4.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-4.jpg)
 
-![Smart Plug Socket with USB & Type-C | Secuview](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-5.jpg)
+![Smart Plug Socket with USB & Type-C | AsliElectronics](/images/products/secuview-smart-plug-socket-power-smarter-with-dual-usb-type-c-ports-5.jpg)
 

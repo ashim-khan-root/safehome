@@ -23,7 +23,7 @@ featured_image: /images/products/secuview-high-efficiency-rg6-u-coaxial-cable-30
 
 ## Overview
 
-Get Secuview RG6/U coaxial cable (305m) for clear signal transmission and flexible handling for faster installs. Shop now.
+Get AsliElectronics RG6/U coaxial cable (305m) for clear signal transmission and flexible handling for faster installs. Shop now.
 
 ## Gallery
 

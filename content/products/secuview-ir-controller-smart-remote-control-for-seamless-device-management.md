@@ -1,5 +1,5 @@
 ---
-title: WiFi Smart IR Controller DC5V Qatar | Trusted Secuview
+title: WiFi Smart IR Controller DC5V Qatar | Trusted AsliElectronics
 date: '2026-05-17T13:51:51'
 draft: false
 slug: secuview-ir-controller-smart-remote-control-for-seamless-device-management
@@ -24,11 +24,11 @@ Control TVs, ACs & more with a WiFi smart IR controller in Qatar for homes & off
 
 ## Gallery
 
-![WiFi Smart IR Controller DC5V Qatar | Trusted Secuview](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-0.jpg)
+![WiFi Smart IR Controller DC5V Qatar | Trusted AsliElectronics](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-0.jpg)
 
-![WiFi Smart IR Controller DC5V Qatar | Trusted Secuview](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-1.jpg)
+![WiFi Smart IR Controller DC5V Qatar | Trusted AsliElectronics](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-1.jpg)
 
-![WiFi Smart IR Controller DC5V Qatar | Trusted Secuview](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-2.jpg)
+![WiFi Smart IR Controller DC5V Qatar | Trusted AsliElectronics](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-2.jpg)
 
-![WiFi Smart IR Controller DC5V Qatar | Trusted Secuview](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-3.jpg)
+![WiFi Smart IR Controller DC5V Qatar | Trusted AsliElectronics](/images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-3.jpg)
 

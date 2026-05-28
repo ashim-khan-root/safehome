@@ -23,7 +23,7 @@ featured_image: /images/products/secuview-bare-copper-23awg-cat6-network-cable-0
 
 ## Overview
 
-Upgrade to Secuview’s Cat6 bare copper cable for faster data transfer, low interference, and reliable performance in home or office networks. Shop now.
+Upgrade to AsliElectronics’s Cat6 bare copper cable for faster data transfer, low interference, and reliable performance in home or office networks. Shop now.
 
 ## Gallery
 

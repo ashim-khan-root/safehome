@@ -1,7 +1,7 @@
 ---
 title: "PA Systems for Mosques, Schools & Offices in Qatar — Complete Guide"
 date: 2026-05-24
-author: "SafeHOME Team"
+author: "AsliElectronics Team"
 description: "Learn how to choose the right public address system for your mosque, school, or office in Qatar. Covers amplifiers, speakers, and installation tips."
 summary: "Selecting the right PA system in Qatar depends on your space size, audio needs, and budget. This guide covers everything from amplifiers to ceiling speakers."
 tags: ["PA System", "Audio", "Mosque", "School", "Qatar"]

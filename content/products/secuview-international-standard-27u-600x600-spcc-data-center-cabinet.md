@@ -1,5 +1,5 @@
 ---
-title: Reliable 27U Data Center Cabinet – 600×600 SPCC | secuview
+title: Reliable 27U Data Center Cabinet – 600×600 SPCC | AsliElectronics
 date: '2026-05-17T13:49:31'
 draft: false
 slug: secuview-international-standard-27u-600x600-spcc-data-center-cabinet

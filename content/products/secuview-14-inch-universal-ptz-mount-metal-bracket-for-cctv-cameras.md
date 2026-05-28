@@ -1,5 +1,5 @@
 ---
-title: Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview
+title: Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics
 date: '2026-05-17T13:57:16'
 draft: false
 slug: secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras
@@ -26,13 +26,13 @@ Universal PTZ mount bracket for CCTV cameras, ideal for installers and businesse
 
 ## Gallery
 
-![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-0.jpg)
+![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-0.jpg)
 
-![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-1.jpg)
+![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-1.jpg)
 
-![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-2.jpg)
+![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-2.jpg)
 
-![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-3.jpg)
+![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-3.jpg)
 
-![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | Secuview](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-4.jpg)
+![Universal PTZ Mount Bracket 14 Heavy-Duty Reliable | AsliElectronics](/images/products/secuview-14-inch-universal-ptz-mount-metal-bracket-for-cctv-cameras-4.jpg)
 
