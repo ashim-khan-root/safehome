@@ -1,6 +1,6 @@
 baseURL = 'https://aslielectronics.com'
 languageCode = "en-us"
-title = "AsliElectronics Store"
+title = "AsliElectronics | Premium Security & Smart Solutions in Qatar"
 enableRobotsTXT = true
 enableEmoji = true
 timeout = "30s"

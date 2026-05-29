@@ -1,6 +1,6 @@
 {{ $base := .Site.BaseURL }}
 {{ $title := .Title }}
-{{ $desc := .Summary | plainify | truncate 155 }}
+{{ $desc := .Summary | plainify | truncate 155 }}{{ if not $desc }}{{ $desc = .Site.Params.description }}{{ end }}
 
 {{ if .IsHome }}
 <script type="application/ld+json">
