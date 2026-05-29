@@ -6,16 +6,42 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "LocalBusiness",
   "name": "{{ .Site.Title }}",
   "url": "{{ $base }}",
   "logo": "{{ $base }}favicon.svg",
   "description": "{{ .Site.Params.description }}",
+  "image": "{{ $base }}images/logo.png",
+  "telephone": "{{ .Site.Params.phone }}",
+  "email": "{{ .Site.Params.email }}",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Salwa Road",
     "addressLocality": "Doha",
     "addressCountry": "QA"
   },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 25.2854,
+    "longitude": 51.5310
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "14:00"
+    }
+  ],
+  "sameAs": [
+    "https://wa.me/{{ .Site.Params.whatsapp_number }}"
+  ],
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "{{ .Site.Params.phone }}",
@@ -60,6 +86,118 @@
   }
 }
 </script>
+{{ $cat := index .Params.categories 0 | default "" }}
+{{ if $cat }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{ if in $cat "Security" }}
+    {
+      "@type": "Question",
+      "name": "Is this camera suitable for outdoor use in Qatar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most of our security cameras are rated IP65 or higher for outdoor use in Qatar's climate. Check the specifications tab for the IP rating."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer installation services for this camera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer professional installation services across Doha and all Qatar. Contact us for a free consultation and quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the warranty on this security camera?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All our security cameras come with a manufacturer warranty. Contact our support team for specific warranty details."
+      }
+    }
+    {{ else if in $cat "Network" }}
+    {
+      "@type": "Question",
+      "name": "Do you offer network cabling installation in Qatar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide professional network cabling installation services across Doha and all Qatar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this switch suitable for a CCTV system?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our PoE switches are designed to power CCTV cameras directly through the Ethernet cable, eliminating the need for separate power adapters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the delivery time for networking products in Qatar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We offer fast delivery across Doha and all Qatar. Typically 1-2 business days within Doha."
+      }
+    }
+    {{ else if in $cat "Audio" }}
+    {
+      "@type": "Question",
+      "name": "What size PA system do I need for a mosque?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The right PA system depends on your space size. Contact us and our team will help you choose the right amplifier and speakers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you install PA systems in mosques and schools?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we specialize in PA system installation for mosques, schools, offices, and commercial spaces across Qatar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the warranty on audio equipment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "All audio equipment comes with manufacturer warranty. Contact us for specific warranty terms."
+      }
+    }
+    {{ else }}
+    {
+      "@type": "Question",
+      "name": "Is this product available in Qatar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, all products on AsliElectronics are available in Qatar. We offer fast delivery across Doha and all Qatar."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I order this product?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Click 'Order via WhatsApp' on the product page to place your order directly with our team."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer installation services?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we offer professional installation services across Doha and all Qatar. Contact us for a free quote."
+      }
+    }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
