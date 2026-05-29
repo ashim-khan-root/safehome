@@ -99,3 +99,5 @@ A structured cabling approach means:
 **Need help deciding?** Contact our team for a free consultation. We'll assess your space, requirements, and budget to recommend the right cabling solution.
 
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20network%20cabling%20for%20my%20business%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get Free Cabling Consultation</a>
+
+**Browse cabling products:** [Cat6 Cables](/categories/cable/) | [Network Accessories](/categories/cable/) | [HDMI Extenders](/categories/cable/)

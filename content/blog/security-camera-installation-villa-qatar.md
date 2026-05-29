@@ -116,3 +116,5 @@ When you hire AsliElectronics for installation, here's what we do:
 Ready to secure your villa? We'll help you design the right system for your property, budget, and security needs.
 
 <a href="https://wa.me/97477418754?text=Hi%2C%20I'd%20like%20a%20security%20camera%20consultation%20for%20my%20villa%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Book a Free Villa Security Consultation</a>
+
+**Browse security products:** [Security Cameras](/categories/security-surveillance/) | [NVR Systems](/categories/security-surveillance/) | [All Security Products](/categories/security-surveillance/)

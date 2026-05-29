@@ -46,6 +46,44 @@
   </div>
 </section>
 
+{{/* Shop by Use Case */}}
+<section class="py-12">
+  <div class="container-site">
+    <h2 class="section-title text-center mb-3">Shop by Use Case</h2>
+    <p class="text-slate-500 text-center text-sm mb-8">Find the right solution for your space</p>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <a href="{{ .Site.BaseURL }}categories/security-surveillance/" class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-slate-800 to-slate-900 p-6 min-h-[180px] flex flex-col justify-end">
+        <div class="absolute top-3 right-3 text-white/10">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+        </div>
+        <h3 class="text-white font-bold text-lg relative z-10">Villa Security</h3>
+        <p class="text-slate-300 text-sm relative z-10">Cameras, NVRs & access control</p>
+      </a>
+      <a href="{{ .Site.BaseURL }}categories/audio/" class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-indigo-800 to-indigo-900 p-6 min-h-[180px] flex flex-col justify-end">
+        <div class="absolute top-3 right-3 text-white/10">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+        </div>
+        <h3 class="text-white font-bold text-lg relative z-10">Mosque PA</h3>
+        <p class="text-slate-300 text-sm relative z-10">Amplifiers, speakers & mics</p>
+      </a>
+      <a href="{{ .Site.BaseURL }}categories/network--communications/" class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-emerald-800 to-emerald-900 p-6 min-h-[180px] flex flex-col justify-end">
+        <div class="absolute top-3 right-3 text-white/10">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"></path></svg>
+        </div>
+        <h3 class="text-white font-bold text-lg relative z-10">Office Network</h3>
+        <p class="text-slate-300 text-sm relative z-10">Switches, cabling & access points</p>
+      </a>
+      <a href="{{ .Site.BaseURL }}categories/smart-home/" class="group relative overflow-hidden rounded-xl bg-gradient-to-br from-amber-800 to-amber-900 p-6 min-h-[180px] flex flex-col justify-end">
+        <div class="absolute top-3 right-3 text-white/10">
+          <svg class="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+        </div>
+        <h3 class="text-white font-bold text-lg relative z-10">Smart Home</h3>
+        <p class="text-slate-300 text-sm relative z-10">Switches, locks & automation</p>
+      </a>
+    </div>
+  </div>
+</section>
+
 {{/* Featured Products */}}
 {{ $featured := $products | first 8 }}
 {{ if $featured }}

@@ -73,3 +73,5 @@ All our smart home products are Tuya-compatible and controlled from a single app
 - Local support and warranty
 
 <a href="https://wa.me/97477418754?text=Hi%2C%20I'm%20interested%20in%20smart%20home%20automation%20products.%20Can%20you%20help%20me%20choose%20the%20right%20setup%3F" target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Chat on WhatsApp to Get Started</a>
+
+**Browse smart home products:** [Smart Home Category](/categories/smart-home/) | [Smart Locks](/categories/smart-home/) | [Smart Switches](/categories/smart-home/)

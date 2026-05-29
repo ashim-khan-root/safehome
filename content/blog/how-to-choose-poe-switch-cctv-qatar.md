@@ -120,3 +120,5 @@ Each camera consumes a certain amount of power. The switch's power budget tells 
 Still not sure which PoE switch you need? Contact our team. Tell us how many cameras you're installing, whether they're indoors or outdoors, and we'll recommend the right switch.
 
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20a%20PoE%20switch%20for%20my%20CCTV%20system%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get PoE Switch Advice</a>
+
+**Browse networking products:** [PoE Switches](/categories/network--communications/) | [Routers](/categories/network--communications/) | [All Networking](/categories/network--communications/)
