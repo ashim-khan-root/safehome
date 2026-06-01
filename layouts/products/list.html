@@ -52,13 +52,13 @@
         <div class="flex justify-center mt-10">
           <div class="flex gap-2">
             {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium">&larr; Previous</a>
+            <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium">&larr; Previous</a>
             {{ end }}
             {{ range .Paginator.Pagers }}
-            <a href="{{ .URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium {{ if eq .PageNumber $.Paginator.PageNumber }}bg-accent-blue text-white border-accent-blue{{ end }}">{{ .PageNumber }}</a>
+            <a href="{{ .URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium {{ if eq .PageNumber $.Paginator.PageNumber }}bg-accent-blue text-white border-accent-blue{{ end }}">{{ .PageNumber }}</a>
             {{ end }}
             {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate hover:bg-light-bg text-sm font-medium">Next &rarr;</a>
+            <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium">Next &rarr;</a>
             {{ end }}
           </div>
         </div>

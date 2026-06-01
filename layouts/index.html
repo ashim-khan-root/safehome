@@ -4,19 +4,19 @@
 {{ $products := where .Site.RegularPages "Type" "products" }}
 
 {{/* Promo Strip */}}
-<section class="bg-white border-b border-soft-gray/30">
+<section class="bg-white dark:bg-slate-800 border-b border-soft-gray/30">
   <div class="container-site py-3">
     <div class="flex flex-wrap items-center justify-center gap-4 md:gap-8 text-xs md:text-sm">
-      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg> Free Shipping over 500 QAR</span>
-      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 100% Authentic</span>
-      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg> 30-Day Returns</span>
-      <span class="flex items-center gap-1.5 text-dark-slate"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Same-Day Doha Delivery</span>
+      <span class="flex items-center gap-1.5 text-dark-slate dark:text-slate-100"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path></svg> Free Shipping over 500 QAR</span>
+      <span class="flex items-center gap-1.5 text-dark-slate dark:text-slate-100"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> 100% Authentic</span>
+      <span class="flex items-center gap-1.5 text-dark-slate dark:text-slate-100"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg> 30-Day Returns</span>
+      <span class="flex items-center gap-1.5 text-dark-slate dark:text-slate-100"><svg class="w-4 h-4 text-accent-blue shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg> Same-Day Doha Delivery</span>
     </div>
   </div>
 </section>
 
 {{/* Category Tiles */}}
-<section class="py-12 bg-white">
+<section class="py-12 bg-white dark:bg-slate-800">
   <div class="container-site">
     <h2 class="section-title text-center mb-3">Shop by Category</h2>
     <p class="text-slate-500 text-center text-sm mb-8">Browse our extensive range of security and technology products</p>
@@ -26,17 +26,17 @@
       <a href="{{ $.Site.BaseURL }}{{ index $catLinks $cat.name }}" class="group flex flex-col items-center p-6 bg-light-bg rounded-xl hover:bg-accent-blue hover:text-white transition-all duration-300 border border-soft-gray/30 hover:border-accent-blue">
         <div class="w-12 h-12 rounded-full bg-white flex items-center justify-center mb-3 group-hover:bg-white/20 transition-colors shadow-sm">
           {{ if eq $cat.icon "camera" }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
           {{ else if eq $cat.icon "network" }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"></path></svg>
           {{ else if eq $cat.icon "audio" }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
           {{ else if eq $cat.icon "smart" }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
           {{ else if eq $cat.icon "cable" }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4"></path></svg>
           {{ else }}
-          <svg class="w-6 h-6 text-dark-slate group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
+          <svg class="w-6 h-6 text-dark-slate dark:text-slate-100 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 10h16M4 14h16M4 18h16"></path></svg>
           {{ end }}
         </div>
         <span class="text-sm font-semibold text-center">{{ $cat.name }}</span>
@@ -114,7 +114,7 @@
   <div class="container-site">
     <div class="grid md:grid-cols-4 gap-4">
       <div class="md:col-span-1 flex flex-col justify-center">
-        <h2 class="text-xl font-bold text-dark-slate mb-1">Need Installation?</h2>
+        <h2 class="text-xl font-bold text-dark-slate dark:text-slate-100 mb-1">Need Installation?</h2>
         <p class="text-sm text-slate-500 mb-3">Professional on-site service across Qatar</p>
         <a href="{{ .RelPermalink }}" class="text-accent-blue hover:text-brand-600 font-semibold text-sm flex items-center gap-1">
           View Services
@@ -124,19 +124,19 @@
       <div class="md:col-span-3 grid grid-cols-2 sm:grid-cols-4 gap-3">
         <div class="p-3 bg-light-bg rounded-lg border border-soft-gray/30 text-center hover:border-accent-blue transition-colors">
           <svg class="w-8 h-8 text-accent-blue mx-auto mb-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
-          <p class="text-xs font-semibold text-dark-slate">CCTV Installation</p>
+          <p class="text-xs font-semibold text-dark-slate dark:text-slate-100">CCTV Installation</p>
         </div>
         <div class="p-3 bg-light-bg rounded-lg border border-soft-gray/30 text-center hover:border-accent-blue transition-colors">
           <svg class="w-8 h-8 text-accent-blue mx-auto mb-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
-          <p class="text-xs font-semibold text-dark-slate">PA Systems</p>
+          <p class="text-xs font-semibold text-dark-slate dark:text-slate-100">PA Systems</p>
         </div>
         <div class="p-3 bg-light-bg rounded-lg border border-soft-gray/30 text-center hover:border-accent-blue transition-colors">
           <svg class="w-8 h-8 text-accent-blue mx-auto mb-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071c3.904-3.905 10.236-3.905 14.141 0M1.394 9.393c5.857-5.858 15.355-5.858 21.213 0"></path></svg>
-          <p class="text-xs font-semibold text-dark-slate">Network Cabling</p>
+          <p class="text-xs font-semibold text-dark-slate dark:text-slate-100">Network Cabling</p>
         </div>
         <div class="p-3 bg-light-bg rounded-lg border border-soft-gray/30 text-center hover:border-accent-blue transition-colors">
           <svg class="w-8 h-8 text-accent-blue mx-auto mb-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-          <p class="text-xs font-semibold text-dark-slate">Smart Home Setup</p>
+          <p class="text-xs font-semibold text-dark-slate dark:text-slate-100">Smart Home Setup</p>
         </div>
       </div>
     </div>
@@ -189,7 +189,7 @@
 {{/* Best Sellers */}}
 {{ $bestsellers := $products | first 4 }}
 {{ if $bestsellers }}
-<section class="py-12 bg-white">
+<section class="py-12 bg-white dark:bg-slate-800">
   <div class="container-site">
     <div class="flex items-center justify-between mb-8">
       <div>
@@ -215,12 +215,12 @@
   <div class="container-site">
     <p class="text-center text-xs uppercase tracking-widest text-slate-400 mb-6">Trusted Brands</p>
     <div class="flex flex-wrap items-center justify-center gap-8 md:gap-16">
-      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Hikvision</span>
-      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Dahua</span>
-      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">TP-Link</span>
-      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Ubiquiti</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate dark:text-slate-100 transition-colors">Hikvision</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate dark:text-slate-100 transition-colors">Dahua</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate dark:text-slate-100 transition-colors">TP-Link</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate dark:text-slate-100 transition-colors">Ubiquiti</span>
       <span class="text-lg md:text-2xl font-bold text-accent-blue">AsliElectronics</span>
-      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate transition-colors">Cisco</span>
+      <span class="text-lg md:text-2xl font-bold text-slate-400 hover:text-dark-slate dark:text-slate-100 transition-colors">Cisco</span>
     </div>
   </div>
 </section>

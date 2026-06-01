@@ -26,7 +26,7 @@
   }
 
   .btn-secondary {
-    @apply bg-white text-dark-slate border border-soft-gray hover:bg-light-bg;
+    @apply bg-white text-dark-slate border border-soft-gray hover:bg-light-bg dark:bg-slate-800 dark:text-slate-100 dark:border-slate-700 dark:hover:bg-slate-700;
   }
 
   .btn-outline {
@@ -42,7 +42,7 @@
   }
 
   .input {
-    @apply w-full px-4 py-2.5 rounded-lg border border-soft-gray bg-white text-dark-slate transition-colors focus:outline-none focus:ring-2 focus:ring-accent-blue focus:border-transparent;
+    @apply w-full px-4 py-2.5 rounded-lg border border-soft-gray bg-white text-dark-slate transition-colors focus:outline-none focus:ring-2 focus:ring-accent-blue focus:border-transparent dark:bg-slate-800 dark:text-slate-100 dark:border-slate-700;
   }
 
   .badge {
