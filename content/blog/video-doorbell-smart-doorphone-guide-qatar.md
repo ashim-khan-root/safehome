@@ -113,3 +113,12 @@ Whether you are at work in West Bay or travelling abroad, a video doorbell or sm
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20want%20to%20install%20a%20video%20doorbell%20at%20my%20home%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get Doorbell Advice</a>
 
 **Browse products:** [Video Doorbells](/categories/smart-home/) | [Smart Doorphones](/categories/smart-home/) | [All Smart Home](/categories/smart-home/)
+
+---
+
+### Shop Related Products
+
+- [Smart Video Doorphone (10-inch)](/products/secuview-10-inch-wifi-smart-video-doorphone/)
+- [WiFi Smart Doorphone (IP65)](/products/secuview-full-hd-wi-fi-smart-doorphone-with-waterproof-rate-ip65/)
+- [IP Smart Video Doorbell (Tuya)](/products/secuview-ip-smart-video-doorbell-with-tuya-app/)
+- [Smart Door Lock](/products/secuview-keyless-entry-smart-door-lock-with-fingerprint/)

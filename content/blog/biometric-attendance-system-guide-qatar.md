@@ -110,3 +110,11 @@ Not sure how many devices your workplace needs? Tell us your employee count, shi
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20a%20biometric%20attendance%20system%20for%20my%20business%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get Attendance System Advice</a>
 
 **Browse products:** [Face Recognition Terminals](/categories/security-surveillance/) | [Fingerprint Scanners](/categories/security-surveillance/) | [All Security Products](/categories/security-surveillance/)
+
+---
+
+### Shop Related Products
+
+- [Biometric Attendance System](/products/secuview-biometric-attendance-system-real-time-management/)
+- [Face Recognition Terminal](/products/secuview-face-recognition-biometric-time-attendance-system/)
+- [Smart Door Lock](/products/secuview-keyless-entry-smart-door-lock-with-fingerprint/)

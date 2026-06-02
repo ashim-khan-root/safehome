@@ -125,3 +125,11 @@ Tell us how many cameras you have, whether they are IP or analog, and how long y
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20an%20NVR%20or%20DVR%20for%20my%20CCTV%20system%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get Recorder Advice</a>
 
 **Browse products:** [NVR Recorders](/categories/security-surveillance/) | [DVR Recorders](/categories/security-surveillance/) | [Cameras](/categories/security-surveillance/) | [All Security](/categories/security-surveillance/)
+
+---
+
+### Shop Related Products
+
+- [16CH 4K PoE NVR](/products/secuview-16ch-4k-hybrid-nvr-i-poe-built-in-onvif-support/)
+- [8CH 4K NVR](/products/secuview-8ch-4k-non-poe-nvr-fast-performance-onvif-support/)
+- [16CH 4K Non-PoE NVR](/products/secuview-16ch-4k-non-poe-hybrid-nvr-high-performance-onvif-support/)

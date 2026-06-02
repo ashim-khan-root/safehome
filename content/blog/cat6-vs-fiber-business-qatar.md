@@ -101,3 +101,12 @@ A structured cabling approach means:
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20network%20cabling%20for%20my%20business%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get Free Cabling Consultation</a>
 
 **Browse cabling products:** [Cat6 Cables](/categories/cable/) | [Network Accessories](/categories/cable/) | [HDMI Extenders](/categories/cable/)
+
+---
+
+### Shop Related Products
+
+- [Cat6 Network Cable 305m](/products/secuview-bare-copper-23awg-cat6-network-cable/)
+- [Cat6 CCA Cable 305m](/products/secuview-cca-23awg-cat6-network-cable/)
+- [HDMI Extender via Cat6](/products/secuview-4k-60hz-hdmi-extender-60m-over-cat6-cascade-connection-supported/)
+- [USB Extender via Cat5/6](/products/secuview-usb-rj45-extender-150ft-usb-extension-via-cat5-5e-6-cable/)

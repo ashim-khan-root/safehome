@@ -118,3 +118,11 @@ Whether you choose mesh for simplicity or access points for performance, we can 
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20improving%20WiFi%20coverage%20in%20my%20villa%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get WiFi Coverage Advice</a>
 
 **Browse products:** [Access Points](/categories/network--communications/) | [4G Routers](/categories/network--communications/) | [Switches](/categories/network--communications/) | [All Networking](/categories/network--communications/)
+
+---
+
+### Shop Related Products
+
+- [Dual Band Access Point 1200Mbps](/products/secuview-1200mbps-dual-band-wireless-access-point/)
+- [AX1800 WiFi 6 Access Point](/products/secuview-ax1800-wi-fi-6-dualband-access-point/)
+- [4G LTE Router](/products/secuview-11ac-1200mbps-wide-range-wireless-4g-lte-router/)

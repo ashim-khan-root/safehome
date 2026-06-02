@@ -74,3 +74,11 @@ Designed for large auditoriums, sports facilities, and industrial buildings. Pow
 - Bluetooth input for music and announcements
 
 Browse our full range of [PA amplifiers and speakers]({{< ref "/products" >}}) for your next installation in Qatar.
+---
+
+### Shop Related Products
+
+- [100W PA Amplifier](/products/secuview-100w-public-address-power-amplifier-with-multiple-audio-sources/)
+- [280W PA Amplifier](/products/secuview-280w-public-address-amplifier-with-clear-sound/)
+- [480W 4-Zone PA Amplifier](/products/secuview-480w-public-address-amplifier-with-4-zones/)
+- [10W Ceiling Speaker](/products/secuview-10w-ceiling-speaker-clear-sound/)

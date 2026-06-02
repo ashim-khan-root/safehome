@@ -92,3 +92,11 @@ AsliElectronics provides PA system inspection, maintenance, and installation ser
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20PA%20system%20maintenance%20for%20a%20mosque%20in%20Qatar.%20Can%20you%20help%3F" target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Request PA System Service</a>
 
 **Browse audio products:** [PA Systems](/categories/audio/) | [Ceiling Speakers](/categories/audio/) | [Amplifiers](/categories/audio/)
+
+---
+
+### Shop Related Products
+
+- [100W PA Amplifier](/products/secuview-100w-public-address-power-amplifier-with-multiple-audio-sources/)
+- [6W Ceiling Speaker](/products/secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office/)
+- [10W Volume Controller](/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design/)

@@ -83,3 +83,12 @@ A budget-friendly option with 2K resolution, WiFi connectivity, and PTZ control.
 ## Need Help Choosing?
 
 Visit our [products page]({{< ref "/products" >}}) to browse the full range, or contact us on WhatsApp for personalized advice.
+
+---
+
+### Shop Related Products
+
+- [12MP Outdoor IP Camera](/products/secuview-12mp-weatherproof-outdoor-ip-camera-smart-detection-onvif/)
+- [6MP PTZ Camera](/products/secuview-6mp-outdoor-ip-ptz-camera-auto-focus-lens-weatherproof/)
+- [5MP Indoor IP Camera](/products/secuview-5mp-indoor-ip-camera-two-way-audio-auto-tracking-onvif/)
+- [Solar 4G Camera](/products/secuview-wireless-ip-outdoor-solar-powered-4g-security-camera/)

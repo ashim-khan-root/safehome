@@ -106,3 +106,9 @@ Tell us your location in Qatar and how many devices need internet. We will recom
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20a%204G%20router%20for%20my%20location%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get 4G Router Advice</a>
 
 **Browse networking products:** [4G LTE Routers](/categories/network--communications/) | [Access Points](/categories/network--communications/) | [All Networking](/categories/network--communications/)
+
+---
+
+### Shop Related Products
+
+- [4G LTE Router](/products/secuview-11ac-1200mbps-wide-range-wireless-4g-lte-router/)

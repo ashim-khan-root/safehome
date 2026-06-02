@@ -122,3 +122,12 @@ Still not sure which PoE switch you need? Contact our team. Tell us how many cam
 <a href="https://wa.me/97477418754?text=Hi%2C%20I%20need%20help%20choosing%20a%20PoE%20switch%20for%20my%20CCTV%20system%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Get PoE Switch Advice</a>
 
 **Browse networking products:** [PoE Switches](/categories/network--communications/) | [Routers](/categories/network--communications/) | [All Networking](/categories/network--communications/)
+
+---
+
+### Shop Related Products
+
+- [4-Port PoE Switch](/products/secuview-4-port-poe-switch-with-1-uplink-gigabit-performance/)
+- [8-Port PoE Switch 120W](/products/secuview-120w-8-port-poe-switch-2-uplink-ports-10-100mbps-operation/)
+- [16-Port PoE Switch 300W](/products/secuview-16-port-gigabit-poe-switch-300w/)
+- [24-Port PoE Switch](/products/secuview-24-port-gigabit-poe-switch-fast-reliable-network-with-2-uplink-2-sfp/)

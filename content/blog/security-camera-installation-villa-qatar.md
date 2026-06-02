@@ -118,3 +118,12 @@ Ready to secure your villa? We'll help you design the right system for your prop
 <a href="https://wa.me/97477418754?text=Hi%2C%20I'd%20like%20a%20security%20camera%20consultation%20for%20my%20villa%20in%20Qatar." target="_blank" class="btn bg-green-500 text-white hover:bg-green-600 px-6 py-2 inline-flex items-center gap-2 rounded-lg text-sm">Book a Free Villa Security Consultation</a>
 
 **Browse security products:** [Security Cameras](/categories/security-surveillance/) | [NVR Systems](/categories/security-surveillance/) | [All Security Products](/categories/security-surveillance/)
+
+---
+
+### Shop Related Products
+
+- [12MP Outdoor IP Camera](/products/secuview-12mp-weatherproof-outdoor-ip-camera-smart-detection-onvif/)
+- [6MP PTZ Camera](/products/secuview-6mp-outdoor-ip-ptz-camera-auto-focus-lens-weatherproof/)
+- [Camera Mount Bracket](/products/secuview-1258-abs-indoor-outdoor-l-type-cctv-wall-mount-bracket/)
+- [Junction Box](/products/secuview-105mm-waterproof-metal-junction-box-for-security-cameras/)
