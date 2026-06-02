@@ -7,7 +7,7 @@
         </p>
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-        {{ range .Paginator.Pages }}
+        {{ range .Paginator.Pages.ByDate.Reverse }}
             {{ partial "post-card" . }}
         {{ end }}
     </div>
