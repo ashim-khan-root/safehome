@@ -77,12 +77,50 @@
   ],
   {{ end }}
   {{ with .Params.sku }}"sku": "{{ . }}",{{ end }}
+  "brand": {
+    "@type": "Brand",
+    "name": "Secuview",
+    "identifier": "secuview"
+  },
   "offers": {
     "@type": "Offer",
     "price": "{{ .Params.price }}",
     "priceCurrency": "{{ .Params.currency | default "QAR" }}",
     "availability": "{{ with .Params.availability }}{{ . }}{{ else }}https://schema.org/InStock{{ end }}",
-    "url": "{{ .Permalink }}"
+    "url": "{{ .Permalink }}",
+    "shippingDetails": {
+      "@type": "OfferShippingDetails",
+      "shippingRate": {
+        "@type": "MonetaryAmount",
+        "value": 0,
+        "currency": "QAR"
+      },
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "QA"
+      },
+      "deliveryTime": {
+        "@type": "ShippingDeliveryTime",
+        "handlingTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 0,
+          "maxValue": 1
+        },
+        "transitTime": {
+          "@type": "QuantitativeValue",
+          "minValue": 1,
+          "maxValue": 2
+        }
+      }
+    },
+    "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "QA",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 7,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/FreeReturn"
+    }
   }
 }
 </script>
