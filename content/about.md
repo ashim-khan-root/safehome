@@ -1,32 +1,33 @@
 ---
 title: "About AsliElectronics"
-description: "Qatar's trusted source for authentic security, networking, audio, and smart home solutions"
+description: "AsliElectronics is a Qatar-based ecommerce platform for authentic security, networking, audio, and smart home products."
 ---
 
 ## About AsliElectronics
 
-**AsliElectronics** is your trusted source for authentic security and smart technology solutions in Qatar. We are part of the **STARFOX Security System** group, established in 2009 with a mission to deliver high-quality products and services.
+**AsliElectronics** is a new-generation ecommerce platform in Qatar, offering authentic security systems, networking equipment, audio solutions, and smart home products at competitive prices.
 
 ### Our Story
 
-STARFOX was founded in 2009 as a security system solution provider with high-end products. In 2015, we expanded into network cables, power cables, and communication products. By 2018, we launched smart home security system products and consumer electronics.
+AsliElectronics was built for one reason: to make quality electronics accessible to everyone in Qatar without the markup. We partner directly with manufacturers and verified suppliers to bring you genuine products at fair prices — backed by local support and fast delivery across Doha and all Qatar.
 
-Today, AsliElectronics offers a curated selection of genuine products sourced directly from trusted manufacturers. We have a manufacturing facility in China that produces CCTV cameras and established supply chain partnerships spanning over a decade.
+We are a startup with big ambitions. Our team brings years of experience in security systems and consumer electronics, but we operate with the agility of a modern ecommerce business. That means competitive pricing, responsive customer service, and a curated product range that covers what actually matters.
 
-### Why Choose AsliElectronics
+### Why Shop at AsliElectronics
 
-- **Authentic Products**: Everything we sell is 100% genuine — no imitations, no compromises
-- **Competitive Pricing**: Direct manufacturing relationships mean better prices for you
-- **Local Support**: Based in Doha, Qatar with fast local delivery and support
-- **Expertise**: Over 15 years of experience in the security and technology industry
+- **Genuine Products Only** — We source directly from trusted manufacturers. No imitations, no compromises.
+- **Competitive Pricing** — Lean operations and direct supply chains mean better prices for you.
+- **Fast Delivery Across Qatar** — Same-day and next-day delivery available in Doha, with coverage across all Qatar.
+- **Local Support** — Based in Doha, with WhatsApp ordering and responsive customer service.
+- **Easy Ordering** — Browse our catalog, order via WhatsApp, and we handle the rest.
 
 ### Our Product Range
 
-- Security Surveillance (CCTV cameras, DVRs, NVRs)
-- Networking & Communications (switches, routers, access points)
-- Audio Systems (PA systems, speakers, amplifiers)
-- Smart Home (door locks, switches, doorbells)
-- Cables & Accessories
+- Security Surveillance (CCTV cameras, DVRs, NVRs, accessories)
+- Networking & Communications (PoE switches, routers, access points, cabling)
+- Audio Systems (PA amplifiers, ceiling speakers, wall speakers, volume controllers)
+- Smart Home (video doorphones, door locks, smart switches, plugs, IR controllers)
+- Cables & Accessories (Cat6, coaxial, HDMI, patch panels, racks)
 
 ### Contact Us
 
@@ -34,4 +35,4 @@ Today, AsliElectronics offers a curated selection of genuine products sourced di
 **Email**: info@aslielectronics.com
 **Location**: Doha, Qatar
 
-Visit our [Contact](/contact/) page to get in touch.
+Need help choosing a product? [Contact us](/contact/) — we are happy to help.
