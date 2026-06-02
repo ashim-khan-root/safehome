@@ -7,6 +7,7 @@ summary: "A solar 4G security camera runs on renewable energy and connects throu
 tags: ["Solar Camera", "4G Camera", "Solar 4G", "Security Camera", "Wireless Camera", "Qatar", "Outdoor Security"]
 categories: ["Security & Surveillance"]
 draft: false
+slug: solar-4g-camera-guide-qatar
 weight: 10
 ---
 
