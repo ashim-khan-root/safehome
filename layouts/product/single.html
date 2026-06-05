@@ -8,6 +8,12 @@
 {{ $waMsg := printf "Hi, I'm interested in *%s* (%s) — %s %.2f QAR. Is it available?" .Title (.Params.sku | default "") $currency $price | urlquery }}
 {{ $body := replaceRE "^---[\\s\\S]*?---\n" "" .RawContent }}
 {{ $body = replaceRE "## Gallery[\\s\\S]*" "" $body }}
+{{ $descBody := $body }}
+{{ $specTable := "" }}
+{{ if in $body "### Specifications" }}
+  {{ $descBody = $body | replaceRE "(?s)### Specifications\n(.+?)(\n### .*)" "${2}" }}
+  {{ $specTable = $body | replaceRE "(?s).*?### Specifications\n(.+)" "$1" | replaceRE "(?s)\n### .*" "" }}
+{{ end }}
 
 <section class="bg-white border-b border-soft-gray/30">
   <div class="container-site py-3">
@@ -110,9 +116,12 @@
         </div>
       </div>
       <div id="tab-description" class="tab-content prose max-w-none text-sm">
-        {{ $body | markdownify }}
+        {{ $descBody | markdownify }}
       </div>
       <div id="tab-specs" class="tab-content hidden prose max-w-none text-sm">
+        {{ if $specTable }}
+        {{ $specTable | markdownify }}
+        {{ else }}
         <table class="w-full">
           {{ if .Params.sku }}
           <tr class="border-b border-soft-gray/30"><td class="py-3 font-semibold text-dark-slate dark:text-slate-100 w-1/3">SKU</td><td class="py-3 text-slate-600">{{ .Params.sku }}</td></tr>
@@ -123,6 +132,7 @@
           {{ end }}
           <tr class="border-b border-soft-gray/30"><td class="py-3 font-semibold text-dark-slate dark:text-slate-100">Availability</td><td class="py-3 text-green-600 font-semibold">In Stock</td></tr>
         </table>
+        {{ end }}
       </div>
       <div id="tab-reviews" class="tab-content hidden prose max-w-none text-sm">
         <div class="space-y-4">
@@ -185,11 +195,11 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelectorAll('.tab-btn').forEach(btn => {
     btn.addEventListener('click', function() {
       document.querySelectorAll('.tab-btn').forEach(b => {
-        b.classList.remove('text-dark-slate dark:text-slate-100', 'border-accent-blue');
+        b.classList.remove('text-dark-slate', 'dark:text-slate-100', 'border-accent-blue');
         b.classList.add('text-slate-500');
       });
       this.classList.remove('text-slate-500');
-      this.classList.add('text-dark-slate dark:text-slate-100', 'border-accent-blue');
+      this.classList.add('text-dark-slate', 'dark:text-slate-100', 'border-accent-blue');
       document.querySelectorAll('.tab-content').forEach(c => c.classList.add('hidden'));
       document.getElementById('tab-' + this.dataset.tab)?.classList.remove('hidden');
     });
