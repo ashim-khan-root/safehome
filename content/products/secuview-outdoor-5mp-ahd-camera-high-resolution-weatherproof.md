@@ -1,4 +1,5 @@
 ---
+brand: Secuview
 categories:
 - Security Surveillance
 date: '2026-05-17T13:55:16'

@@ -1,4 +1,5 @@
 ---
+brand: Secuview
 categories:
 - Cable
 date: '2026-05-17T13:56:24'

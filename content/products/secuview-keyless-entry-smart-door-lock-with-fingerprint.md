@@ -1,8 +1,9 @@
 ---
+brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Smart Home
-- Smart Lock
+
 currency: QAR
 date: '2026-05-17T13:49:46'
 description: Get a Fingerprint Smart Door Lock with keyless entry via PIN, RFID card,
@@ -74,6 +75,5 @@ The **Reliable Fingerprint Smart Door Lock – 4-in-1 Keyless Access** is design
 
 **What support does Secuview offer after purchase?**
 Secuview provides local support from our Doha office, including installation guidance, troubleshooting, and after-sales service for the **Reliable Fingerprint Smart Door Lock – 4-in-1 Keyless Access**.
-
 
 ## Gallery

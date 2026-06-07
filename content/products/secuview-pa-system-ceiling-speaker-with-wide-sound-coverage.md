@@ -1,4 +1,5 @@
 ---
+brand: Secuview
 availability: http://schema.org/OutOfStock
 categories:
 - Audio

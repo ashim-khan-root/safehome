@@ -1,4 +1,5 @@
 ---
+brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Audio
@@ -7,9 +8,9 @@ date: '2026-05-17T13:56:05'
 description: Buy 10W volume controller for PA zones in Doha, Qatar. Reliable steel
   wall-mount design, MOI compliant, warranty & free site visit. Get a quote.
 draft: false
-featured_image: https://secuview.com/wp-content/uploads/1-168.jpg
+featured_image: /images/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design-0.jpg
 images:
-- https://secuview.com/wp-content/uploads/1-168.jpg
+- /images/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design-0.jpg
 - /images/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design-1.jpg
 - /images/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design-2.jpg
 - /images/products/secuview-10w-volume-controller-reliable-steel-build-wall-mount-design-3.jpg

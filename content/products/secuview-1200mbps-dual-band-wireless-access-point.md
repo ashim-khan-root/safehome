@@ -1,8 +1,9 @@
 ---
+brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Networking
-- Access Point & Router
+
 currency: QAR
 date: '2026-05-17T13:52:24'
 description: Buy a high-speed dual band wireless access point for offices and businesses
@@ -74,6 +75,5 @@ Yes. Our technical team provides professional installation, configuration, and t
 
 **Is the **Dual Band Wireless Access Point 1200Mbps Qatar | Secuview** suitable for Qatar's environment?**
 Yes. The **Dual Band Wireless Access Point 1200Mbps Qatar | Secuview** is built with reliable components suitable for Qatar's climate and electrical conditions. It's designed for continuous operation in commercial and residential settings.
-
 
 ## Gallery

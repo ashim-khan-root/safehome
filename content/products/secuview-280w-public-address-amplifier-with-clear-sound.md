@@ -1,8 +1,9 @@
 ---
+brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Audio
-- PA System
+
 currency: QAR
 date: '2026-05-17T13:44:40'
 description: Get a 280W PA Amplifier with clear, low-distortion audio plus Bluetooth,
@@ -77,6 +78,5 @@ The **Reliable 280W PA Amplifier  Clear Sound Bluetooth | secuview** comes with 
 
 **Can the **Reliable 280W PA Amplifier  Clear Sound Bluetooth | secuview** integrate with my existing audio system?**
 Yes. The **Reliable 280W PA Amplifier  Clear Sound Bluetooth | secuview** is designed to work with standard PA and audio infrastructure. Contact our team to confirm compatibility with your existing equipment and to plan the integration.
-
 
 ## Gallery

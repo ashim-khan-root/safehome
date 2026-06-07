@@ -1,4 +1,4 @@
-baseURL = 'https://aslielectronics.com'
+baseURL = 'https://aslielectronics.com/'
 languageCode = "en-us"
 title = "AsliElectronics | Premium Security & Smart Solutions in Qatar"
 enableRobotsTXT = true
@@ -39,11 +39,11 @@ displaySearchIcon = true
 displayDarkMode = true
 currency = "QAR"
 
+ignoreLogs = ['warning-goldmark-raw-html']
+
 [params.analytics]
 enabled = false
 googleAnalyticsID = ""
-
-ignoreLogs = ['warning-goldmark-raw-html']
 
 [minify]
   disableCSS = false

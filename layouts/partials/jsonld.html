@@ -79,8 +79,8 @@
   {{ with .Params.sku }}"sku": "{{ . }}",{{ end }}
   "brand": {
     "@type": "Brand",
-    "name": "Secuview",
-    "identifier": "secuview"
+    "name": "{{ .Params.brand | default "Secuview" }}",
+    "identifier": "{{ .Params.brand | default "Secuview" | urlize }}"
   },
   "offers": {
     "@type": "Offer",
@@ -251,7 +251,7 @@
     {{ end }}
     ,{
       "@type": "ListItem",
-      "position": {{ len .Ancestors }},
+      "position": {{ add (len .Ancestors) 1 }},
       "name": "{{ .Title }}",
       "item": "{{ .Permalink }}"
     }
@@ -290,7 +290,7 @@
     {{ end }}
     ,{
       "@type": "ListItem",
-      "position": {{ len .Ancestors }},
+      "position": {{ add (len .Ancestors) 1 }},
       "name": "{{ .Title }}",
       "item": "{{ .Permalink }}"
     }

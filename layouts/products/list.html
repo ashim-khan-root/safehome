@@ -22,7 +22,7 @@
         <div class="bg-white dark:bg-slate-800 rounded-xl border border-soft-gray/30 p-5 sticky top-24">
           <h3 class="font-semibold text-dark-slate dark:text-white mb-3 text-sm uppercase tracking-wider">Categories</h3>
           <ul class="space-y-1">
-            {{ range $cat := slice (dict "name" "All Products" "url" "categories/") (dict "name" "Security Surveillance" "url" "categories/security-surveillance/") (dict "name" "Networking" "url" "categories/network--communications/") (dict "name" "Audio" "url" "categories/audio/") (dict "name" "Smart Home" "url" "categories/smart-home/") (dict "name" "Cable" "url" "categories/cable/") }}
+            {{ range $cat := slice (dict "name" "All Products" "url" "categories/") (dict "name" "Security Surveillance" "url" "categories/security-surveillance/") (dict "name" "Networking" "url" "categories/networking/") (dict "name" "Audio" "url" "categories/audio/") (dict "name" "Smart Home" "url" "categories/smart-home/") (dict "name" "Cable" "url" "categories/cable/") }}
             <li>
               <a href="{{ $.Site.BaseURL }}{{ $cat.url }}" class="text-sm text-slate-600 dark:text-slate-400 hover:text-accent-blue flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-light-bg transition-colors {{ if eq $cat.name "All Products" }}font-semibold text-accent-blue{{ end }}">
                 <span>{{ $cat.name }}</span>
@@ -52,13 +52,13 @@
         <div class="flex justify-center mt-10">
           <div class="flex gap-2">
             {{ if .Paginator.HasPrev }}
-            <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium">&larr; Previous</a>
+            <a href="{{ .Paginator.Prev.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium" aria-label="Previous page">&larr; Previous</a>
             {{ end }}
             {{ range .Paginator.Pagers }}
-            <a href="{{ .URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium {{ if eq .PageNumber $.Paginator.PageNumber }}bg-accent-blue text-white border-accent-blue{{ end }}">{{ .PageNumber }}</a>
+            <a href="{{ .URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium {{ if eq .PageNumber $.Paginator.PageNumber }}bg-accent-blue text-white border-accent-blue{{ end }}" {{ if eq .PageNumber $.Paginator.PageNumber }}aria-current="page"{{ end }}>{{ .PageNumber }}</a>
             {{ end }}
             {{ if .Paginator.HasNext }}
-            <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium">Next &rarr;</a>
+            <a href="{{ .Paginator.Next.URL }}" class="px-4 py-2 rounded-lg border border-soft-gray/30 bg-white text-dark-slate dark:text-slate-100 hover:bg-light-bg text-sm font-medium" aria-label="Next page">Next &rarr;</a>
             {{ end }}
           </div>
         </div>

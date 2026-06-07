@@ -1,4 +1,5 @@
 ---
+brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Security Surveillance
@@ -8,9 +9,9 @@ description: 4CH hybrid DVR with 4K resolution & intelligent detection for homes
   businesses in Doha, Qatar. Certified technicians, warranty, free site visit. Get
   a.
 draft: false
-featured_image: https://secuview.com/wp-content/uploads/1-129.jpg
+featured_image: /images/products/secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection-0.jpg
 images:
-- https://secuview.com/wp-content/uploads/1-129.jpg
+- /images/products/secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection-0.jpg
 - /images/products/secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection-1.jpg
 - /images/products/secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection-2.jpg
 - /images/products/secuview-professional-4ch-hybrid-dvr-4k-resolution-intelligent-detection-3.jpg

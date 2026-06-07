@@ -13,7 +13,7 @@ module.exports = {
         },
         soft: {
           gray: '#cbd5e1',
-          blue: '#cbd5e1',
+          blue: '#93c5fd',
         },
         light: {
           bg: '#f1f5f9',
