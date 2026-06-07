@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:52:50'
 description: High-performance AX1800 dual-band WiFi6 access point for fast, reliable
@@ -49,7 +49,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 227.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

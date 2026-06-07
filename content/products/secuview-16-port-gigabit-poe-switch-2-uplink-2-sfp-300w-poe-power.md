@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:43:15'
 description: 16-port gigabit PoE switch 300W with 2 uplink + 2 SFP and 300W power
@@ -48,7 +48,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 552.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

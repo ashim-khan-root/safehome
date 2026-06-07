@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:46:58'
 description: Rock-solid 4U SPCC double-section cabinet for 19-inch gear, cold-rolled
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 210.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:53:00'
 description: 2-Port PoE switch with 1 uplink and extended 100 m connectivity for stable
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 49.40 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

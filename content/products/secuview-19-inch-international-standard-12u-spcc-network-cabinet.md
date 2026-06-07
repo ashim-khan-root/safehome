@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:47:33'
 description: Secure your setup with a 12U network cabinet, thick SPCC steel, built-in
@@ -49,7 +49,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 410.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

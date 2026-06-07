@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:55:35'
 description: Buy a 1U rack mount cable manager in Doha, Qatar. MOI compliant, warranty
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 32.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

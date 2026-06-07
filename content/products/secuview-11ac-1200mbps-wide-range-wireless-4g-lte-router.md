@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:52:33'
 description: 1200Mbps 4G LTE router with wide-range wireless for reliable internet
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 240.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

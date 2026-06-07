@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:55:54'
 description: Get a 1U 350mm rack shelf for IT racks in Doha, Qatar. Ventilated steel
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 45.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

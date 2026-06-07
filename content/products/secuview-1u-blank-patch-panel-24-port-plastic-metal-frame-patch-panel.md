@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:55:45'
 description: Get a 1U 24-Port blank patch panel for racks in Doha, Qatar. MOI compliant,
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 71.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

@@ -1,6 +1,6 @@
 ---
 categories:
-- Network & Communications
+- Networking
 date: '2026-05-17T13:43:19'
 description: Outdoor Wireless 4G Router is a powerful, weatherproof networking solution
   designed for reliable outdoor internet connectivity in Qatar’s demanding.
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 260.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

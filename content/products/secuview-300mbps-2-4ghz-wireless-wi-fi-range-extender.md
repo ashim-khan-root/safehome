@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:52:42'
 description: 300Mbps 2.4GHz Wi-Fi range extender for stronger, stable wireless coverage
@@ -48,7 +48,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 65.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

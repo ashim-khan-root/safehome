@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:55:27'
 description: Buy a rack mount PDU for IT racks in Doha, Qatar. 6-way universal sockets,
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 65.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

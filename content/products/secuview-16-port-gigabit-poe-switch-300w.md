@@ -1,6 +1,6 @@
 ---
 categories:
-- Network & Communications
+- Networking
 date: '2026-05-17T13:42:59'
 description: Secuview 16-Port Gigabit PoE Switch 300W is a high-performance networking
   solution designed for CCTV systems, IP cameras, access control, and enterprise.
@@ -48,7 +48,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 450.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

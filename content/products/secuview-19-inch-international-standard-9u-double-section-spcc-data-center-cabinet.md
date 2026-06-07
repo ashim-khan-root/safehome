@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:47:18'
 description: Secure 19-inch equipment in a 9U SPCC double-section cabinet with thickened
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 345.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

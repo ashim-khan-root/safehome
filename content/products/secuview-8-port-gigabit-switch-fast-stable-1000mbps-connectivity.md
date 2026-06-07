@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:50:59'
 description: Secuview 8-Port Gigabit Switch delivers fast, stable 1000Mbps connectivity
@@ -49,7 +49,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 130.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

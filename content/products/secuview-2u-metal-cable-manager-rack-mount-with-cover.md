@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:55:41'
 description: Buy a 2U metal cable manager for racks in Doha, Qatar. MOI compliant,
@@ -45,7 +45,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 45.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

@@ -1,5 +1,5 @@
 ---
-title: "Network & Communications"
+title: "Networking"
 description: "Switches, routers, access points, PoE extenders, and networking equipment in Qatar. Gigabit and PoE switches for home and business."
 ---
 

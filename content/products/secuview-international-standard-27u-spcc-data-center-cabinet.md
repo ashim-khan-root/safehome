@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:47:51'
 description: Secure your IT setup with a 27U data center cabinet built from thick
@@ -48,7 +48,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 1440.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

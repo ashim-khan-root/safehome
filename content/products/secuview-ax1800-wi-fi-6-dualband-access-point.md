@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:42:54'
 description: Experience blazing speeds with the Secuview AX1800 Wi-Fi 6. Features
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 299.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

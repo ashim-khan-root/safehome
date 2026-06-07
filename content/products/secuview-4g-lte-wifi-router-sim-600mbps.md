@@ -1,6 +1,6 @@
 ---
 categories:
-- Network & Communications
+- Networking
 date: '2026-05-17T13:45:13'
 description: The Secuview 4G LTE Wi-Fi Router with SIM is a powerful and reliable
   internet solution designed for homes, offices, and remote locations in Qatar.
@@ -46,7 +46,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 240.50 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

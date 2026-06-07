@@ -1,6 +1,6 @@
 ---
 categories:
-- Network & Communications
+- Networking
 date: '2026-05-17T13:43:27'
 description: Secuview 200W 16-Port Gigabit PoE Switch with 2 Uplink and 1 SFP port,
   delivering reliable power, fast and stable performance for network setups.
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 450.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

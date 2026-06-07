@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 currency: QAR
 date: '2026-05-17T13:53:12'
 description: High-performance 24-Port Gigabit PoE switch with 300W power, 2 uplink
@@ -48,7 +48,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 689.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications |
+| Categories | Networking |
 
 ### Applications
 

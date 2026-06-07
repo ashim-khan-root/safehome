@@ -76,7 +76,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
     weight = 2
   [[menu.main]]
     name = "Networking"
-    url = "/categories/network--communications/"
+    url = "/categories/networking/"
     weight = 3
   [[menu.main]]
     name = "Smart Home"

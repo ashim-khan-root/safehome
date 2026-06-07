@@ -1,7 +1,7 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications
+- Networking
 - Access Point & Router
 currency: QAR
 date: '2026-05-17T13:52:24'
@@ -47,7 +47,7 @@ Whether you're building a new network infrastructure or upgrading an existing on
 | Price | QAR 270.00 |
 | Brand | Secuview |
 | Availability | In Stock |
-| Categories | Network & Communications > Access Point & Router |
+| Categories | Networking > Access Point & Router |
 
 ### Applications
 
