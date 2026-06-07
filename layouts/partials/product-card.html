@@ -1,8 +1,8 @@
 {{ $image := "" }}
 {{ if .Params.featured_image }}
-  {{ $image = printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" (.Params.featured_image | default "")) }}
+  {{ $image = printf "%s/%s" (strings.TrimRight "/" .Site.BaseURL) (strings.TrimPrefix "/" (.Params.featured_image | default "")) }}
 {{ else if .Params.images }}
-  {{ $image = printf "%s%s" .Site.BaseURL (strings.TrimPrefix "/" ((index .Params.images 0) | default "")) }}
+  {{ $image = printf "%s/%s" (strings.TrimRight "/" .Site.BaseURL) (strings.TrimPrefix "/" ((index .Params.images 0) | default "")) }}
 {{ else }}
   {{ $image = "https://placehold.co/400x400/e2e8f0/64748b?text=No+Image" }}
 {{ end }}
