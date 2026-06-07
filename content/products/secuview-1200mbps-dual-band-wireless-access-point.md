@@ -1,7 +1,8 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Network & Communications > Access Point & Router
+- Network & Communications
+- Access Point & Router
 currency: QAR
 date: '2026-05-17T13:52:24'
 description: Buy a high-speed dual band wireless access point for offices and businesses

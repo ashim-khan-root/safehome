@@ -1,7 +1,8 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Audio > PA System
+- Audio
+- PA System
 currency: QAR
 date: '2026-05-17T13:44:40'
 description: Get a 280W PA Amplifier with clear, low-distortion audio plus Bluetooth,

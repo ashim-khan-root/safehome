@@ -1,7 +1,8 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Smart Home > Smart Lock
+- Smart Home
+- Smart Lock
 currency: QAR
 date: '2026-05-17T13:49:46'
 description: Get a Fingerprint Smart Door Lock with keyless entry via PIN, RFID card,

@@ -1,7 +1,8 @@
 ---
 availability: http://schema.org/InStock
 categories:
-- Security Surveillance > CCTV Accessories
+- Security Surveillance
+- CCTV Accessories
 currency: QAR
 date: '2026-05-17T13:57:16'
 description: Universal PTZ mount bracket for CCTV cameras, ideal for installers and
