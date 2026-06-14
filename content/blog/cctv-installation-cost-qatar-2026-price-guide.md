@@ -6,6 +6,7 @@ description: "How much does CCTV installation cost in Qatar? Complete 2026 price
 summary: "Wondering how much a CCTV system costs in Qatar? This guide breaks down camera prices, NVR costs, installation fees, and cabling for villas, shops, offices, and warehouses in Doha."
 tags: ["CCTV", "Installation Cost", "Security Cameras", "Price Guide", "Qatar", "Villa Security", "Doha"]
 categories: ["Security & Surveillance"]
+slug: "cctv-installation-cost-qatar-2026-price-guide"
 draft: false
 weight: 10
 ---

@@ -6,6 +6,7 @@ description: "Compare 2MP, 4MP, and 8MP (4K) security camera resolutions for you
 summary: "Not sure which camera resolution to choose? This guide compares 2MP, 4MP, and 8MP cameras for different use cases in Qatar — from villa perimeters to retail stores and large warehouses."
 tags: ["Security Cameras", "Camera Resolution", "4K", "CCTV", "Buying Guide", "Qatar"]
 categories: ["Security & Surveillance"]
+slug: "security-camera-resolution-guide-qatar-2mp-vs-4mp-vs-8mp"
 draft: false
 weight: 10
 ---
