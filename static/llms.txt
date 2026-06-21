@@ -1,6 +1,6 @@
 # AsliElectronics — Premium Security & Smart Solutions in Qatar
 
-> AsliElectronics is a Qatar-based supplier of security, networking, audio, and smart home products. Based in Doha, Qatar. Phone: +974 7741 8754. WhatsApp: +97477418754. Est. 2009 as part of Starfox Security System. Free shipping on orders over 500 QAR. Same-day delivery in Doha.
+> AsliElectronics is a new-generation ecommerce platform in Qatar, offering authentic security systems, networking equipment, audio solutions, and smart home products at competitive prices. Based in Doha, Qatar. Phone: +974 7741 8754. WhatsApp: +97477418754. Free shipping on orders over 500 QAR. Same-day delivery in Doha.
 
 ## Key Pages
 
@@ -41,6 +41,10 @@ Category: https://aslielectronics.com/categories/cable/
 
 ## Blog Posts
 
+- Free CCTV Planning Tools for Security Installers in Qatar: https://aslielectronics.com/blog/free-cctv-planning-tools-qatar/
+- CCTV Installation Cost in Qatar 2026 — Price Guide: https://aslielectronics.com/blog/cctv-installation-cost-qatar-2026-price-guide/
+- Security Camera Resolution Guide Qatar — 2MP vs 4MP vs 8MP: https://aslielectronics.com/blog/security-camera-resolution-guide-qatar-2mp-vs-4mp-vs-8mp/
+- Solar 4G Security Camera Guide for Qatar: https://aslielectronics.com/blog/solar-4g-camera-guide-qatar/
 - Top 5 Security Cameras for Your Home in Qatar (2026): https://aslielectronics.com/blog/top-5-security-cameras-for-your-home-in-qatar-2026-buying-guide/
 - Smart Door Locks Qatar Guide: https://aslielectronics.com/blog/smart-door-locks-in-qatar-fingerprint-pin-rfid-app-control-compared/
 - PA Systems Guide for Mosques, Schools & Offices: https://aslielectronics.com/blog/pa-systems-for-mosques-schools-offices-in-qatar-complete-guide/
@@ -76,3 +80,15 @@ All prices in Qatari Riyal (QAR). Free shipping on orders over 500 QAR within Do
 - Network cabling and infrastructure setup
 - Smart home installation and configuration
 - Maintenance and support
+
+## Free Security Tools
+
+Free online calculators and tools for CCTV and security system planning (hosted on freetoolz.in):
+
+- Security System Cost Estimator: https://freetoolz.in/tools/security-cost-estimator/
+- CCTV Storage Calculator: https://freetoolz.in/tools/cctv-storage-calculator/
+- Camera FOV Calculator: https://freetoolz.in/tools/fov-calculator/
+- PoE (Power over Ethernet) Calculator: https://freetoolz.in/tools/poe-calculator/
+- UPS Runtime Calculator: https://freetoolz.in/tools/ups-calculator/
+- RAID Storage Calculator: https://freetoolz.in/tools/raid-calculator/
+- IP Camera Bandwidth Calculator: https://freetoolz.in/tools/bandwidth-calculator/
