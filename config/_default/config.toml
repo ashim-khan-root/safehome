@@ -41,6 +41,9 @@ currency = "QAR"
 
 ignoreLogs = ['warning-goldmark-raw-html']
 
+api_endpoint = "https://api.web3forms.com/submit"
+web3forms_access_key = "ef829179-0d0f-4287-a9fa-dd9546d0486b"
+
 [params.analytics]
 enabled = false
 googleAnalyticsID = ""

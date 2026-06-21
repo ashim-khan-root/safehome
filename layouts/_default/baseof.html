@@ -30,6 +30,17 @@
     {{ partial "whatsapp-button" . }}
     <script src="{{ (resources.Get "js/dark-mode.js").RelPermalink }}"></script>
     <script src="{{ (resources.Get "js/ecommerce.js").RelPermalink }}"></script>
+    <script>
+      window.ASLI_CHATBOT_CONFIG = {
+        apiEndpoint: "{{ .Site.Params.api_endpoint }}",
+        accessKey: "{{ .Site.Params.web3forms_access_key }}",
+        baseUrl: "{{ .Site.BaseURL }}",
+        phoneNumber: "{{ .Site.Params.phone }}",
+        email: "{{ .Site.Params.email }}",
+        whatsappNumber: "{{ replaceRE "[^0-9]" "" .Site.Params.whatsapp_number }}",
+      }
+    </script>
+    <script src="{{ (resources.Get "js/asli-chatbot-widget.js").RelPermalink }}"></script>
     {{ if .Site.Params.analytics.enabled }}
         {{ partial "analytics" . }}
     {{ end }}
