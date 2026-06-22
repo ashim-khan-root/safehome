@@ -14,41 +14,211 @@
   }
   const CONFIG = Object.assign({}, defaults, window.ASLI_CHATBOT_CONFIG || {})
 
+  const LANGS = {
+    en: { name: "English", dir: "ltr", flag: "🇬🇧" },
+    ar: { name: "العربية", dir: "rtl", flag: "🇶🇦" },
+  }
+
+  const TRANS = {
+    en: {
+      botName: CONFIG.botName,
+      welcome: CONFIG.welcomeMessage,
+      welcomeFollowUp: "I can help you find products, check prices, or answer questions. What are you looking for?",
+      online: "Online — We reply in minutes",
+      inputPlaceholder: "Ask about products...",
+      selectLanguage: "Choose your language / اختر لغتك",
+      productsHere: "Here are some products you might be interested in:",
+      clickDetails: "Click any product to see full details! Or tell me more about what you need.",
+      hereAre: "Here are our",
+      viewDetails: "Click to view details, or let me know what you're looking for!",
+      greeting: "👋 Hello! Welcome to AsliElectronics. How can I help you today?",
+      thanks: "😊 You're welcome! Let me know if you need anything else.",
+      bye: "👋 Thank you! Visit aslielectronics.com anytime or contact us on WhatsApp. Have a great day!",
+      whatWeSell: "🏢 We sell authentic security, networking, audio, smart home, and cable products in Qatar. Browse our full catalog at aslielectronics.com",
+      deals: "🎉 We regularly offer competitive pricing on our products. Contact us on WhatsApp for current deals and bulk pricing!",
+      askAnything: "Ask something else",
+      browseProducts: "📦 Browse products",
+      chatWhatsApp: "💬 Chat on WhatsApp",
+      talkToUs: "📞 Talk to us",
+      requestCall: "📞 Request a call",
+      yesContact: "Yes, contact me",
+      securityCameras: "📹 Security cameras",
+      networking: "🌐 Networking",
+      audioSystems: "🔊 Audio systems",
+      smartHome: "🏠 Smart home",
+      leadAlready: "We already have your details! Our team will contact you soon. Anything else?",
+      leadSure: "Sure! Let me get your details and someone will reach out.",
+      leadThank: "Thank you",
+      leadWillContact: "Our team will contact you on WhatsApp at",
+      leadWithin: "within a few hours. 🎯",
+      leadBrowse: "In the meantime, browse our catalog at aslielectronics.com or ask me anything!",
+      leadConnect: "Let me connect you with a real person who can help!",
+      leadWantDetails: "Want to leave your details?",
+      formName: "Full name",
+      formPhone: "Phone (WhatsApp)",
+      formEmail: "Email",
+      formInterest: "Interested in",
+      formMessage: "Message",
+      formSubmit: "Send Inquiry",
+      formRequired: "Please fill in your name and phone number.",
+      formOpt: "(optional)",
+      interestCameras: "Security Cameras",
+      interestNetworking: "Networking",
+      interestAudio: "Audio / PA Systems",
+      interestSmart: "Smart Home",
+      interestCables: "Cables & Accessories",
+      interestInstall: "Installation Service",
+      interestWholesale: "Wholesale / Bulk",
+      interestOther: "Other",
+      whatsappBtn: "Chat on WhatsApp",
+      catSecurity: "Security Surveillance",
+      catNetworking: "Networking",
+      catAudio: "Audio",
+      catSmart: "Smart Home",
+      catCable: "Cable",
+      productCategories: {
+        "Security Surveillance": "Security Cameras",
+        "Networking": "Networking",
+        "Audio": "Audio",
+        "Smart Home": "Smart Home",
+        "Cable": "Cables",
+      },
+      kb: {
+        security: "📹 We carry a wide range of security & surveillance products:\n\n• IP Cameras — 2MP to 12MP, indoor/outdoor\n• PTZ Cameras — Auto-tracking, weatherproof\n• WiFi Cameras — 250 QAR, easy setup\n• 4G Solar Cameras — Off-grid, always-on\n• NVRs / DVRs — 4CH to 16CH, up to 4K\n• Accessories — Brackets, junction boxes, cables\n\nAll products are MOI-compliant and weatherproof for Qatar's climate.",
+        networking: "🌐 Our networking range:\n\n• PoE Switches — 4 to 24 port, 65W to 300W\n• WiFi 6 Access Points — AX1800 / AX3000\n• 4G LTE Routers — SIM-ready, 600Mbps\n• Network Cabinets — 4U to 42U, SPCC steel\n• Cables — Cat6 bare copper & CCA, patch panels\n\nReliable networking for home, office, and enterprise.",
+        audio: "🔊 Professional audio & PA systems:\n\n• PA Amplifiers — 150W to 880W, with mic/Bluetooth\n• Ceiling Speakers — 10W to 20W, Bluetooth options\n• Wall Speakers — For indoor & outdoor\n• Volume Controllers — Zone control\n• Full PA Systems — For mosques, schools, malls, offices",
+        smart_home: "🏠 Smart home solutions:\n\n• Smart Switches — 1/2/3/4 gang, WiFi/Tuya\n• Video Doorphones — 10-inch WiFi, IP65 rated\n• Smart Video Doorbells — HD, two-way audio\n• Smart Door Locks — Fingerprint, PIN, keyless\n• Gate Locks — Weatherproof, secure\n• Smart Plugs & IR Controllers",
+        cable: "🔌 Cables & accessories:\n\n• Cat6 Network Cable — Bare copper & CCA options\n• Coaxial Cable — RG59, RG59+2C, RG6\n• HDMI 2.0 Cables — 1.5m to 20m\n• Patch Panels — Cat6, 24-port\n• Faceplates & Sockets — UK standard\n• HDMI Extenders — Up to 30m over Cat6",
+        moiqatar: "🇶🇦 All our security cameras are compliant with Qatar standards. For MOI approval requirements, we recommend consulting with a licensed security systems integrator in Qatar.",
+        delivery: "🚚 We deliver across Qatar. Most orders are processed within 24 hours. Delivery typically takes 1-3 business days depending on your location in Doha or other cities.",
+        payment: "💳 Payment options: Cash on delivery, bank transfer, or card. Contact us for details on installment plans for bulk orders.",
+        warranty: "✅ All products come with manufacturer warranty. If you receive a defective item, contact us within 7 days for a replacement. Specific warranty periods vary by product category.",
+        support: "🛠️ We provide technical support for all our products. Call us at " + CONFIG.phoneNumber + " or message us on WhatsApp for installation guidance and troubleshooting.",
+        installation: "🔧 We offer professional installation services across Doha, Al Khor, Al Rayyan, Messaid, and Education City. Services include CCTV, PA systems, network cabling, and smart home setup. Contact us for a quote.",
+        wholesale: "🏢 We supply contractors, system integrators, and businesses across Qatar. Bulk pricing available for volume orders. Contact us at info@aslielectronics.com for a wholesale quotation.",
+        contact: "📞 " + CONFIG.phoneNumber + "\n✉️ " + CONFIG.email + "\n📍 Salwa Road, Doha, Qatar\n🕐 Sun-Thu 8AM-6PM, Sat 9AM-2PM\n💬 WhatsApp: wa.me/" + CONFIG.whatsappNumber,
+        about: "🏢 AsliElectronics is Qatar's trusted source for authentic security, networking, audio, and smart home solutions. We offer genuine products, competitive pricing, fast delivery across Qatar, local support, and easy WhatsApp ordering.",
+        hours: "🕐 Business hours:\n• Sunday — Thursday: 8AM — 6PM\n• Friday: Closed\n• Saturday: 9AM — 2PM\n\nWhatsApp orders: 24/7",
+      },
+    },
+    ar: {
+      botName: "مساعد أصلي",
+      welcome: "👋 مرحباً بك في أصلي إلكترونكس! أنا مساعدك الذكي. اسألني عن كاميرات المراقبة، معدات الشبكات، أنظمة الصوت، منتجات المنزل الذكي، أو أي شيء آخر.",
+      welcomeFollowUp: "يمكنني مساعدتك في العثور على المنتجات، معرفة الأسعار، أو الإجابة على أسئلتك. ما الذي تبحث عنه؟",
+      online: "متصل — نرد في دقائق",
+      inputPlaceholder: "اسأل عن المنتجات...",
+      selectLanguage: "اختر لغتك / Choose your language",
+      productsHere: "إليك بعض المنتجات التي قد تهمك:",
+      clickDetails: "اضغط على أي منتج لرؤية التفاصيل! أو أخبرني أكثر عن ما تحتاجه.",
+      hereAre: "إليك",
+      viewDetails: "اضغط للتفاصيل، أو أخبرني عما تبحث عنه!",
+      greeting: "👋 مرحباً! أهلاً بك في أصلي إلكترونكس. كيف يمكنني مساعدتك اليوم؟",
+      thanks: "😊 على الرحب والسعة! أخبرني إن احتجت أي شيء آخر.",
+      bye: "👋 شكراً لك! زر aslielectronics.com في أي وقت أو تواصل معنا على واتساب. نتمنى لك يوماً سعيداً!",
+      whatWeSell: "🏢 نبيع منتجات أصلية في قطر: كاميرات مراقبة، معدات شبكات، أنظمة صوت، منزل ذكي، وكابلات. تصفح كامل الكتالوج على aslielectronics.com",
+      deals: "🎉 نقدم أسعاراً تنافسية على جميع منتجاتنا. تواصل معنا على واتساب للعروض الحالية وأسعار الجملة!",
+      askAnything: "اسأل شيئاً آخر",
+      browseProducts: "📦 تصفح المنتجات",
+      chatWhatsApp: "💬 محادثة واتساب",
+      talkToUs: "📞 تحدث معنا",
+      requestCall: "📞 طلب اتصال",
+      yesContact: "نعم، تواصل معي",
+      securityCameras: "📹 كاميرات مراقبة",
+      networking: "🌐 شبكات",
+      audioSystems: "🔊 أنظمة صوت",
+      smartHome: "🏠 منزل ذكي",
+      leadAlready: "لدينا بياناتك بالفعل! سيتواصل معك فريقنا قريباً. هل هناك شيء آخر؟",
+      leadSure: "بالتأكيد! دعني أحصل على بياناتك وسيتواصل معك أحد فريقنا.",
+      leadThank: "شكراً لك",
+      leadWillContact: "سيتواصل معك فريقنا على واتساب على الرقم",
+      leadWithin: "خلال ساعات قليلة. 🎯",
+      leadBrowse: "في هذه الأثناء، تصفح كتالوجنا على aslielectronics.com أو اسألني أي شيء!",
+      leadConnect: "دعني أوصلك مع أحد فريقنا للمساعدة!",
+      leadWantDetails: "هل تود ترك بياناتك؟",
+      formName: "الاسم الكامل",
+      formPhone: "رقم الهاتف (واتساب)",
+      formEmail: "البريد الإلكتروني",
+      formInterest: "المهتم به",
+      formMessage: "الرسالة",
+      formSubmit: "إرسال الاستفسار",
+      formRequired: "يرجى إدخال الاسم ورقم الهاتف.",
+      formOpt: "(اختياري)",
+      interestCameras: "كاميرات مراقبة",
+      interestNetworking: "شبكات",
+      interestAudio: "أنظمة صوت",
+      interestSmart: "منزل ذكي",
+      interestCables: "كابلات وملحقات",
+      interestInstall: "خدمات التركيب",
+      interestWholesale: "جملة",
+      interestOther: "أخرى",
+      whatsappBtn: "محادثة واتساب",
+      catSecurity: "كاميرات مراقبة",
+      catNetworking: "شبكات",
+      catAudio: "صوت",
+      catSmart: "منزل ذكي",
+      catCable: "كابلات",
+      productCategories: {
+        "Security Surveillance": "كاميرات المراقبة",
+        "Networking": "الشبكات",
+        "Audio": "الصوت",
+        "Smart Home": "المنزل الذكي",
+        "Cable": "الكابلات",
+      },
+      kb: {
+        security: "📹 لدينا مجموعة واسعة من منتجات المراقبة:\n\n• كاميرات IP — من 2MP إلى 12MP، داخلية/خارجية\n• كاميرات PTZ — تتبع تلقائي، مقاومة للطقس\n• كاميرات WiFi — 250 ريال، سهلة التركيب\n• كاميرات 4G شمسية — بدون اتصال، تشغيل دائم\n• أجهزة تسجيل NVR/DVR — من 4 إلى 16 قناة، حتى 4K\n• ملحقات — أغطية، صناديق توصيل، كابلات\n\nجميع المنتجات متوافقة مع معايير وزارة الداخلية ومناسبة لمناخ قطر.",
+        networking: "🌐 مجموعة الشبكات:\n\n• سويتشات PoE — من 4 إلى 24 منفذ، 65W إلى 300W\n• نقاط وصول WiFi 6 — AX1800 / AX3000\n• راوترات 4G LTE — مع شريحة، 600Mbps\n• خزائن شبكات — من 4U إلى 42U\n• كابلات — Cat6 نحاس أصلي وCCA\n\nشبكات موثوقة للمنزل والمكتب والشركات.",
+        audio: "🔊 أنظمة صوت احترافية:\n\n• مضخمات صوت — من 150W إلى 880W\n• سماعات سقفية — من 10W إلى 20W\n• سماعات حائطية — داخلية وخارجية\n• أنظمة PA كاملة — للمساجد والمدارس والمكاتب",
+        smart_home: "🏠 حلول المنزل الذكي:\n\n• مفاتيح ذكية — 1/2/3/4 قناة، WiFi/Tuya\n• مسافات فيديو — 10 بوصة، WiFi، IP65\n• أجراس فيديو ذكية — HD، صوت ثنائي\n• أقفال ذكية — بصمة، رمز، بدون مفتاح\n• أقفال بوابات — مقاومة للطقس",
+        cable: "🔌 الكابلات والملحقات:\n\n• كابل شبكة Cat6 — نحاس أصلي وCCA\n• كابل محوري — RG59، RG59+2C، RG6\n• كابلات HDMI 2.0 — من 1.5m إلى 20m\n• لوحات توصيل — Cat6، 24 منفذ\n• مقابس الحائط — قياس بريطاني\n• موسعات HDMI — حتى 30m عبر Cat6",
+        moiqatar: "🇶🇦 جميع كاميراتنا متوافقة مع معايير دولة قطر. لمتطلبات اعتماد وزارة الداخلية، نوصي باستشارة أحد موزعي أنظمة الأمن المرخصين في قطر.",
+        delivery: "🚚 نوصل في جميع أنحاء قطر. معظم الطلبات تتم معالجتها خلال 24 ساعة. التوصيل عادة يستغرق 1-3 أيام عمل حسب موقعك في الدوحة أو المدن الأخرى.",
+        payment: "💳 طرق الدفع: الدفع عند الاستلام، تحويل بنكي، أو بطاقة. اتصل بنا لتفاصيل خطط التقسيط للطلبات الكبيرة.",
+        warranty: "✅ جميع المنتجات تأتي مع ضمان المصنع. إذا استلمت منتجاً معيباً، اتصل بنا خلال 7 أيام للاستبدال. فترات الضمان تختلف حسب فئة المنتج.",
+        support: "🛠️ نقدم دعماً فنياً لجميع منتجاتنا. اتصل بنا على " + CONFIG.phoneNumber + " أو راسلنا على واتساب للإرشاد الفني.",
+        installation: "🔧 نقدم خدمات تركيب احترافية في الدوحة، الخور، الريان، مسيعيد، ومدينة التعليم. تشمل كاميرات المراقبة، أنظمة الصوت، كابلات الشبكات، وأنظمة المنزل الذكي. اتصل بنا لعرض سعر.",
+        wholesale: "🏢 نورد للمقاولين وشركات التكامل في جميع أنحاء قطر. أسعار جملة متاحة للطلبات الكبيرة. راسلنا على info@aslielectronics.com لعرض سعر جملة.",
+        contact: "📞 " + CONFIG.phoneNumber + "\n✉️ " + CONFIG.email + "\n📍 طريق سلوى، الدوحة، قطر\n🕐 أحد-خميس 8ص-6م، سبت 9ص-2م\n💬 واتساب: wa.me/" + CONFIG.whatsappNumber,
+        about: "🏢 أصلي إلكترونكس هو مصدر قطر الموثوق للحلول الأصلية في الأمن والشبكات والصوت والمنزل الذكي. نقدم منتجات أصلية، أسعار تنافسية، توصيل سريع في جميع أنحاء قطر، ودعم محلي.",
+        hours: "🕐 ساعات العمل:\n• الأحد — الخميس: 8صباحاً — 6مساءً\n• الجمعة: مغلق\n• السبت: 9صباحاً — 2مساءً\n\nطلبات واتساب: 24/7",
+      },
+    },
+  }
+
   const PRODUCTS = [
-    { title: "12MP IP Camera", slug: "secuview-12mp-weatherproof-outdoor-ip-camera-smart-detection-onvif", price: 750, category: "Security Surveillance" },
-    { title: "8MP Outdoor IP Camera", slug: "secuview-8mp-full-hd-outdoor-ip-camera-water-proof-onvif", price: 850, category: "Security Surveillance" },
-    { title: "6MP Outdoor IP Camera", slug: "secuview-6mp-fixed-lens-outdoor-ip-camera-auto-tracking-onvif", price: 234, category: "Security Surveillance" },
-    { title: "6MP IP PTZ Camera", slug: "secuview-6mp-outdoor-ip-ptz-camera-auto-focus-lens-weatherproof", price: 850, category: "Security Surveillance" },
-    { title: "WiFi Outdoor Camera", slug: "secuview-wifi-outdoor-weatherproof-security-camera", price: 250, category: "Security Surveillance" },
-    { title: "4G Solar Security Camera", slug: "secuview-wireless-ip-outdoor-solar-powered-4g-security-camera", price: 449, category: "Security Surveillance" },
-    { title: "16CH 4K Hybrid NVR", slug: "secuview-16ch-4k-hybrid-nvr-i-poe-built-in-onvif-support", price: 1274, category: "Security Surveillance" },
-    { title: "8CH 4K NVR", slug: "secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance", price: 760.5, category: "Security Surveillance" },
-    { title: "4CH Professional DVR", slug: "secuview-4ch-professional-dvr-with-4k-n-output", price: 208, category: "Security Surveillance" },
-    { title: "10-Inch WiFi Smart Doorphone", slug: "secuview-10-inch-wifi-smart-video-doorphone", price: 1277, category: "Smart Home" },
-    { title: "WiFi Smart Doorphone IP65", slug: "secuview-full-hd-wi-fi-smart-doorphone-with-waterproof-rate-ip65", price: 500, category: "Smart Home" },
-    { title: "Smart Video Doorbell", slug: "secuview-ip-smart-video-doorbell-for-home-automation", price: 876, category: "Smart Home" },
-    { title: "Fingerprint Smart Door Lock", slug: "secuview-keyless-entry-smart-door-lock-with-fingerprint", price: 750, category: "Smart Home" },
-    { title: "Smart Gate Lock", slug: "secuview-waterproof-smart-courtyard-gate-lock", price: 1300, category: "Smart Home" },
-    { title: "1 Gang WiFi Smart Switch", slug: "secuview-one-gang-wi-fi-remote-control-smart-switch-with-metal-border", price: 110, category: "Smart Home" },
-    { title: "4 Gang Smart Switch", slug: "secuview-four-gang-wi-fi-remote-control-smart-switch-with-metal-border", price: 165, category: "Smart Home" },
-    { title: "16-Port Gigabit PoE Switch 300W", slug: "secuview-16-port-gigabit-poe-switch-300w", price: 450, category: "Networking" },
-    { title: "24-Port Gigabit PoE Switch", slug: "secuview-24-port-gigabit-poe-switch-fast-reliable-network-with-2-uplink-2-sfp", price: 750, category: "Networking" },
-    { title: "8-Port PoE Switch 120W", slug: "secuview-120w-8-port-poe-switch-2-uplink-ports-10-100mbps-operation", price: 182, category: "Networking" },
-    { title: "4-Port PoE Gigabit Switch", slug: "secuview-4-port-poe-gigabit-switch-with-uplink-sfp-port", price: 210, category: "Networking" },
-    { title: "AX1800 WiFi 6 Access Point", slug: "secuview-ax1800-wi-fi-6-dualband-access-point", price: 299, category: "Networking" },
-    { title: "AX3000 Access Point", slug: "secuview-high-performance-ax-3000mbps-wireless-access-point", price: 390, category: "Networking" },
-    { title: "4G LTE WiFi Router", slug: "secuview-4g-lte-wifi-router-sim-600mbps", price: 240.5, category: "Networking" },
-    { title: "1200Mbps Access Point", slug: "secuview-1200mbps-dual-band-wireless-access-point", price: 270, category: "Networking" },
-    { title: "150W PA Amplifier", slug: "150w-pa-amplifier-secuview", price: 1150, category: "Audio" },
-    { title: "280W PA Amplifier", slug: "secuview-280w-public-address-amplifier-with-clear-sound", price: 1450, category: "Audio" },
-    { title: "480W PA 4-Zone Amplifier", slug: "secuview-480w-public-address-amplifier-with-4-zones", price: 1730, category: "Audio" },
-    { title: "880W PA Amplifier", slug: "secuview-880w-high-power-public-address-amplifier-for-larger-spaces", price: 2150, category: "Audio" },
-    { title: "20W Bluetooth Ceiling Speaker", slug: "20w-bluetooth-ceiling-speakers-secuview", price: 550, category: "Audio" },
-    { title: "PA Ceiling Speaker", slug: "secuview-public-address-ceiling-speaker-with-high-quality-sound", price: 105, category: "Audio" },
-    { title: "Cat6 Bare Copper Cable", slug: "secuview-bare-copper-23awg-cat6-network-cable", price: 450, category: "Cable" },
-    { title: "Cat6 Copper Coated Cable", slug: "secuview-copper-coated-23awg-cat6-network-cable", price: 201, category: "Cable" },
-    { title: "4U Network Cabinet", slug: "19-inch-international-standard-4u-spcc-network-cabinet", price: 210, category: "Networking" },
-    { title: "42U Network Cabinet", slug: "secuview-international-standard-42u-spcc-network-cabinet", price: 2349, category: "Networking" },
+    { title: { en: "12MP IP Camera", ar: "كاميرا IP 12 ميجابكسل" }, slug: "secuview-12mp-weatherproof-outdoor-ip-camera-smart-detection-onvif", price: 750, category: "Security Surveillance" },
+    { title: { en: "8MP Outdoor IP Camera", ar: "كاميرا IP خارجية 8 ميجابكسل" }, slug: "secuview-8mp-full-hd-outdoor-ip-camera-water-proof-onvif", price: 850, category: "Security Surveillance" },
+    { title: { en: "6MP Outdoor IP Camera", ar: "كاميرا IP خارجية 6 ميجابكسل" }, slug: "secuview-6mp-fixed-lens-outdoor-ip-camera-auto-tracking-onvif", price: 234, category: "Security Surveillance" },
+    { title: { en: "6MP IP PTZ Camera", ar: "كاميرا PTZ IP 6 ميجابكسل" }, slug: "secuview-6mp-outdoor-ip-ptz-camera-auto-focus-lens-weatherproof", price: 850, category: "Security Surveillance" },
+    { title: { en: "WiFi Outdoor Camera", ar: "كاميرا خارجية WiFi" }, slug: "secuview-wifi-outdoor-weatherproof-security-camera", price: 250, category: "Security Surveillance" },
+    { title: { en: "4G Solar Security Camera", ar: "كاميرا أمنية 4G شمسية" }, slug: "secuview-wireless-ip-outdoor-solar-powered-4g-security-camera", price: 449, category: "Security Surveillance" },
+    { title: { en: "16CH 4K Hybrid NVR", ar: "مسجل NVR هجين 16 قناة 4K" }, slug: "secuview-16ch-4k-hybrid-nvr-i-poe-built-in-onvif-support", price: 1274, category: "Security Surveillance" },
+    { title: { en: "8CH 4K NVR", ar: "مسجل NVR 8 قناة 4K" }, slug: "secuview-8ch-4k-nvr-ultra-hd-onvif-support-high-speed-performance", price: 760.5, category: "Security Surveillance" },
+    { title: { en: "4CH Professional DVR", ar: "مسجل DVR احترافي 4 قنوات" }, slug: "secuview-4ch-professional-dvr-with-4k-n-output", price: 208, category: "Security Surveillance" },
+    { title: { en: "10-Inch WiFi Smart Doorphone", ar: "مسافة فيديو ذكية WiFi 10 بوصة" }, slug: "secuview-10-inch-wifi-smart-video-doorphone", price: 1277, category: "Smart Home" },
+    { title: { en: "WiFi Smart Doorphone IP65", ar: "مسافة فيديو ذكية WiFi IP65" }, slug: "secuview-full-hd-wi-fi-smart-doorphone-with-waterproof-rate-ip65", price: 500, category: "Smart Home" },
+    { title: { en: "Smart Video Doorbell", ar: "جرس فيديو ذكي" }, slug: "secuview-ip-smart-video-doorbell-for-home-automation", price: 876, category: "Smart Home" },
+    { title: { en: "Fingerprint Smart Door Lock", ar: "قفل باب ذكي بالبصمة" }, slug: "secuview-keyless-entry-smart-door-lock-with-fingerprint", price: 750, category: "Smart Home" },
+    { title: { en: "Smart Gate Lock", ar: "قفل بوابة ذكي مقاوم للطقس" }, slug: "secuview-waterproof-smart-courtyard-gate-lock", price: 1300, category: "Smart Home" },
+    { title: { en: "1 Gang WiFi Smart Switch", ar: "مفتاح ذكي WiFi 1 قناة" }, slug: "secuview-one-gang-wi-fi-remote-control-smart-switch-with-metal-border", price: 110, category: "Smart Home" },
+    { title: { en: "4 Gang Smart Switch", ar: "مفتاح ذكي 4 قنوات" }, slug: "secuview-four-gang-wi-fi-remote-control-smart-switch-with-metal-border", price: 165, category: "Smart Home" },
+    { title: { en: "16-Port Gigabit PoE Switch 300W", ar: "سويش PoE 16 منفذ 300W" }, slug: "secuview-16-port-gigabit-poe-switch-300w", price: 450, category: "Networking" },
+    { title: { en: "24-Port Gigabit PoE Switch", ar: "سويش PoE 24 منفذ" }, slug: "secuview-24-port-gigabit-poe-switch-fast-reliable-network-with-2-uplink-2-sfp", price: 750, category: "Networking" },
+    { title: { en: "8-Port PoE Switch 120W", ar: "سويش PoE 8 منافذ 120W" }, slug: "secuview-120w-8-port-poe-switch-2-uplink-ports-10-100mbps-operation", price: 182, category: "Networking" },
+    { title: { en: "4-Port PoE Gigabit Switch", ar: "سويش PoE 4 منافذ" }, slug: "secuview-4-port-poe-gigabit-switch-with-uplink-sfp-port", price: 210, category: "Networking" },
+    { title: { en: "AX1800 WiFi 6 Access Point", ar: "نقطة وصول WiFi 6 AX1800" }, slug: "secuview-ax1800-wi-fi-6-dualband-access-point", price: 299, category: "Networking" },
+    { title: { en: "AX3000 Access Point", ar: "نقطة وصول AX3000" }, slug: "secuview-high-performance-ax-3000mbps-wireless-access-point", price: 390, category: "Networking" },
+    { title: { en: "4G LTE WiFi Router", ar: "راوتر 4G LTE" }, slug: "secuview-4g-lte-wifi-router-sim-600mbps", price: 240.5, category: "Networking" },
+    { title: { en: "1200Mbps Access Point", ar: "نقطة وصول 1200Mbps" }, slug: "secuview-1200mbps-dual-band-wireless-access-point", price: 270, category: "Networking" },
+    { title: { en: "150W PA Amplifier", ar: "مضخم صوت 150W" }, slug: "150w-pa-amplifier-secuview", price: 1150, category: "Audio" },
+    { title: { en: "280W PA Amplifier", ar: "مضخم صوت 280W" }, slug: "secuview-280w-public-address-amplifier-with-clear-sound", price: 1450, category: "Audio" },
+    { title: { en: "480W PA 4-Zone Amplifier", ar: "مضخم صوت 480W 4 مناطق" }, slug: "secuview-480w-public-address-amplifier-with-4-zones", price: 1730, category: "Audio" },
+    { title: { en: "880W PA Amplifier", ar: "مضخم صوت 880W" }, slug: "secuview-880w-high-power-public-address-amplifier-for-larger-spaces", price: 2150, category: "Audio" },
+    { title: { en: "20W Bluetooth Ceiling Speaker", ar: "سماعة سقف بلوتوث 20W" }, slug: "20w-bluetooth-ceiling-speakers-secuview", price: 550, category: "Audio" },
+    { title: { en: "PA Ceiling Speaker", ar: "سماعة سقف PA" }, slug: "secuview-public-address-ceiling-speaker-with-high-quality-sound", price: 105, category: "Audio" },
+    { title: { en: "Cat6 Bare Copper Cable", ar: "كابل Cat6 نحاس أصلي" }, slug: "secuview-bare-copper-23awg-cat6-network-cable", price: 450, category: "Cable" },
+    { title: { en: "Cat6 Copper Coated Cable", ar: "كابل Cat6 مطلي بالنحاس" }, slug: "secuview-copper-coated-23awg-cat6-network-cable", price: 201, category: "Cable" },
+    { title: { en: "4U Network Cabinet", ar: "خزانة شبكات 4U" }, slug: "19-inch-international-standard-4u-spcc-network-cabinet", price: 210, category: "Networking" },
+    { title: { en: "42U Network Cabinet", ar: "خزانة شبكات 42U" }, slug: "secuview-international-standard-42u-spcc-network-cabinet", price: 2349, category: "Networking" },
   ]
 
   const CATEGORY_PAGES = {
@@ -80,66 +250,124 @@
       security: {
         keywords: ["security", "surveillance", "cctv", "camera", "cameras", "dvr", "nvr", "ip camera", "security camera"],
         altKeywords: ["security cameras", "surveillance camera", "cctv system", "security system", "video surveillance"],
-        answer: "📹 We carry a wide range of security & surveillance products:\n\n• IP Cameras — 2MP to 12MP, indoor/outdoor\n• PTZ Cameras — Auto-tracking, weatherproof\n• WiFi Cameras — 250 QAR, easy setup\n• 4G Solar Cameras — Off-grid, always-on\n• NVRs / DVRs — 4CH to 16CH, up to 4K\n• Accessories — Brackets, junction boxes, cables\n\nAll products are MOI-compliant and weatherproof for Qatar's climate." },
+        answerKey: "security",
+      },
       networking: {
         keywords: ["networking", "network", "switch", "poe", "router", "wifi", "access point", "ap", "cabinet", "rack"],
         altKeywords: ["network switch", "poe switch", "wifi router", "access points", "network cabinet", "server rack"],
-        answer: "🌐 Our networking range:\n\n• PoE Switches — 4 to 24 port, 65W to 300W\n• WiFi 6 Access Points — AX1800 / AX3000\n• 4G LTE Routers — SIM-ready, 600Mbps\n• Network Cabinets — 4U to 42U, SPCC steel\n• Cables — Cat6 bare copper & CCA, patch panels\n\nReliable networking for home, office, and enterprise." },
+        answerKey: "networking",
+      },
       audio: {
         keywords: ["audio", "pa system", "amplifier", "speaker", "public address", "sound", "microphone", "ceiling speaker"],
         altKeywords: ["pa amplifier", "public address system", "audio system", "sound system", "ceiling speakers", "bluetooth speaker"],
-        answer: "🔊 Professional audio & PA systems:\n\n• PA Amplifiers — 150W to 880W, with mic/Bluetooth\n• Ceiling Speakers — 10W to 20W, Bluetooth options\n• Wall Speakers — For indoor & outdoor\n• Volume Controllers — Zone control\n• Full PA Systems — For mosques, schools, malls, offices" },
+        answerKey: "audio",
+      },
       smart_home: {
         keywords: ["smart home", "smart switch", "door lock", "doorphone", "doorbell", "video doorphone", "automation", "tuya"],
         altKeywords: ["smart home products", "home automation", "smart locks", "smart switches", "video doorphone", "fingerprint lock", "wifi switch"],
-        answer: "🏠 Smart home solutions:\n\n• Smart Switches — 1/2/3/4 gang, WiFi/Tuya\n• Video Doorphones — 10-inch WiFi, IP65 rated\n• Smart Video Doorbells — HD, two-way audio\n• Smart Door Locks — Fingerprint, PIN, keyless\n• Gate Locks — Weatherproof, secure\n• Smart Plugs & IR Controllers" },
+        answerKey: "smart_home",
+      },
       cable: {
         keywords: ["cable", "cabling", "cat6", "coaxial", "hdmi", "patch panel", "faceplate", "rg59"],
         altKeywords: ["network cable", "cat6 cable", "coaxial cable", "hdmi cable", "structured cabling"],
-        answer: "🔌 Cables & accessories:\n\n• Cat6 Network Cable — Bare copper & CCA options\n• Coaxial Cable — RG59, RG59+2C, RG6\n• HDMI 2.0 Cables — 1.5m to 20m\n• Patch Panels — Cat6, 24-port\n• Faceplates & Sockets — UK standard\n• HDMI Extenders — Up to 30m over Cat6" },
+        answerKey: "cable",
+      },
     },
     faq: {
       moiqatar: {
         keywords: ["moi", "qatar compliance", "qatar law", "security approval", "government"],
         altKeywords: ["moi approval", "ministry interior", "qatar regulation", "security compliance"],
-        answer: "🇶🇦 All our security cameras are compliant with Qatar standards. For MOI approval requirements, we recommend consulting with a licensed security systems integrator in Qatar." },
+        answerKey: "moiqatar",
+      },
       delivery: {
         keywords: ["delivery", "shipping", "lead time", "how long", "when", "arrive"],
         altKeywords: ["delivery time", "shipping cost", "how fast", "same day", "next day"],
-        answer: "🚚 We deliver across Qatar. Most orders are processed within 24 hours. Delivery typically takes 1-3 business days depending on your location in Doha or other cities." },
+        answerKey: "delivery",
+      },
       payment: {
         keywords: ["payment", "pay", "cash", "card", "bank transfer", "installment"],
         altKeywords: ["how to pay", "payment method", "pay online", "what payment"],
-        answer: "💳 Payment options: Cash on delivery, bank transfer, or card. Contact us for details on installment plans for bulk orders." },
+        answerKey: "payment",
+      },
       warranty: {
         keywords: ["warranty", "guarantee", "return", "refund", "exchange"],
         altKeywords: ["warranty period", "product warranty", "replacement", "defective"],
-        answer: "✅ All products come with manufacturer warranty. If you receive a defective item, contact us within 7 days for a replacement. Specific warranty periods vary by product category." },
+        answerKey: "warranty",
+      },
       support: {
         keywords: ["support", "help", "technical", "install", "setup help", "guidance"],
         altKeywords: ["technical support", "need help", "installation guide", "how to install", "product support"],
-        answer: "🛠️ We provide technical support for all our products. Call us at +974 7741 8754 or message us on WhatsApp for installation guidance and troubleshooting." },
+        answerKey: "support",
+      },
       installation: {
         keywords: ["installation service", "professional install", "technician", "on site", "setup service"],
         altKeywords: ["install service", "professional installation", "cctv installation", "network installation", "audio installation"],
-        answer: "🔧 We offer professional installation services across Doha, Al Khor, Al Rayyan, Messaid, and Education City. Services include CCTV, PA systems, network cabling, and smart home setup. Contact us for a quote." },
+        answerKey: "installation",
+      },
       wholesale: {
         keywords: ["wholesale", "bulk", "bulk order", "quantity", "volume", "trade", "business"],
         altKeywords: ["bulk pricing", "wholesale price", "large order", "business account", "contractor"],
-        answer: "🏢 We supply contractors, system integrators, and businesses across Qatar. Bulk pricing available for volume orders. Contact us at info@aslielectronics.com for a wholesale quotation." },
+        answerKey: "wholesale",
+      },
       contact: {
         keywords: ["contact", "phone", "call", "reach", "email", "talk"],
         altKeywords: ["get in touch", "speak to", "message us", "how to contact", "phone number"],
-        answer: `📞 ${CONFIG.phoneNumber}\n✉️ ${CONFIG.email}\n📍 Salwa Road, Doha, Qatar\n🕐 Sun-Thu 8AM-6PM, Sat 9AM-2PM\n💬 WhatsApp: wa.me/${CONFIG.whatsappNumber}` },
+        answerKey: "contact",
+      },
       about: {
         keywords: ["about", "company", "who", "asli", "electronics", "story"],
         altKeywords: ["about aslielectronics", "your company", "tell me about", "background", "history"],
-        answer: "🏢 AsliElectronics is Qatar's trusted source for authentic security, networking, audio, and smart home solutions. We offer genuine products, competitive pricing, fast delivery across Qatar, local support, and easy WhatsApp ordering." },
+        answerKey: "about",
+      },
       hours: {
         keywords: ["hours", "open", "timing", "time", "when open", "business hours", "weekend"],
         altKeywords: ["working hours", "opening hours", "shop hours", "sunday", "friday"],
-        answer: "🕐 Business hours:\n• Sunday — Thursday: 8AM — 6PM\n• Friday: Closed\n• Saturday: 9AM — 2PM\n\nWhatsApp orders: 24/7" },
+        answerKey: "hours",
+      },
     },
+  }
+
+  let LANG = "en"
+  const LANG_STORAGE_KEY = "asli_chatbot_lang"
+
+  function t(key) {
+    const keys = key.split(".")
+    let val = TRANS[LANG]
+    for (const k of keys) {
+      if (val && val[k] !== undefined) val = val[k]
+      else return TRANS["en"].kb[key] || key
+    }
+    return val
+  }
+
+  function pt(product) {
+    return product.title[LANG] || product.title.en
+  }
+
+  function detectLanguage() {
+    const stored = localStorage.getItem(LANG_STORAGE_KEY)
+    if (stored && TRANS[stored]) return stored
+    const browserLang = (navigator.language || navigator.userLanguage || "").slice(0, 2)
+    if (browserLang === "ar") return "ar"
+    return "en"
+  }
+
+  function setLanguage(lang, body) {
+    if (!TRANS[lang]) return
+    LANG = lang
+    localStorage.setItem(LANG_STORAGE_KEY, lang)
+    document.documentElement.dir = LANGS[lang].dir
+    if (body) {
+      body.innerHTML = ""
+      STATE.messages = []
+      STATE.askCount = 0
+      STATE.lastTopic = null
+      showLanguageScreen(body)
+    }
+  }
+
+  function tKey(keyFn) {
+    return keyFn(LANG)
   }
 
   const getProductsByCategory = (cat) => PRODUCTS.filter(p => p.category === cat).slice(0, 6)
@@ -189,10 +417,10 @@
     const wrapper = document.createElement("div")
     wrapper.style.cssText = "animation:amanFadeIn 0.3s ease;margin:4px 0;"
     if (title) {
-      const t = document.createElement("div")
-      t.style.cssText = "font-size:13px;font-weight:600;color:#5a5a7a;padding:6px 0 4px;"
-      t.textContent = title
-      wrapper.appendChild(t)
+      const tEl = document.createElement("div")
+      tEl.style.cssText = "font-size:13px;font-weight:600;color:#5a5a7a;padding:6px 0 4px;"
+      tEl.textContent = title
+      wrapper.appendChild(tEl)
     }
     const grid = document.createElement("div")
     grid.style.cssText = "display:flex;flex-direction:column;gap:6px;"
@@ -206,7 +434,7 @@
       card.onmouseleave = () => { card.style.borderColor = "#e8e8f0"; card.style.boxShadow = "none"; card.style.transform = "none" }
       const nameSpan = document.createElement("span")
       nameSpan.style.cssText = "font-size:13px;font-weight:500;"
-      nameSpan.textContent = p.title
+      nameSpan.textContent = pt(p)
       const priceSpan = document.createElement("span")
       priceSpan.style.cssText = "font-size:12px;font-weight:700;color:#1a5632;white-space:nowrap;margin-left:8px;"
       priceSpan.textContent = `QAR ${p.price}`
@@ -249,26 +477,35 @@
             if (token.includes(kwl) && kwl.length > 3) score += 1.5
           }
         }
-        if (score > bestScore) { bestScore = score; bestAnswer = entry.answer; bestKey = key }
+        if (score > bestScore) { bestScore = score; bestAnswer = entry.answerKey; bestKey = key }
       }
     }
 
-    if (bestScore >= 3) { STATE.lastTopic = bestKey; return bestAnswer }
+    if (bestScore >= 3) { STATE.lastTopic = bestKey; return t("kb." + bestAnswer) }
 
-    if (query.match(/^(hi+|hel+o|hey|good\s*(morning|afternoon|evening)|howdy)\b/)) return "👋 Hello! Welcome to AsliElectronics. How can I help you today?"
-    if (query.includes("thank") || query.includes("thanks") || query.includes("appreciate") || query.match(/\b(thanks|thx)\b/)) return "😊 You're welcome! Let me know if you need anything else."
-    if (query.includes("bye") || query.includes("goodbye") || query.includes("see you")) return "👋 Thank you! Visit aslielectronics.com anytime or contact us on WhatsApp. Have a great day!"
-    if (query.includes("what") && (query.includes("do") || query.includes("sell") || query.includes("carry"))) return "🏢 We sell authentic security, networking, audio, smart home, and cable products in Qatar. Browse our full catalog at aslielectronics.com"
-    if (query.includes("discount") || query.includes("offer") || query.includes("promotion") || query.includes("deal")) return "🎉 We regularly offer competitive pricing on our products. Contact us on WhatsApp for current deals and bulk pricing!"
+    const greetings = LANG === "ar"
+      ? /^(مرحبا|اهلا|السلام|هلا|صباح|مساء|حي)/i
+      : /^(hi+|hel+o|hey|good\s*(morning|afternoon|evening)|howdy)\b/
+    if (query.match(greetings)) return t("greeting")
+
+    if (LANG === "ar") {
+      if (query.includes("شكر") || query.includes("جزيل")) return "😊 على الرحب والسعة! أخبرني إن احتجت أي شيء آخر."
+      if (query.includes("مع السلام") || query.includes("وداعا") || query.includes("الى اللقاء")) return "👋 شكراً لك! زر aslielectronics.com في أي وقت أو تواصل معنا على واتساب. نتمنى لك يوماً سعيداً!"
+    } else {
+      if (query.includes("thank") || query.includes("thanks") || query.includes("appreciate") || query.match(/\b(thanks|thx)\b/)) return t("thanks")
+      if (query.includes("bye") || query.includes("goodbye") || query.includes("see you")) return t("bye")
+    }
+    if (query.includes("what") && (query.includes("do") || query.includes("sell") || query.includes("carry"))) return t("whatWeSell")
+    if (query.includes("discount") || query.includes("offer") || query.includes("promotion") || query.includes("deal")) return t("deals")
     return null
   }
 
   function handleLeadRequest(body, text, lower) {
     if (STATE.leadCaptured) {
-      addMessage(body, "bot", "We already have your details! Our team will contact you soon. Anything else?")
+      addMessage(body, "bot", t("leadAlready"))
       return true
     }
-    addMessage(body, "bot", "Sure! Let me get your details and someone will reach out.")
+    addMessage(body, "bot", t("leadSure"))
     showLeadForm(body)
     return true
   }
@@ -290,82 +527,78 @@
     setTimeout(() => {
       removeLoading(body)
 
-      // lead intents
-      if (lower.match(/\b(quote|consultation|contact me|call me|i need help|free estimate|request.*call|get.*touch)\b/)) {
+      if (lower.match(/\b(quote|consultation|contact me|call me|i need help|free estimate|request.*call|get.*touch|استشارة|عرض سعر|اتصل|تواصل|مساعدة)\b/)) {
         handleLeadRequest(body)
         return
       }
 
-      // product discovery intents
       const isProductQuery = PRODUCT_INTENTS.some(r => lower.match(r))
       const matchedProducts = getProductsByKeyword(lower)
 
       if (isProductQuery || (matchedProducts.length > 0 && !STATE.lastTopic)) {
         if (matchedProducts.length > 0) {
-          addMessage(body, "bot", "Here are some products you might be interested in:")
-          addProductCards(body, matchedProducts, `📦 ${matchedProducts[0].category}`)
-          addMessage(body, "bot", "Click any product to see full details! Or tell me more about what you need.")
-          addQuickReplies(body, ["📹 Security cameras", "🌐 Networking", "🔊 Audio systems", "🏠 Smart home", "📞 Talk to us"])
+          addMessage(body, "bot", t("productsHere"))
+          addProductCards(body, matchedProducts, "📦 " + (t("productCategories." + matchedProducts[0].category) || matchedProducts[0].category))
+          addMessage(body, "bot", t("clickDetails"))
+          addQuickReplies(body, [t("securityCameras"), t("networking"), t("audioSystems"), t("smartHome"), t("talkToUs")])
           return
         }
       }
 
-      // category-specific product showing
       const catMap = {
-        camera: { products: getProductsByCategory("Security Surveillance"), name: "Security Cameras" },
-        cctv: { products: getProductsByCategory("Security Surveillance"), name: "Security Cameras" },
-        nvr: { products: getProductsByCategory("Security Surveillance"), name: "NVRs & DVRs" },
-        dvr: { products: getProductsByCategory("Security Surveillance"), name: "DVRs" },
-        doorphone: { products: getProductsByCategory("Smart Home").filter(p => p.title.includes("Doorphone") || p.title.includes("Doorbell")), name: "Video Doorphones" },
-        doorbell: { products: getProductsByCategory("Smart Home").filter(p => p.title.includes("Doorbell") || p.title.includes("Doorphone")), name: "Video Doorbells" },
-        switch: { products: getProductsByCategory("Networking").filter(p => p.title.includes("Switch") || p.title.includes("PoE")), name: "PoE Switches" },
-        router: { products: getProductsByCategory("Networking").filter(p => p.title.includes("Router") || p.title.includes("Access Point") || p.title.includes("LTE")), name: "Routers & Access Points" },
-        amplifier: { products: getProductsByCategory("Audio").filter(p => p.title.includes("Amplifier")), name: "PA Amplifiers" },
-        speaker: { products: getProductsByCategory("Audio").filter(p => p.title.includes("Speaker") || p.title.includes("Ceiling")), name: "Speakers" },
-        cable: { products: getProductsByCategory("Cable"), name: "Cables" },
-        lock: { products: getProductsByCategory("Smart Home").filter(p => p.title.includes("Lock") || p.title.includes("Gate")), name: "Smart Locks" },
-        smart: { products: getProductsByCategory("Smart Home").filter(p => p.title.includes("Smart")), name: "Smart Home" },
+        camera: { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        cctv: { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        nvr: { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        dvr: { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        doorphone: { products: getProductsByCategory("Smart Home").filter(p => p.title.en.includes("Doorphone") || p.title.en.includes("Doorbell")), nameKey: "catSmart" },
+        doorbell: { products: getProductsByCategory("Smart Home").filter(p => p.title.en.includes("Doorbell") || p.title.en.includes("Doorphone")), nameKey: "catSmart" },
+        switch: { products: getProductsByCategory("Networking").filter(p => p.title.en.includes("Switch") || p.title.en.includes("PoE")), nameKey: "catNetworking" },
+        router: { products: getProductsByCategory("Networking").filter(p => p.title.en.includes("Router") || p.title.en.includes("Access Point") || p.title.en.includes("LTE")), nameKey: "catNetworking" },
+        amplifier: { products: getProductsByCategory("Audio").filter(p => p.title.en.includes("Amplifier")), nameKey: "catAudio" },
+        speaker: { products: getProductsByCategory("Audio").filter(p => p.title.en.includes("Speaker") || p.title.en.includes("Ceiling")), nameKey: "catAudio" },
+        cable: { products: getProductsByCategory("Cable"), nameKey: "catCable" },
+        lock: { products: getProductsByCategory("Smart Home").filter(p => p.title.en.includes("Lock") || p.title.en.includes("Gate")), nameKey: "catSmart" },
+        smart: { products: getProductsByCategory("Smart Home").filter(p => p.title.en.includes("Smart")), nameKey: "catSmart" },
       }
 
       for (const [word, data] of Object.entries(catMap)) {
         if (lower.includes(word) && data.products.length > 0) {
-          addMessage(body, "bot", `Here are our ${data.name}:`)
-          addProductCards(body, data.products, `📦 ${data.name}`)
-          addMessage(body, "bot", "Click to view details, or let me know what you're looking for!")
-          addQuickReplies(body, ["💬 Chat on WhatsApp", "📞 Request a call", "Ask something else"])
+          addMessage(body, "bot", t("hereAre") + " " + t(data.nameKey) + ":")
+          addProductCards(body, data.products, "📦 " + t(data.nameKey))
+          addMessage(body, "bot", t("viewDetails"))
+          addQuickReplies(body, [t("chatWhatsApp"), t("requestCall"), t("askAnything")])
           return
         }
       }
 
-      // KB match
       const match = matchAnswer(text, KB)
       if (match) {
         addMessage(body, "bot", match)
-        addQuickReplies(body, ["📦 Browse products", "💬 Chat on WhatsApp", "🔧 Ask something else"])
+        addQuickReplies(body, [t("browseProducts"), t("chatWhatsApp"), t("askAnything")])
       } else {
         if (STATE.askCount <= 1) {
-          addMessage(body, "bot", "Hi! I can help you find products, check prices, or answer questions about our security, networking, audio, and smart home products. What are you interested in?")
+          addMessage(body, "bot", t("greeting"))
           addQuickReplies(body, [
-            "📹 Security cameras",
-            "🌐 Networking",
-            "🔊 Audio systems",
-            "🏠 Smart home",
-            "📞 Talk to us",
+            t("securityCameras"),
+            t("networking"),
+            t("audioSystems"),
+            t("smartHome"),
+            t("talkToUs"),
           ])
         } else {
-          addMessage(body, "bot", "Let me connect you with a real person who can help!")
+          addMessage(body, "bot", t("leadConnect"))
           if (!STATE.leadCaptured) {
-            addMessage(body, "bot", "Want to leave your details?")
-            addQuickReplies(body, ["Yes, contact me", "💬 Chat on WhatsApp"])
+            addMessage(body, "bot", t("leadWantDetails"))
+            addQuickReplies(body, [t("yesContact"), t("chatWhatsApp")])
           } else {
-            addQuickReplies(body, ["📦 Browse products", "💬 Chat on WhatsApp"])
+            addQuickReplies(body, [t("browseProducts"), t("chatWhatsApp")])
           }
         }
       }
     }, 400 + Math.random() * 500)
   }
 
-  // --- UI (same as Aman but AsliElectronics themed) ---
+  // --- UI ---
 
   const COLORS = {
     primary: CONFIG.companyColor,
@@ -395,6 +628,13 @@
   const STYLES = `
 #asli-chatbot-container { all: initial; font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif; }
 #asli-chatbot-container *, #asli-chatbot-container *::before, #asli-chatbot-container *::after { box-sizing: border-box; }
+
+#asli-chatbot-container.asli-rtl { direction: rtl; }
+#asli-chatbot-container.asli-rtl .asli-cb-msg.bot { border-bottom-left-radius:16px; border-bottom-right-radius:4px; }
+#asli-chatbot-container.asli-rtl .asli-cb-msg.user { border-bottom-right-radius:16px; border-bottom-left-radius:4px; }
+#asli-chatbot-container.asli-rtl .asli-cb-footer { flex-direction: row-reverse; }
+#asli-chatbot-container.asli-rtl .asli-cb-input { text-align: right; }
+#asli-chatbot-container.asli-rtl .asli-cb-qr-wrap { flex-direction: row-reverse; }
 
 .asli-cb-btn {
   position: fixed; bottom: 24px; right: 24px; width: 62px; height: 62px; border-radius: 50%;
@@ -428,6 +668,24 @@
 }
 @keyframes asliSlideUp { from { opacity:0; transform:translateY(24px) scale(0.96); } to { opacity:1; transform:translateY(0) scale(1); } }
 
+.asli-cb-lang-overlay {
+  position: absolute; inset: 0; z-index: 100; background: ${COLORS.bg};
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+  padding: 40px 24px; border-radius: 20px; animation: asliFadeIn 0.3s ease;
+}
+.asli-cb-lang-overlay h2 { font-size: 17px; font-weight: 600; color: ${COLORS.text}; margin: 0 0 8px; text-align: center; }
+.asli-cb-lang-options { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 260px; }
+.asli-cb-lang-btn {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  padding: 14px 20px; border-radius: 14px; font-size: 15px; font-weight: 500;
+  cursor: pointer; border: 2px solid ${COLORS.border}; background: ${COLORS.bg};
+  color: ${COLORS.text}; font-family: inherit;
+  transition: all 0.2s;
+}
+.asli-cb-lang-btn:hover { border-color: ${COLORS.primary}; background: #f0f8f0; transform: translateY(-1px); }
+.asli-cb-lang-btn .lang-flag { font-size: 24px; }
+.asli-cb-lang-btn .lang-name { font-size: 15px; }
+
 .asli-cb-header {
   background: linear-gradient(135deg, ${COLORS.gradientStart}, ${COLORS.gradientEnd});
   color: #fff; padding: 18px 20px 16px; display: flex; align-items: center; gap: 13px;
@@ -437,12 +695,18 @@
 .asli-cb-avatar-wrap { position:relative; flex-shrink:0; display:flex; align-items:center; }
 .asli-cb-avatar { border-radius:12px; background:rgba(255,255,255,0.12); backdrop-filter:blur(4px); display:flex; align-items:center; justify-content:center; padding:6px 10px; box-shadow:0 2px 8px rgba(0,0,0,0.12); }
 .asli-cb-online-dot { position:absolute; bottom:0; right:0; width:12px; height:12px; border-radius:50%; background:${COLORS.online}; border:2px solid ${COLORS.primary}; }
+.asli-cb-lang-toggle {
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2); border-radius: 20px;
+  color: #fff; cursor: pointer; font-size: 12px; padding: 4px 10px; font-family: inherit;
+  white-space: nowrap; transition: background 0.2s; margin-left: auto;
+}
+.asli-cb-lang-toggle:hover { background: rgba(255,255,255,0.2); }
 .asli-cb-header-text { flex:1; }
 .asli-cb-header-text h3 { margin:0; font-size:14px; font-weight:600; letter-spacing:-0.01em; }
 .asli-cb-header-text p { margin:2px 0 0; font-size:11px; opacity:0.85; display:flex; align-items:center; gap:4px; }
 .asli-cb-close { background:none; border:none; color:rgba(255,255,255,0.7); cursor:pointer; font-size:20px; padding:4px; line-height:1; transition:color 0.2s; }
 .asli-cb-close:hover { color:#fff; }
-.asli-cb-body { flex:1; overflow-y:auto; padding:16px; display:flex; flex-direction:column; gap:8px; scrollbar-width:thin; scrollbar-color:#e0e8e0 transparent; }
+.asli-cb-body { flex:1; overflow-y:auto; padding:16px; display:flex; flex-direction:column; gap:8px; scrollbar-width:thin; scrollbar-color:#e0e8e0 transparent; position: relative; }
 .asli-cb-body::-webkit-scrollbar { width:5px; }
 .asli-cb-body::-webkit-scrollbar-track { background:transparent; }
 .asli-cb-body::-webkit-scrollbar-thumb { background:#e0e8e0; border-radius:10px; }
@@ -534,7 +798,7 @@
   function addMessage(body, type, text) {
     if (type === "bot") STATE.messages.push(text)
     const msg = document.createElement("div")
-    msg.className = `asli-cb-msg ${type}`
+    msg.className = "asli-cb-msg " + type
     msg.textContent = text
     body.appendChild(msg)
     scrollToBottom(body)
@@ -572,34 +836,104 @@
     if (el) el.remove()
   }
 
+  function showLanguageScreen(body) {
+    const overlay = document.createElement("div")
+    overlay.className = "asli-cb-lang-overlay"
+    overlay.id = "asliLangOverlay"
+    overlay.innerHTML = `
+      <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,${COLORS.gradientStart},${COLORS.gradientEnd});display:flex;align-items:center;justify-content:center;font-size:32px;box-shadow:0 4px 16px rgba(26,86,50,0.25);">${CONFIG.companyName[0]}</div>
+      <h2 id="asliLangTitle">${TRANS.en.selectLanguage}</h2>
+      <div class="asli-cb-lang-options" id="asliLangOptions">
+        <button class="asli-cb-lang-btn" data-lang="en">
+          <span class="lang-flag">🇬🇧</span>
+          <span class="lang-name">English</span>
+        </button>
+        <button class="asli-cb-lang-btn" data-lang="ar">
+          <span class="lang-flag">🇶🇦</span>
+          <span class="lang-name">العربية</span>
+        </button>
+      </div>
+    `
+    body.appendChild(overlay)
+
+    overlay.querySelectorAll(".asli-cb-lang-btn").forEach(btn => {
+      btn.onclick = () => {
+        const lang = btn.dataset.lang
+        overlay.remove()
+        LANG = lang
+        localStorage.setItem(LANG_STORAGE_KEY, lang)
+        document.documentElement.dir = LANGS[lang].dir
+        updateContainerDir()
+        updateHeaderLang(lang)
+        startChat(body)
+      }
+    })
+    scrollToBottom(body)
+  }
+
+  function updateContainerDir() {
+    const container = document.getElementById("asli-chatbot-container")
+    if (container) {
+      if (LANG === "ar") container.classList.add("asli-rtl")
+      else container.classList.remove("asli-rtl")
+    }
+  }
+
+  function updateHeaderLang(lang) {
+    const toggle = document.getElementById("asliCbLangToggle")
+    if (toggle) {
+      const nextLang = lang === "en" ? "ar" : "en"
+      toggle.textContent = LANGS[nextLang].flag + " " + LANGS[nextLang].name
+    }
+    const botNameEl = document.getElementById("asliCbBotName")
+    if (botNameEl) botNameEl.textContent = TRANS[lang].botName
+  }
+
+  function startChat(body) {
+    STATE.messages.push("init")
+    setTimeout(() => {
+      addMessage(body, "bot", t("welcome"))
+      setTimeout(() => {
+        addMessage(body, "bot", t("welcomeFollowUp"))
+        addQuickReplies(body, [
+          t("securityCameras"),
+          t("networking"),
+          t("audioSystems"),
+          t("smartHome"),
+          t("talkToUs"),
+        ])
+      }, 400)
+    }, 400)
+  }
+
   function showLeadForm(body) {
     const form = document.createElement("div")
     form.className = "asli-cb-form"
     form.innerHTML = `
-      <label>Full name <span class="asli-required">*</span></label>
-      <input type="text" id="asliLfName" placeholder="e.g. Ahmed" required />
-      <label>Phone (WhatsApp) <span class="asli-required">*</span></label>
+      <label>${t("formName")} <span class="asli-required">*</span></label>
+      <input type="text" id="asliLfName" placeholder="${LANG === "ar" ? "مثال: أحمد" : "e.g. Ahmed"}" required />
+      <label>${t("formPhone")} <span class="asli-required">*</span></label>
       <input type="tel" id="asliLfPhone" placeholder="+974 XXXX XXXX" required />
-      <label>Email</label>
+      <label>${t("formEmail")}</label>
       <input type="email" id="asliLfEmail" placeholder="email@example.com" />
-      <label>Interested in</label>
+      <label>${t("formInterest")}</label>
       <select id="asliLfInterest">
-        <option value="">Select category</option>
-        <option>Security Cameras</option>
-        <option>Networking</option>
-        <option>Audio / PA Systems</option>
-        <option>Smart Home</option>
-        <option>Cables & Accessories</option>
-        <option>Installation Service</option>
-        <option>Wholesale / Bulk</option>
-        <option>Other</option>
+        <option value="">${LANG === "ar" ? "اختر الفئة" : "Select category"}</option>
+        <option>${t("interestCameras")}</option>
+        <option>${t("interestNetworking")}</option>
+        <option>${t("interestAudio")}</option>
+        <option>${t("interestSmart")}</option>
+        <option>${t("interestCables")}</option>
+        <option>${t("interestInstall")}</option>
+        <option>${t("interestWholesale")}</option>
+        <option>${t("interestOther")}</option>
       </select>
-      <label>Message <span style="color:${COLORS.muted};font-weight:400;">(optional)</span></label>
-      <textarea id="asliLfMessage" placeholder="Tell us what you need..." rows="2"></textarea>
-      <button id="asliLfSubmit">Send Inquiry</button>
+      <label>${t("formMessage")} <span style="color:${COLORS.muted};font-weight:400;">${t("formOpt")}</span></label>
+      <textarea id="asliLfMessage" placeholder="${LANG === "ar" ? "أخبرنا ماذا تحتاج..." : "Tell us what you need..."}" rows="2"></textarea>
+      <button id="asliLfSubmit">${t("formSubmit")}</button>
       <a class="asli-cb-whatsapp-btn" href="https://wa.me/${CONFIG.whatsappNumber}" target="_blank">
         <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Chat on WhatsApp
+        ${t("whatsappBtn")}
       </a>
     `
     body.appendChild(form)
@@ -609,7 +943,7 @@
       const name = document.getElementById("asliLfName").value.trim()
       const phone = document.getElementById("asliLfPhone").value.trim()
       if (!name || !phone) {
-        addMessage(body, "system", "Please fill in your name and phone number.")
+        addMessage(body, "system", t("formRequired"))
         return
       }
       const leadData = {
@@ -631,9 +965,9 @@
         body: JSON.stringify(leadData),
       }).catch(() => {})
 
-      addMessage(body, "bot", `Thank you, ${name}! Our team will contact you on WhatsApp at ${phone} within a few hours. 🎯`)
-      addMessage(body, "bot", "In the meantime, browse our catalog at aslielectronics.com or ask me anything!")
-      addQuickReplies(body, ["📦 Browse products", "💬 Chat on WhatsApp", "Ask another question"])
+      addMessage(body, "bot", t("leadThank") + ", " + name + "! " + t("leadWillContact") + " " + phone + " " + t("leadWithin"))
+      addMessage(body, "bot", t("leadBrowse"))
+      addQuickReplies(body, [t("browseProducts"), t("chatWhatsApp"), t("askAnything")])
     }
   }
 
@@ -653,9 +987,10 @@
             <span class="asli-cb-online-dot"></span>
           </div>
           <div class="asli-cb-header-text">
-            <h3>${CONFIG.companyName}</h3>
-            <p><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#34d399;"></span> Online — We reply in minutes</p>
+            <h3 id="asliCbBotName">${TRANS.en.botName}</h3>
+            <p><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#34d399;"></span> ${TRANS.en.online}</p>
           </div>
+          <button class="asli-cb-lang-toggle" id="asliCbLangToggle" title="Switch language">🇶🇦 العربية</button>
           <button class="asli-cb-close" id="asliCbClose">✕</button>
         </div>
         <div class="asli-cb-body" id="asliCbBody"></div>
@@ -669,39 +1004,40 @@
     `
     document.body.appendChild(container)
     return {
+      container,
       btn: document.getElementById("asliCbBtn"),
       window: document.getElementById("asliCbWindow"),
       body: document.getElementById("asliCbBody"),
       close: document.getElementById("asliCbClose"),
       input: document.getElementById("asliCbInput"),
       send: document.getElementById("asliCbSend"),
+      langToggle: document.getElementById("asliCbLangToggle"),
     }
   }
 
   function init() {
     injectStyles()
+    LANG = detectLanguage()
     const el = createWidget()
     let isOpen = false
+
+    updateContainerDir()
+    updateHeaderLang(LANG)
+
+    el.langToggle.onclick = () => {
+      const newLang = LANG === "en" ? "ar" : "en"
+      setLanguage(newLang, el.body)
+      updateContainerDir()
+      updateHeaderLang(newLang)
+      el.input.placeholder = TRANS[newLang].inputPlaceholder
+    }
 
     function toggleOpen() {
       isOpen = !isOpen
       el.window.style.display = isOpen ? "flex" : "none"
       el.btn.classList.toggle("asli-cb-open", isOpen)
       if (isOpen && STATE.messages.length === 0) {
-        STATE.messages.push("init")
-        setTimeout(() => {
-          addMessage(el.body, "bot", CONFIG.welcomeMessage)
-          setTimeout(() => {
-            addMessage(el.body, "bot", "I can help you find products, check prices, or answer questions. What are you looking for?")
-            addQuickReplies(el.body, [
-              "📹 Security cameras",
-              "🌐 Networking",
-              "🔊 Audio systems",
-              "🏠 Smart home",
-              "📞 Talk to us",
-            ])
-          }, 400)
-        }, 400)
+        showLanguageScreen(el.body)
       }
     }
 
