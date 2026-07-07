@@ -8,7 +8,7 @@
     email: "info@aslielectronics.com",
     baseUrl: "https://aslielectronics.com",
     welcomeMessage: "👋 Welcome to AsliElectronics! I'm your AI assistant. Ask me about our security cameras, networking gear, audio systems, smart home products, or anything else.",
-    botName: "Asli AI",
+    botName: "AsliElectronics",
     apiEndpoint: "/api/lead",
     accessKey: "",
   }
@@ -102,7 +102,7 @@
       },
     },
     ar: {
-      botName: "مساعد أصلي",
+      botName: "أصلي إلكترونكس",
       welcome: "👋 مرحباً بك في أصلي إلكترونكس! أنا مساعدك الذكي. اسألني عن كاميرات المراقبة، معدات الشبكات، أنظمة الصوت، منتجات المنزل الذكي، أو أي شيء آخر.",
       welcomeFollowUp: "يمكنني مساعدتك في العثور على المنتجات، معرفة الأسعار، أو الإجابة على أسئلتك. ما الذي تبحث عنه؟",
       online: "متصل — نرد في دقائق",
@@ -1087,6 +1087,7 @@
 
     updateContainerDir()
     updateHeaderLang(LANG)
+    el.input.placeholder = TRANS[LANG].inputPlaceholder
 
     el.langToggle.onclick = () => {
       const newLang = LANG === "en" ? "ar" : "en"
