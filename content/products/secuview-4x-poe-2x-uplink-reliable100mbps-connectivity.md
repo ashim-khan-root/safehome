@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -19,7 +19,7 @@ price: 104.0
 product_type: simple
 sku: SV-P4482NS
 slug: secuview-4x-poe-2x-uplink-reliable100mbps-connectivity
-title: Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha |Secuview
+title: Reliable 4 Port PoE Switch + 2 Uplink 100Mbps Doha | Secuview
 type: product
 ---
 

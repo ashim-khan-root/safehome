@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 750.0
 product_type: simple
 sku: SVI-DM1224FIPW
 slug: secuview12mp-indoor-poe-lp-camera-auto-tracking-onvif
-title: 12MP Indoor PoE Ip Camera Trusted Auto-Tracking Doha|Secuview
+title: 12MP Indoor PoE Ip Camera Trusted Auto-Tracking Doha | Secuview
 type: product
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -23,7 +23,7 @@ price: 145.0
 product_type: variable
 sku: SVTSM203
 slug: secuview-three-gang-wi-fi-remote-control-smart-switch-with-metal-border
-title: 3 Gang WiFi Smart Switch|Premium Metal-Border Control|Secuview
+title: 3 Gang WiFi Smart Switch | Premium Metal-Border Control | Secuview
 type: product
 ---
 

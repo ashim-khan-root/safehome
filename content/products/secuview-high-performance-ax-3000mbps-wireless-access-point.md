@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -18,7 +18,7 @@ price: 390.0
 product_type: simple
 sku: SV-AP630SX01
 slug: secuview-high-performance-ax-3000mbps-wireless-access-point
-title: Fast AX 3000Mbps Wireless Access Point High Performance |Secuview
+title: Fast AX 3000Mbps Wireless Access Point High Performance | Secuview
 type: product
 ---
 

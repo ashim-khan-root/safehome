@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -15,6 +15,7 @@ images:
 - /images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-2.jpg
 - /images/products/secuview-ir-controller-smart-remote-control-for-seamless-device-management-3.jpg
 price: 100.0
+sku: SV-IR-C01
 product_type: simple
 slug: secuview-ir-controller-smart-remote-control-for-seamless-device-management
 title: WiFi Smart IR Controller DC5V Qatar | Trusted Secuview

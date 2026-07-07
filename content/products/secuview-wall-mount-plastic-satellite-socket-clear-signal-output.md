@@ -1,9 +1,10 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Smart Home
 date: '2026-05-17T13:44:25'
+price: 22.0
 description: Plastic satellite socket for wall-mount installs in Doha, Qatar. Clear
   signal output, durable panel, warranty support, free site visit. Get a quote.
 draft: false

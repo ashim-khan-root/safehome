@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -19,7 +19,7 @@ price: 32.5
 product_type: simple
 sku: SV-M201BK
 slug: secuview-1u-rack-mount-cable-manager-metal-build-with-protective-cover
-title: 1U Rack Mount Cable Manager Trusted Tangle-Free Doha|Secuview
+title: 1U Rack Mount Cable Manager Trusted Tangle-Free Doha | Secuview
 type: product
 ---
 

@@ -1,9 +1,10 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Smart Home
 date: '2026-05-17T13:52:29'
+price: 65.0
 description: Smart plug socket with dual USB and Type-C ports for smarter power control
   at home or office in Doha/Qatar. Certified quality & easy installation. Get a.
 draft: false

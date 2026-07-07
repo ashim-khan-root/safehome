@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 876.0
 product_type: simple
 sku: SV-SD07MS743
 slug: secuview-ip-smart-video-doorbell-with-tuya-app
-title: Smart Video Doorbell – 24/7 Secure Tuya App Control|Secuview
+title: Smart Video Doorbell – 24/7 Secure Tuya App Control | Secuview
 type: product
 ---
 

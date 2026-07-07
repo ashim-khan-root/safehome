@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/OutOfStock
 categories:
@@ -18,6 +18,7 @@ images:
 - /images/products/secuview-19-inch-international-standard-4u-double-section-spcc-network-cabinet-5.jpg
 - /images/products/secuview-19-inch-international-standard-4u-double-section-spcc-network-cabinet-6.jpg
 price: 364.0
+sku: SV-CAB-4U-DS
 product_type: simple
 slug: secuview-19-inch-international-standard-4u-double-section-spcc-network-cabinet
 title: 4U SPCC Network Cabinet –Space-Saving 19-Inch Double Section

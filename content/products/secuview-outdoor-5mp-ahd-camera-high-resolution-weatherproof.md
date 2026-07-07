@@ -1,8 +1,10 @@
----
+﻿---
 brand: Secuview
 categories:
 - Security Surveillance
 date: '2026-05-17T13:55:16'
+price: 250.0
+sku: SV-5MP-AHD-OUT
 description: Shop Unknown in Qatar. Premium quality at best prices. Fast delivery
   across Doha.
 draft: false
@@ -20,7 +22,7 @@ images:
 - /images/products/secuview-outdoor-5mp-ahd-camera-high-resolution-weatherproof-9.jpg
 product_type: simple
 slug: secuview-outdoor-5mp-ahd-camera-high-resolution-weatherproof
-title: Unknown
+title: 5MP Outdoor AHD Camera | High-Resolution Weatherproof CCTV | Secuview
 type: product
 ---
 

@@ -17,7 +17,7 @@ price: 1300.0
 product_type: simple
 sku: SV-SL-460-Q12G
 slug: secuview-waterproof-smart-courtyard-gate-lock
-title: Weatherproof Smart Gate Lock Outdoor 1 – Secure Key & Code
+title: Weatherproof Smart Gate Lock | Outdoor Key & Code Entry for Villas
 type: product
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 217.2
 product_type: simple
 sku: SV592C03-305WS-BK
 slug: secuview-high-standard-305m-rg592c-coaxial-cable-with-power
-title: Heavy-Duty RG59+2C Coaxial Cable |305m CCTV + Power|Secuview
+title: Heavy-Duty RG59+2C Coaxial Cable | 305m CCTV + Power | Secuview
 type: product
 ---
 

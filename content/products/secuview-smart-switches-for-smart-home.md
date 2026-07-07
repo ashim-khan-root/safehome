@@ -1,9 +1,10 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Smart Home
 date: '2026-05-17T13:45:32'
+price: 120.0
 description: Upgrade lights with smart switches, app + voice control, schedules and
   scenes for smoother routines. Shop options & compare specs.
 draft: false

@@ -18,7 +18,7 @@ price: 150.0
 product_type: simple
 sku: SV-C510H
 slug: secuview-6w-ceiling-speaker-powerful-sound-for-home-and-office
-title: Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office. - Secuview
+title: Secuview 6W Ceiling Speaker | Powerful Sound for Home and Office
 type: product
 ---
 

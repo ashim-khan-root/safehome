@@ -1,8 +1,10 @@
----
+﻿---
 brand: Secuview
 categories:
 - Cable
 date: '2026-05-17T13:56:24'
+price: 45.0
+sku: SV-HDMI-2.0-3M
 description: Shop Unknown in Qatar. Premium quality at best prices. Fast delivery
   across Doha.
 draft: false
@@ -20,7 +22,7 @@ images:
 - /images/products/secuview-2-0-hdtv-cable-durable-3m-high-speed-connectivity-9.jpg
 product_type: simple
 slug: secuview-2-0-hdtv-cable-durable-3m-high-speed-connectivity
-title: Unknown
+title: 2.0 HDTV Cable | 3m Durable High-Speed HDMI Connectivity | Secuview
 type: product
 ---
 

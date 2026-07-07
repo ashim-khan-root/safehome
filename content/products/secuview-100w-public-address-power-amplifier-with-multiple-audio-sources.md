@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 950.0
 product_type: simple
 sku: SV-AL2100B
 slug: secuview-100w-public-address-power-amplifier-with-multiple-audio-sources
-title: Powerful 100W PA Amplifier | Clear, Reliable Sound |Secuview
+title: Powerful 100W PA Amplifier | Clear, Reliable Sound | Secuview
 type: product
 ---
 

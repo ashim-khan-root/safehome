@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -19,7 +19,7 @@ price: 150.0
 product_type: simple
 sku: SV-RX2-4055S1
 slug: secuview-2u-spcc-network-cabinet
-title: Sturdy 2U SPCC Network Cabinet|Secure Mid-Size Rack|Secuview
+title: Sturdy 2U SPCC Network Cabinet | Secure Mid-Size Rack | Secuview
 type: product
 ---
 

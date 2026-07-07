@@ -18,7 +18,7 @@ price: 450.0
 product_type: simple
 sku: SV-CB202LTW
 slug: secuview-built-in-bluetooth-ceiling-speakers-smart-audio-solution
-title: Secuview 20W Bluetooth Ceiling Speakers–Smart Audio Solution
+title: Secuview 20W Bluetooth Ceiling Speakers – Smart Audio Solution
 type: product
 ---
 

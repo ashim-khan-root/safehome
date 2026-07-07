@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 1440.0
 product_type: simple
 sku: SV-R27-6080ABC1
 slug: secuview-international-standard-27u-spcc-data-center-cabinet
-title: Secure 27U Data Center Cabinet|Heavy-Duty SPCC Rack|Secuview
+title: Secure 27U Data Center Cabinet | Heavy-Duty SPCC Rack | Secuview
 type: product
 ---
 

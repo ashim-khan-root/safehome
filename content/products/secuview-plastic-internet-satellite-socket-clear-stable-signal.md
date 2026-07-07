@@ -1,9 +1,10 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
 - Smart Home
 date: '2026-05-17T13:43:38'
+price: 25.0
 description: Plastic Internet & Satellite Socket for clear signal output in Doha,
   Qatar. Premium plastic panel, low signal loss for neat wall installs. Get a quote.
 draft: false

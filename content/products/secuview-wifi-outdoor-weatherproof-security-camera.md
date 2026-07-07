@@ -18,7 +18,7 @@ price: 250.0
 product_type: simple
 sku: SV-M5CL-AVPT1
 slug: secuview-wifi-outdoor-weatherproof-security-camera
-title: WiFi Outdoor Security Camera Qatar  | Weatherproof CCTV
+title: WiFi Outdoor Security Camera | Weatherproof CCTV for Qatar
 type: product
 ---
 

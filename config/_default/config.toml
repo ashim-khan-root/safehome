@@ -1,6 +1,6 @@
 baseURL = 'https://aslielectronics.com/'
-languageCode = "en-us"
-title = "AsliElectronics | Premium Security & Smart Solutions in Qatar"
+locale = "en-us"
+title = "Asli Electronics | Premium Security & Smart Solutions in Qatar"
 enableRobotsTXT = true
 enableEmoji = true
 timeout = "30s"
@@ -30,7 +30,7 @@ priority = 0.5
 
 [params]
 author = "AsliElectronics"
-description = "Qatar's trusted source for authentic security, networking, audio, and smart home solutions."
+description = "Qatar's trusted source for security cameras, CCTV systems, networking equipment, smart home automation, and audio solutions. MOI-approved products with professional installation across Doha."
 default_og_image = "/images/products/secuview-wifi-outdoor-weatherproof-security-camera-0.jpg"
 email = "info@aslielectronics.com"
 phone = "+974 7741 8754"

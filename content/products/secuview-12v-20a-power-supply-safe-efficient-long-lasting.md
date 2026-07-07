@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -19,17 +19,17 @@ price: 75.0
 product_type: simple
 sku: SV-PJ20A
 slug: secuview-12v-20a-power-supply-safe-efficient-long-lasting
-title: Reliable 12V 20A Power Supply – Efficient, Durable|secuview
+title: Reliable 12V 20A Power Supply – Efficient, Durable | Secuview
 type: product
 ---
 
 ## Overview
 
-The **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** provides reliable power delivery for security, networking, and AV equipment across Qatar. Available at **QAR 75** (SKU: SV-PJ20A), this power solution ensures your critical devices stay operational in Doha and all Qatar.
+The **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** provides reliable power delivery for security, networking, and AV equipment across Qatar. Available at **QAR 75** (SKU: SV-PJ20A), this power solution ensures your critical devices stay operational in Doha and all Qatar.
 
 Power CCTV and LED setups with a 12V 20A Power Supply built for safe, efficient operation, stable output, and long-lasting protection for everyday use.
 
-Built for continuous duty in commercial and residential installations, the **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** delivers stable power output for 24/7 operation.
+Built for continuous duty in commercial and residential installations, the **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** delivers stable power output for 24/7 operation.
 
 ### Key Features
 
@@ -43,7 +43,7 @@ Built for continuous duty in commercial and residential installations, the **Rel
 
 | Attribute | Value |
 |---|---|
-| Product | Reliable 12V 20A Power Supply – Efficient, Durable|secuview |
+| Product | Reliable 12V 20A Power Supply – Efficient, Durable| Secuview |
 | SKU | SV-PJ20A |
 | Price | QAR 75.00 |
 | Brand | Secuview |
@@ -52,7 +52,7 @@ Built for continuous duty in commercial and residential installations, the **Rel
 
 ### Applications
 
-The **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** is recommended for:
+The **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** is recommended for:
 
 - **CCTV cameras** — Stable power for security camera operation
 - **Network equipment** — Reliable power for switches, routers, and access points
@@ -64,14 +64,14 @@ Tested for Qatar's electrical conditions. Secuview offers professional installat
 
 ### Frequently Asked Questions
 
-**Is the **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** compatible with Qatar's power supply?**
-Yes. The **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** is designed for Qatar's standard electrical supply and includes necessary protection features for safe, reliable operation.
+**Is the **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** compatible with Qatar's power supply?**
+Yes. The **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** is designed for Qatar's standard electrical supply and includes necessary protection features for safe, reliable operation.
 
-**Can the **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** power multiple devices simultaneously?**
-The **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** provides stable power output suitable for its rated capacity. Contact Secuview to confirm it meets the power requirements of your specific equipment.
+**Can the **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** power multiple devices simultaneously?**
+The **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** provides stable power output suitable for its rated capacity. Contact Secuview to confirm it meets the power requirements of your specific equipment.
 
-**What warranty comes with the **Reliable 12V 20A Power Supply – Efficient, Durable|secuview**?**
-The **Reliable 12V 20A Power Supply – Efficient, Durable|secuview** comes with a manufacturer warranty supported locally by Secuview's Doha service centre.
+**What warranty comes with the **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview**?**
+The **Reliable 12V 20A Power Supply – Efficient, Durable| Secuview** comes with a manufacturer warranty supported locally by Secuview's Doha service centre.
 
 
 ## Gallery

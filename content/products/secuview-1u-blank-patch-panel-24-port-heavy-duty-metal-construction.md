@@ -18,7 +18,7 @@ price: 78.0
 product_type: simple
 sku: SV-PP2624S
 slug: secuview-1u-blank-patch-panel-24-port-heavy-duty-metal-construction
-title: Secuview 1U 24-Port Blank Patch Panel –  Metal Construction
+title: Secuview 1U 24-Port Blank Patch Panel – Metal Construction
 type: product
 ---
 

@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 157.0
 product_type: simple
 sku: SV030007-305WS-BK
 slug: secuview-high-quality-rg59-u-coaxial-cable-305m
-title: Reliable RG59/U Coaxial Cable|305m Clear CCTV Signal|Secuview
+title: Reliable RG59/U Coaxial Cable | 305m Clear CCTV Signal | Secuview
 type: product
 ---
 

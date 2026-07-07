@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/OutOfStock
 categories:
@@ -20,7 +20,7 @@ price: 201.0
 product_type: simple
 sku: SV-CAT603A-C23
 slug: secuview-copper-coated-23awg-cat6-network-cable
-title: High-Performance Cat6 Network Cable|23AWG Fast, Stable Speed
+title: High-Performance Cat6 Network Cable | 23AWG Fast, Stable Speed
 type: product
 ---
 

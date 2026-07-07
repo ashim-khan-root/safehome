@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -18,7 +18,7 @@ price: 189.0
 product_type: simple
 sku: SV-C2015W
 slug: secuview-pa-ceiling-speakers-with-high-quality-sound-for-any-space
-title: Powerful PA Ceiling Speakers|24/7 Crisp,Clear Sound|Secuview
+title: Powerful PA Ceiling Speakers | 24/7 Crisp,Clear Sound | Secuview
 type: product
 ---
 

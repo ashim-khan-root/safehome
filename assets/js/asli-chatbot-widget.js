@@ -404,6 +404,23 @@
       hdmi: ["Cable"],
       smart: ["Smart Home", "Security Surveillance"],
       home: ["Smart Home"],
+      كاميرا: ["Security Surveillance"],
+      كاميرات: ["Security Surveillance"],
+      مراقبة: ["Security Surveillance"],
+      شبكة: ["Networking"],
+      شبكات: ["Networking"],
+      راوتر: ["Networking"],
+      سويتش: ["Networking"],
+      صوت: ["Audio"],
+      سماعة: ["Audio"],
+      سماعات: ["Audio"],
+      مكبر: ["Audio"],
+      ذكي: ["Smart Home"],
+      منزل: ["Smart Home"],
+      قفل: ["Smart Home"],
+      باب: ["Smart Home"],
+      كابل: ["Cable"],
+      كابلات: ["Cable"],
     }
     for (const [word, cats] of Object.entries(keywords)) {
       if (q.includes(word)) return getProductsByCategory(cats[0])
@@ -527,8 +544,21 @@
     setTimeout(() => {
       removeLoading(body)
 
-      if (lower.match(/\b(quote|consultation|contact me|call me|i need help|free estimate|request.*call|get.*touch|استشارة|عرض سعر|اتصل|تواصل|مساعدة)\b/)) {
+      if (lower.match(/\b(?:quote|consultation|contact me|call me|i need help|free estimate|request.*call|get.*touch)\b/) || lower.match(/استشارة|عرض سعر|اتصل|تواصل|مساعدة|تواصل معي|اتصل بنا|راسلني/)) {
         handleLeadRequest(body)
+        return
+      }
+
+      const qLabel = t("chatWhatsApp").toLowerCase()
+      if (lower === qLabel || lower.includes("واتساب") || lower.includes("whatsapp")) {
+        window.open("https://wa.me/" + CONFIG.whatsappNumber, "_blank")
+        addMessage(body, "bot", "💬 " + t("leadWillContact") + " " + CONFIG.whatsappNumber)
+        return
+      }
+      const talkLabel = t("talkToUs").toLowerCase()
+      if (lower === talkLabel || lower.includes("تحدث معنا") || lower.includes("call me") || lower.includes("اتصل") || lower.includes("رقم")) {
+        addMessage(body, "bot", t("contact"))
+        addQuickReplies(body, [t("chatWhatsApp"), t("browseProducts"), t("askAnything")])
         return
       }
 
@@ -541,6 +571,38 @@
           addProductCards(body, matchedProducts, "📦 " + (t("productCategories." + matchedProducts[0].category) || matchedProducts[0].category))
           addMessage(body, "bot", t("clickDetails"))
           addQuickReplies(body, [t("securityCameras"), t("networking"), t("audioSystems"), t("smartHome"), t("talkToUs")])
+          return
+        }
+      }
+
+      const arabicCatMap = {
+        "كاميرا": { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        "كاميرات": { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        "مراقبة": { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        "cctv": { products: getProductsByCategory("Security Surveillance"), nameKey: "catSecurity" },
+        "شبكة": { products: getProductsByCategory("Networking"), nameKey: "catNetworking" },
+        "شبكات": { products: getProductsByCategory("Networking"), nameKey: "catNetworking" },
+        "راوتر": { products: getProductsByCategory("Networking"), nameKey: "catNetworking" },
+        "سويتش": { products: getProductsByCategory("Networking"), nameKey: "catNetworking" },
+        "صوت": { products: getProductsByCategory("Audio"), nameKey: "catAudio" },
+        "سماعة": { products: getProductsByCategory("Audio"), nameKey: "catAudio" },
+        "سماعات": { products: getProductsByCategory("Audio"), nameKey: "catAudio" },
+        "مكبر": { products: getProductsByCategory("Audio"), nameKey: "catAudio" },
+        "ذكي": { products: getProductsByCategory("Smart Home"), nameKey: "catSmart" },
+        "منزل": { products: getProductsByCategory("Smart Home"), nameKey: "catSmart" },
+        "قفل": { products: getProductsByCategory("Smart Home"), nameKey: "catSmart" },
+        "باب": { products: getProductsByCategory("Smart Home"), nameKey: "catSmart" },
+        "جرس": { products: getProductsByCategory("Smart Home"), nameKey: "catSmart" },
+        "كابل": { products: getProductsByCategory("Cable"), nameKey: "catCable" },
+        "كابلات": { products: getProductsByCategory("Cable"), nameKey: "catCable" },
+      }
+
+      for (const [word, data] of Object.entries(arabicCatMap)) {
+        if (lower.includes(word) && data.products.length > 0) {
+          addMessage(body, "bot", t("hereAre") + " " + t(data.nameKey) + ":")
+          addProductCards(body, data.products, "📦 " + t(data.nameKey))
+          addMessage(body, "bot", t("viewDetails"))
+          addQuickReplies(body, [t("chatWhatsApp"), t("requestCall"), t("askAnything")])
           return
         }
       }
@@ -842,7 +904,7 @@
     overlay.id = "asliLangOverlay"
     overlay.innerHTML = `
       <div style="width:64px;height:64px;border-radius:16px;background:linear-gradient(135deg,${COLORS.gradientStart},${COLORS.gradientEnd});display:flex;align-items:center;justify-content:center;font-size:32px;box-shadow:0 4px 16px rgba(26,86,50,0.25);">${CONFIG.companyName[0]}</div>
-      <h2 id="asliLangTitle">${TRANS.en.selectLanguage}</h2>
+      <h2 id="asliLangTitle">${t("selectLanguage")}</h2>
       <div class="asli-cb-lang-options" id="asliLangOptions">
         <button class="asli-cb-lang-btn" data-lang="en">
           <span class="lang-flag">🇬🇧</span>
@@ -887,6 +949,8 @@
     }
     const botNameEl = document.getElementById("asliCbBotName")
     if (botNameEl) botNameEl.textContent = TRANS[lang].botName
+    const onlineEl = document.getElementById("asliCbOnline")
+    if (onlineEl) onlineEl.textContent = TRANS[lang].online
   }
 
   function startChat(body) {
@@ -988,9 +1052,9 @@
           </div>
           <div class="asli-cb-header-text">
             <h3 id="asliCbBotName">${TRANS.en.botName}</h3>
-            <p><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#34d399;"></span> ${TRANS.en.online}</p>
+            <p><span style="display:inline-block;width:6px;height:6px;border-radius:50%;background:#34d399;"></span> <span id="asliCbOnline">${TRANS.en.online}</span></p>
           </div>
-          <button class="asli-cb-lang-toggle" id="asliCbLangToggle" title="Switch language">🇶🇦 العربية</button>
+          <button class="asli-cb-lang-toggle" id="asliCbLangToggle" title="Change language / تغيير اللغة">🇶🇦 العربية</button>
           <button class="asli-cb-close" id="asliCbClose">✕</button>
         </div>
         <div class="asli-cb-body" id="asliCbBody"></div>

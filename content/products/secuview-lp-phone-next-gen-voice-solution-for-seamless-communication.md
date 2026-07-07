@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -18,7 +18,7 @@ price: 250.0
 product_type: simple
 sku: IPH603P
 slug: secuview-lp-phone-next-gen-voice-solution-for-seamless-communication
-title: Secuview IP Phone 1 – Pro Crystal-Clear Audio | Secuview
+title: Secuview IP Phone – Pro Crystal-Clear Audio | Secuview
 type: product
 ---
 

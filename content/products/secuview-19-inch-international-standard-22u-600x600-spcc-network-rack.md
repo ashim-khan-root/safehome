@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -19,7 +19,7 @@ price: 1137.0
 product_type: simple
 sku: SV-R22-6060ABC1
 slug: secuview-19-inch-international-standard-22u-600x600-spcc-network-rack
-title: Heavy-Duty 22U Network Rack|Secure, Reliable 600×600 Cabinet
+title: Heavy-Duty 22U Network Rack | Secure, Reliable 600×600 Cabinet
 type: product
 ---
 

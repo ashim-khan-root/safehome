@@ -1,4 +1,4 @@
----
+﻿---
 brand: Secuview
 availability: http://schema.org/InStock
 categories:
@@ -20,7 +20,7 @@ price: 170.0
 product_type: simple
 sku: SV-HF1728KB-L
 slug: secuview-5mp-outdoor-ahd-camera-with-lp66-waterproof-housing
-title: 5MP Outdoor AHD Camera Certified Weatherproof Doha |Secuview
+title: 5MP Outdoor AHD Camera Certified Weatherproof Doha | Secuview
 type: product
 ---
 
