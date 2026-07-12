@@ -1,5 +1,5 @@
 <meta name="robots" content="index, follow">
-{{ if or (eq .Type "tags") (and .IsNode (not .IsHome) (gt .Paginator.PageNumber 1)) }}<meta name="robots" content="noindex,follow">{{ end }}
+{{ if or (eq .Type "tags") (and (or .IsHome .IsSection) (gt .Paginator.TotalPages 1) (gt .Paginator.PageNumber 1)) }}<meta name="robots" content="noindex,follow">{{ end }}
 <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description | default (.Summary | plainify | truncate 155) }}{{ end }}">
 
