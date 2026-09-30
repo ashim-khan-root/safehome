@@ -14,11 +14,36 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark')
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
+        (function () {
+            var DARK_FROM = 18;
+            var DARK_UNTIL = 5;
+
+            function explicitChoice() {
+                var stored = localStorage.getItem('theme');
+                return stored === 'dark' || stored === 'light' ? stored : null;
+            }
+
+            function isDarkByTime() {
+                var hour = new Date().getHours();
+                return hour >= DARK_FROM || hour < DARK_UNTIL;
+            }
+
+            function apply() {
+                var chosen = explicitChoice();
+                var isDark = chosen
+                    ? chosen === 'dark'
+                    : (window.matchMedia('(prefers-color-scheme: dark)').matches || isDarkByTime());
+                document.documentElement.classList.toggle('dark', isDark);
+                return isDark;
+            }
+
+            window.ASLI_THEME = {
+                isAuto: function () { return explicitChoice() === null; },
+                apply: apply
+            };
+
+            apply();
+        })();
     </script>
 </head>
 <body class="bg-light-bg text-dark-slate dark:bg-slate-900 dark:text-slate-100">
