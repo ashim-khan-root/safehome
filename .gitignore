@@ -24,3 +24,6 @@ npm-debug.log
 # OS
 Thumbs.db
 __pycache__/
+
+# Machine-specific opencode plugin config
+opencode.json

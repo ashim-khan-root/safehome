@@ -155,7 +155,7 @@
     <h2 class="text-xl md:text-2xl font-bold text-dark-slate dark:text-slate-100 mb-6">Related Products</h2>
     <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
       {{ range $related }}
-      {{ .Render "product-card" }}
+      {{ partial "product-card" . }}
       {{ end }}
     </div>
   </div>

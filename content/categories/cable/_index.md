@@ -1,6 +1,9 @@
 ---
 title: "Cables"
 description: "Cat6 network cables, coaxial cables, HDMI extenders, and cabling accessories in Qatar. Bulk and pre-terminated options available."
+icon: "cable"
+accent: "amber"
+short_description: "Cat6, RG6, RG59, and HDMI cabling with patch panels and accessories in stock."
 ---
 
 High-quality cables and connectivity products in Qatar. We stock Cat6 network cables (CCA and bare copper), RG6 and RG59 coaxial cables, HDMI cables, USB extenders, patch panels, cable managers, and all the accessories you need for structured cabling.

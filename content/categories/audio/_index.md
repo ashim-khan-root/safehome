@@ -1,6 +1,9 @@
 ---
 title: "Audio"
 description: "PA systems, ceiling speakers, amplifiers, and audio equipment in Qatar. Public address systems for mosques, schools, and businesses."
+icon: "audio"
+accent: "violet"
+short_description: "PA systems, ceiling speakers, amplifiers, and volume controllers for mosques, schools, and offices."
 ---
 
 Professional audio solutions in Qatar. We supply and install PA systems, ceiling speakers, wall-mounted speakers, amplifiers, volume controllers, and complete public address systems for mosques, schools, offices, commercial spaces, and industrial facilities.

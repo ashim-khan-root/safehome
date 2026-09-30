@@ -1,6 +1,9 @@
 ---
 title: "Security & Surveillance"
 description: "Professional CCTV cameras, DVRs, NVRs, and security systems in Qatar. Indoor, outdoor, PTZ, IP, and solar-powered cameras available."
+icon: "camera"
+accent: "sky"
+short_description: "CCTV cameras, recorders, and complete security systems for homes and businesses."
 ---
 
 Browse our complete range of security and surveillance products in Qatar. From 4K IP cameras and PTZ domes to solar-powered 4G cameras and professional NVR/DVR systems, we stock everything you need to secure your home or business. All products are genuine, tested, and backed by local support and warranty.
