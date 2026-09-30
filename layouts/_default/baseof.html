@@ -44,5 +44,6 @@
     {{ if .Site.Params.analytics.enabled }}
         {{ partial "analytics" . }}
     {{ end }}
+    {{ block "scripts" . }}{{ end }}
 </body>
 </html>

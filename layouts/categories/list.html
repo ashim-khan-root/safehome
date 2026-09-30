@@ -33,13 +33,17 @@
 <section class="py-8 md:py-12">
   <div class="container-site">
     {{ if .Pages }}
-    <div class="grid grid-cols-2 md:grid-cols-3 auto-rows-fr gap-4 md:gap-6">
+    <p data-search-status role="status" aria-live="polite" class="min-h-5 text-sm text-slate-600 dark:text-slate-400 mb-4"></p>
+    <div data-category-grid class="grid grid-cols-2 md:grid-cols-3 auto-rows-fr gap-4 md:gap-6">
       {{ range .Pages.ByTitle }}
-      {{ $productCount := len (where .Pages "Section" "products") }}
+      {{ $products := where .Pages "Section" "products" }}
+      {{ $productCount := len $products }}
       {{ if gt $productCount 0 }}
       {{- $accent := index $accents (.Params.accent | default "sky") | default $defaultAccent -}}
       {{- $iconName := .Params.icon | default "grid" -}}
-      <a href="{{ .RelPermalink }}" class="group relative flex flex-col h-full overflow-hidden bg-white dark:bg-slate-800 rounded-xl border border-soft-gray/30 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-soft-gray/50 dark:hover:border-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900">
+      {{- $names := slice -}}
+      {{- range $products -}}{{- $names = $names | append .Title -}}{{- end -}}
+      <a href="{{ .RelPermalink }}" data-category-card data-title="{{ .Title }}" data-description="{{ .Params.short_description | default "" }}" data-products="{{ delimit $names " | " }}" class="group relative flex flex-col h-full overflow-hidden bg-white dark:bg-slate-800 rounded-xl border border-soft-gray/30 shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-soft-gray/50 dark:hover:border-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-blue focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900">
         <span class="absolute inset-x-0 top-0 h-1 bg-gradient-to-r {{ $accent.bar }} opacity-70 group-hover:opacity-100 transition-opacity" aria-hidden="true"></span>
 
         <div class="flex flex-col items-center text-center p-5 md:p-6 flex-1">
@@ -62,6 +66,11 @@
       {{ end }}
       {{ end }}
     </div>
+    <div data-search-empty hidden class="text-center py-16">
+      <svg class="w-16 h-16 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <h2 class="text-lg font-semibold text-dark-slate dark:text-white mb-2">No matching categories</h2>
+      <p class="text-slate-600 dark:text-slate-400 text-sm">Try a different keyword, or browse a category below.</p>
+    </div>
     {{ else }}
     <div class="text-center py-16">
       <svg class="w-16 h-16 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path></svg>
@@ -71,4 +80,8 @@
     {{ end }}
   </div>
 </section>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="{{ (resources.Get "js/category-search.js").RelPermalink }}" defer></script>
 {{ end }}
